@@ -6,7 +6,7 @@ class App extends Component {
     super();
     this.state = {items:[]}
   }
-  componentWillMount(){
+  componentDidMount(){
     fetch ('/mapInfos.json')
     .then( direrction => direrction.json())
     .then( ({direrction: items}) => this.setState({items}))
