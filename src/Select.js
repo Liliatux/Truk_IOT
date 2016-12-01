@@ -16,7 +16,7 @@ class App extends Component {
     return (
       <div className="App">
       <select>
-      {items.map(item =>
+        {items.map(item =>
         <option key={item.Entreprise} > {item.Entreprise}</option>)}
       </select>
       </div>
