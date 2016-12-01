@@ -6,18 +6,19 @@ class App extends Component {
     super();
     this.state = {items:[]}
   }
-  componentWillMount(){
+  componentDidMount(){
     fetch ('/mapInfos.json')
     .then( direrction => direrction.json())
     .then( ({direrction: items}) => this.setState({items}))
   }
   render() {
-    let items = this.state.items
+    let items = this.state.items.map(item => {
+        return <option key={item.Entreprise} > {item.Entreprise}</option>
+    });
     return (
       <div className="App">
       <select>
-      {items.map(item =>
-        <option key={item.Entreprise} > {item.Entreprise}</option>)}
+        {items}
       </select>
       <div className="appel">
      <a href="tel:+33601648735"><button>appel</button></a>
