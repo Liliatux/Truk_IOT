@@ -12,12 +12,13 @@ class App extends Component {
     .then( ({direrction: items}) => this.setState({items}))
   }
   render() {
-    let items = this.state.items
+    let items = this.state.items.map(item => {
+        return <option key={item.Entreprise} > {item.Entreprise}</option>
+    });
     return (
       <div className="App">
       <select>
-        {items.map(item =>
-        <option key={item.Entreprise} > {item.Entreprise}</option>)}
+        {items}
       </select>
       </div>
       );
