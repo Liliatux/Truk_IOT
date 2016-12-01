@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 
-class App extends Component {
+class Select extends Component {
   constructor(){
     super();
     this.state = {items:[]}
@@ -13,19 +13,17 @@ class App extends Component {
   }
   render() {
     let items = this.state.items.map(item => {
-        return <option key={item.Entreprise} > {item.Entreprise}</option>
+        return <option key={item.Entreprise}>{item.Entreprise}</option>
     });
-    return (
-      <div className="App">
-      <select>
-        {items}
-      </select>
-      <div className="appel">
-     <a href="tel:+33601648735"><button>appel</button></a>
-     </div>
+    
+    return(
+      <div className="Select">
+        <select>
+          {items}
+        </select>
       </div>
-      );
+    );
   }
 }
 
-export default App;
+export default Select;
