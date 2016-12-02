@@ -23,13 +23,9 @@ class Select extends Component {
     return(
       <div className="Select">
       
-      <div id="selectTel" onChange={this.update.bind(this)} className="ui compact menu">
-      <div id="selector" className="ui simple dropdown item"> Choisi ton chemin<i className="dropdown icon"></i> <div className="menu">
+      <select id="selectTel" onChange={this.update.bind(this)} >
       {items}
-
-      </div>
-      </div>
-      </div>
+      </select>
 
       </div>
       );
