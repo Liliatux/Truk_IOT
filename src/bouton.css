@@ -7,7 +7,7 @@
 }
 
 #BtnCall {
-
+    margin-top: 5%;
 	background-color: #6e358b;
 	color:#FFF;
 	border: solid 5px #fff;
@@ -19,4 +19,9 @@
 	border-radius: 200px;
 	font-size: 40px;
 
+}
+
+#nom {
+
+	margin-bottom: 20%;
 }
