@@ -4,6 +4,7 @@
 	height: 20em;
 	width:100%;
 	text-align: center;  
+	outline: none;
 }
 
 #BtnCall {
@@ -18,6 +19,7 @@
 	-moz-border-radius: 200px;
 	border-radius: 200px;
 	font-size: 40px;
+	outline: none;
 
 
 }
