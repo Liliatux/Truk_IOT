@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-import './index.css';
+import React from 'react';
 import './bouton.css';
 
 class Bouton extends Component {
