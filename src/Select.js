@@ -21,18 +21,14 @@ class Select extends Component {
     });
     
     return(
-      <div className="Select">
-      
-      <div id="selectTel" onChange={this.update.bind(this)} className="ui compact menu">
-      <div id="selector" className="ui simple dropdown item"> Choisi ton chemin<i className="dropdown icon"></i> <div className="menu">
-      {items}
-
+      <div className="Select">  
+        <div id="selectTel" onChange={this.update.bind(this)} className="ui compact menu">
+          <div id="selector" className="ui simple dropdown item">Choisi ton chemin<i className="dropdown icon"></i><div className="menu">
+          {items}</div>
+          </div>
+        </div>
       </div>
-      </div>
-      </div>
-
-      </div>
-      );
+    );
   }
 }
 
