@@ -1,8 +1,15 @@
+
+
+
 .menu {
-	width: 60%;
+
+	float: left;
+	width: 100%;
+	height: 10em;
 	margin: 0 auto;
-/*	text-align: center;
-*/}
+	background-color: red;
+	text-align: center;
+}
 
 #title {
 	margin: 0 auto;
@@ -10,9 +17,9 @@
 	color: white;
 }
 #imgMenu {
-	
 	height: 3em;
 	width: 20%;
-	padding-right: 2em;
-	margin-right: 3em;
+	float: left;
+	/*padding-right: 2em;
+	margin-right: 3em;*/
 }
