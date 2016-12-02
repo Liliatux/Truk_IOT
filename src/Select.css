@@ -1,3 +1,13 @@
-#selectTel {
-	
+.Select {
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 2em;
+	width: 30%;
+
+}
+#selector {
+	background-color:purple;
+}
+#option {
+	background-color:grey;
 }

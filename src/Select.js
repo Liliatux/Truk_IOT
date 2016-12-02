@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './Select.css';
 
 class Select extends Component {
   constructor(){
@@ -17,14 +17,14 @@ class Select extends Component {
   
   render() {
     let items = this.state.items.map(item => {
-      return <option className="item" value={item.Phone} key={item.Entreprise}>{item.Entreprise}</option>
+      return <option id="option" className="item" value={item.Phone} key={item.Entreprise}>{item.Entreprise}</option>
     });
     
     return(
       <div className="Select">
       
       <div id="selectTel" onChange={this.update.bind(this)} className="ui compact menu">
-      <div className="ui simple dropdown item"> Choisi ton chemin<i className="dropdown icon"></i> <div className="menu">
+      <div id="selector" className="ui simple dropdown item"> Choisi ton chemin<i className="dropdown icon"></i> <div className="menu">
       {items}
 
       </div>
