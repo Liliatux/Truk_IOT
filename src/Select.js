@@ -26,9 +26,8 @@ class Select extends Component {
       <select id="selectTel" onChange={this.update.bind(this)} >
       {items}
       </select>
-
       </div>
-      );
+    );
   }
 }
 
