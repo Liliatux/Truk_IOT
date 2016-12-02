@@ -12,7 +12,21 @@
 	width: 50%;
 	height: 40%;
 	border-radius: 200px;
-	font-size: 40px;
+	font-size: 19px;
 	outline: none;
+
+}
+
+@media screen and (max-width: 636px) {
+
+  #nom {
+  	display: none;
+  }
+
+  #phone {
+   
+   margin-top: 10%;
+
+  }
 
 }

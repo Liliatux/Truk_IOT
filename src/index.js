@@ -4,10 +4,12 @@ import Select from './Select';
 import Svg from './Svg';
 import Bouton from './Bouton';
 import Header from './header';
+import Menu from './menu'
 import './index.css';
 
 ReactDOM.render(
 	<div>
+	<Menu />
 	<Header />
 	<Select />
 	<Svg />
