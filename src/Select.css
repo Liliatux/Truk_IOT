@@ -8,8 +8,8 @@
 	width: 100%;
 	height: 100%;
 	display: inline-block;
-
 }
+
 #selectTel {
 	width: 30%;
 	height: 3em;
@@ -24,6 +24,7 @@
 #option {
 	text-align: center;
 	background-color:white;
+	color: black;
 	border-style: none;
 
 	

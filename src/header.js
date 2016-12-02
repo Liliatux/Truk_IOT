@@ -7,7 +7,7 @@ class Header extends Component {
 		return (
 			<div className="menu">
 			<h1 className="ui header">
-			<img id="imgMenu" className="ui image" src="./map2menu.png"/>
+			<img id="imgMenu" className="ui image" role="presentation" src="./map2menu.png"/>
 			<div id="title" className="content">Where i go ? </div>
 			</h1>
 			</div>
