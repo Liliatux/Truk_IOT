@@ -2,15 +2,16 @@
 
     margin:0 auto;
 	height: 20em;
-    width:100em;
-    background-color:  
+    width:100%;
+    text-align: center;  
 }
 
 #BtnCall {
    
    background-color: #cff09e;
-   width: 100%;
+   width: 50%;
    height: 40%;
    border-radius: 3%;
+   font-size: 3em;
 
 }
