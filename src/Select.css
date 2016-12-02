@@ -1,13 +1,15 @@
 .Select {
 	text-align: center;
-	margin: 0 auto;
 	padding-top: 2em;
-	width: 30%;
+	margin: 0 auto;
 
 }
+
 #selector {
 	background-color:purple;
+	color: white;
 }
+
 #option {
 	background-color:grey;
 }

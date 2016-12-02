@@ -1,8 +1,5 @@
 .Bouton {
-
-	margin:0 auto;
 	height: 20em;
-	width:100%;
 	text-align: center;
 }
 
@@ -10,7 +7,7 @@
 
 	background-color: #6e358b;
 	color:#FFF;
-	border: solid 5px #fff;
+	border: solid 5px;
 	width: 50%;
 	height: 40%;
 	border-radius: 10%;
