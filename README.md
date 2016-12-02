@@ -3,7 +3,7 @@
 
 ##Problématique: 
 
-Les nouveaux visiteurs de l'IOT 3 ne peuvent pas accéder au bâtiment, ni s’y repérer.
+Les nouveaux visiteurs de l'IOT 2 ne peuvent pas accéder au bâtiment, ni s’y repérer.
 
 
 ##Etablissement du projet :
