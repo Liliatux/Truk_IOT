@@ -1,13 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Select from './Select';
+import Svg from './Svg';
 import Bouton from './Bouton';
+import Header from './header';
+import Menu from './menu'
 import './index.css';
 
-ReactDOM.render(<Select />,
-  document.getElementById('root')
+ReactDOM.render(
+	<div>
+	<Menu />
+	<Header />
+	<Select />
+	<Svg />
+	<Bouton />
+	</div>
+	, document.getElementById('root')
 );
 
-ReactDOM.render(<Bouton />,
-  document.getElementById('bouton')
-);
