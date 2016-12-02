@@ -1,0 +1,18 @@
+.menu {
+	width: 60%;
+	margin: 0 auto;
+/*	text-align: center;
+*/}
+
+#title {
+	margin: 0 auto;
+	/*text-align: center;*/
+	color: white;
+}
+#imgMenu {
+	
+	height: 3em;
+	width: 20%;
+	padding-right: 2em;
+	margin-right: 3em;
+}

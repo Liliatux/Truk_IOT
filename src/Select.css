@@ -1,15 +1,30 @@
 .Select {
 	text-align: center;
 	padding-top: 2em;
-	margin: 0 auto;
-
+	margin-bottom: 2em;
 }
 
 #selector {
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+
+}
+#selectTel {
+	width: 30%;
+	height: 3em;
 	background-color:purple;
 	color: white;
+	border-style: none;
+	border-radius: 1em;
+	outline: none;  
+	text-align: center;
 }
 
 #option {
-	background-color:grey;
+	text-align: center;
+	background-color:white;
+	border-style: none;
+
+	
 }
