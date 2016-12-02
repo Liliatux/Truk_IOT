@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Select.css';
 
 class Select extends Component {
   constructor(){
@@ -10,18 +11,28 @@ class Select extends Component {
     .then( direrction => direrction.json())
     .then( ({direrction: items}) => this.setState({items}))
   }
+  update( e ){
+    this.setState({phone: e.target.value})
+  }
+  
   render() {
     let items = this.state.items.map(item => {
-        return <option key={item.Entreprise}>{item.Entreprise}</option>
+      return <option id="option" className="item" value={item.Phone} key={item.Entreprise}>{item.Entreprise}</option>
     });
     
     return(
       <div className="Select">
-        <select>
-          {items}
-        </select>
+      
+      <div id="selectTel" onChange={this.update.bind(this)} className="ui compact menu">
+      <div id="selector" className="ui simple dropdown item"> Choisi ton chemin<i className="dropdown icon"></i> <div className="menu">
+      {items}
+
       </div>
-    );
+      </div>
+      </div>
+
+      </div>
+      );
   }
 }
 

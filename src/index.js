@@ -9,5 +9,6 @@ ReactDOM.render(
 	<Select />
 	<Bouton />
 	</div>
-	, document.getElementById('root'));
+	, document.getElementById('root')
+);
 
