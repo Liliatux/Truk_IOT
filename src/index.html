@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>React Webpack</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/semantic.min.css">
     <style>
     	.black-line{
     		stroke: black; 
@@ -64,12 +65,22 @@
 		    stroke-dashoffset: 0;
 		  }
 		}
+		select#soflow-color {
+		   color: #fff;
+		 
+		   background-color: black;
+		   -webkit-border-radius: 20px;
+		   -moz-border-radius: 20px;
+		   border-radius: 20px;
+		   padding-left: 15px;
+		}
 
     </style>
 </head>
 <body>
 
     <div id="root"></div>
+   
     <script src="js/bundle.min.js"></script>
 
 </body>

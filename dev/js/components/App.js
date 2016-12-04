@@ -2,7 +2,9 @@ import React from 'react';
 import Map from '../containers/Map';
 
 const App = () => (
-	<Map/>
+	<div>
+		<Map/>
+	</div>
 )
 
 
