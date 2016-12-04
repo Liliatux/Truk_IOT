@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>React Webpack</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <style>
+    	.black-line{
+    		stroke: black; 
+    		stroke-width: 1.5;
+    	}
+    	.green-line{
+			stroke: green; 
+			stroke-width: 0.5;
+    	}
+
+    	.red-line {
+    		stroke: red; 
+			stroke-width: 0.5;
+    	}
+
+    	.animate_first {
+		  stroke-dasharray: 1000;
+		  stroke-dashoffset: 1000;
+		  animation: dash 10s linear forwards;
+		}
+
+		.animate_second {
+		  stroke-dasharray: 1000;
+		  stroke-dashoffset: 1000;
+		  animation: dash 5s linear forwards;
+		  animation-delay: 1s;
+		}
+
+		.animate_third {
+		  stroke-dasharray: 1000;
+		  stroke-dashoffset: 1000;
+		  animation: dash 5s linear forwards;
+		  animation-delay: 2s;
+		}
+
+		.animate_fourth {
+		  stroke-dasharray: 1000;
+		  stroke-dashoffset: 1000;
+		  animation: dash 5s linear forwards;
+		  animation-delay: 4.5s;
+		}
+
+		.animate_fifth {
+		  stroke-dasharray: 1000;
+		  stroke-dashoffset: 1000;
+		  animation: dash 5s linear forwards;
+		  animation-delay: 7s;
+		}
+
+		.animate_last {
+		  stroke-dasharray: 1000;
+		  stroke-dashoffset: 1000;
+		  animation: dash 5s linear forwards;
+		  animation-delay: 8.5s;
+		}
+
+		@keyframes dash {
+		  to {
+		    stroke-dashoffset: 0;
+		  }
+		}
+
+    </style>
+</head>
+<body>
+
+    <div id="root"></div>
+    <script src="js/bundle.min.js"></script>
+
+</body>
+</html>
