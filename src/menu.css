@@ -1,10 +1,10 @@
 #menu {
 	position: absolute;
-	margin-left: 8em;
-	margin-top: 2em;
+	margin-left: 4%;
+	margin-top: 4%;
 
 }
-
+/*
 @media screen and (max-width: 1383px) { 
 
 	#menu {
@@ -66,4 +66,4 @@
 		margin-top: 2em;
 
 	}
-}
+}*/
