@@ -7,7 +7,7 @@ class Select extends Component {
     this.state = {items:[]}
   }
   componentDidMount(){
-    fetch ('/mapInfos.json')
+    fetch ('../image/mapInfos.json')
     .then( direrction => direrction.json())
     .then( ({direrction: items}) => this.setState({items}))
   }

@@ -6,13 +6,13 @@ import Map from '../containers/Map';
 import Bouton from '../containers/Bouton';
 
 const App = () => (
-	<Header />
-	<Menu />
-	<Select />
-	<Map />
-	<Bouton />
-)
-
-
+	<div>
+		<Header/>
+		<Menu/>
+		<Select/>
+		<Map/>
+		<Bouton/>
+	</div>
+);
 
 export default App;
