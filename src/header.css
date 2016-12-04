@@ -9,14 +9,15 @@
 }
 
 #title {
+
 	margin: 0 auto;
-	/*text-align: center;*/
 	color: white;
 }
+
 #imgMenu {
 
 	position: relative;
-	height: 100%;
+	height: 80%;
 	margin-left: auto;
 	margin-right: auto;
 
