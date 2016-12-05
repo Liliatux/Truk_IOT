@@ -164,7 +164,7 @@ class Map extends Component {
 					<line x1="74%" y1="88%" x2="74%" y2="95%" className="black-line"/>
 					<line x1="71%" y1="88%" x2="72.5%" y2="88%" className="black-line"/>
 					
-					<text x="69%" y="80%">WC</text>
+					<text x="68.5%" y="80%">WC</text>
 					<line x1="67.5%" y1="84%" x2="72%" y2="84%" className="black-line"/>
 					<line x1="67.5%" y1="76%" x2="67.5%" y2="82%" className="black-line"/>
 					<line x1="67.5%" y1="76%" x2="97.5%" y2="76%" className="black-line"/>
@@ -211,7 +211,8 @@ class Map extends Component {
 
 					<text x="3%" y="4%">Simplon.co</text>
 					<text x="17%" y="4%">Simplon.co</text>
-					<text x="2.6%" y="15%">ProxyMedia</text>
+					<text x="2.6%" y="15%">Proxy</text>
+					<text x="3.6%" y='17%'>Media</text>
 					<text x="18%" y="85%">Sigfox</text>
 					<text x="7.5%" y="45%">CityMeo</text>
 
@@ -229,7 +230,7 @@ class Map extends Component {
 	render(){
 		return(
 			<div className="Map">
-				{this.state.content}
+			{this.state.content}
 
 			</div>
 		);
