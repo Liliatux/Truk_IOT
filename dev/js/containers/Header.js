@@ -5,16 +5,20 @@ class Header extends Component {
 
 	render(){
 		return (
-			<div className="Header">
-				<img id="imgMenu" className="ui image" src="../image/logo.png" alt="menu clickable"/>
-				<h1 className="ui header">
-					<div id="title" className="content">Where i go ? </div>
-				</h1>
+			<div>
+			<div className="menu">
+			<div onClick={this.onItemClick}><a href="#"><i id="menu" className="list Content large icon"></i></a></div>
+			<img id="imgMenu" className="ui image" src="../image/logo.png" alt="menu clickable"/>
+			</div>
+			<div className="slide">
+			<h1>teste</h1>
+			</div>
 			</div>
 
-		);
+			);
 	}
 
 }
+
 
 export default Header;
