@@ -29,7 +29,7 @@ class Header extends Component {
 					<img id="imgMenu" className="ui image" src="../image/logo.png" alt="menu clickable"/>
 				</div>
 				<div className={this.state.active? 'displayBlock slide':'displayNone slide'}>
-					<h2>{this.props.global.test}</h2>
+					<h2>map plus icone</h2>
 				</div>
 			</div>
 		);
