@@ -11,7 +11,6 @@ class Header extends Component {
 			<img id="imgMenu" className="ui image" src="logo.png" alt="menu clickable"/>
 			</div>
 			<div className="slide">
-			<h1>teste</h1>
 			</div>
 			</div>
 
