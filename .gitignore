@@ -1,2 +1,19 @@
+<<<<<<< HEAD
+
+# dependencies
+node_modules
+
+# testing
+coverage
+
+# production
+build
+
+# misc
+.DS_Store
+.env
+npm-debug.log
+=======
 .idea
 node_modules
+>>>>>>> 852552bc49d5209f2b31853191733fc3648f83d4

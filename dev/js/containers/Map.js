@@ -228,11 +228,10 @@ class Map extends Component {
 	}
 	render(){
 		return(
-		<div className="Map">
-		
+			<div className="Map">
 				{this.state.content}
-		
-		</div>
+
+			</div>
 		);
 	}
 }
