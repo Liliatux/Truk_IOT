@@ -2,65 +2,95 @@
   "direrction": [ 
     {
       "Entreprise": "Simplon.co",
-      "Phone" : "NC."
+      "Phone" : "NC.",
+      "Map" : "",
+      "Logo": ""
     },
     
     {
       "Entreprise": "Pangée",
-      "Phone" : "NC."
+      "Phone" : "NC.",
+       "Map" : "",
+      "Logo": ""
     }, 
     {
       "Entreprise": "Flipr ",
-      "Phone": "07 68 48 35 95"
+      "Phone": "07 68 48 35 95",
+       "Map" : "",
+      "Logo": ""
     }, 
     {
       "Entreprise": "Parkisseo",
-      "Phone": "05 64 88 00 06"
+      "Phone": "05 64 88 00 06",
+       "Map" : "",
+      "Logo": ""
     },
     {
       "Entreprise": "Connected Camp ",
-      "Phone": "N.C"
+      "Phone": "N.C",
+       "Map" : "",
+      "Logo": ""
     }, 
     {
       "Entreprise": "Pack Editions ",
-      "Phone": "04 48 07 03 71 "
+      "Phone": "04 48 07 03 71 ",
+       "Map" : "",
+      "Logo": ""
     }, 
     {
       "Entreprise": "Boxmyjob ",
-      "Phone": "06 75 20 32 80"
+      "Phone": "06 75 20 32 80",
+       "Map" : "",
+      "Logo": ""
     }, 
     {
       "Entreprise": "Mobirider ",
-      "Phone": "05 82 08 07 49"
+      "Phone": "05 82 08 07 49",
+       "Map" : "",
+      "Logo": ""
     }, 
     {
       "Entreprise": "Ubigreen ",
-      "Phone": "05 61 80 70 67"
+      "Phone": "05 61 80 70 67",
+       "Map" : "",
+      "Logo": ""
     },
     {
       "Entreprise": "Thingz ",
-      "Phone": "06 33 36 78 33"
+      "Phone": "06 33 36 78 33",
+       "Map" : "",
+      "Logo": ""
     },
    
     {
       "Entreprise": "Guidap ",
-      "Phone": "06 45 61 04 53"
+      "Phone": "06 45 61 04 53",
+       "Map" : "",
+      "Logo": ""
     },
     {
       "Entreprise": "MediSpot ",
-      "Phone": "05 76 04 81 78"
+      "Phone": "05 76 04 81 78",
+       "Map" : "",
+      "Logo": ""
     },
     {
       "Entreprise": "Xfield ",
-      "Phone": "06 07 57 01 55"
+      "Phone": "06 07 57 01 55",
+       "Map" : "",
+      "Logo": ""
     },
     {
       "Entreprise": "Unooc ",
-      "Phone": "06 72 13 40 94"
+      "Phone": "06 72 13 40 94",
+       "Map" : "",
+      "Logo": ""
     },
     {
       "Entreprise": "Ubixr ",
-      "Phone": "06 15 56 38 27"
+      "Phone": "06 15 56 38 27",
+       "Map" : "",
+      "Logo": ""
     }
   ] 
 } 
