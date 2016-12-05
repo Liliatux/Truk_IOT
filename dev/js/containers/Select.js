@@ -27,7 +27,7 @@ class Select extends Component {
       {items}
       </select>
       </div>
-    );
+      );
   }
 }
 
