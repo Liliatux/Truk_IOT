@@ -8,11 +8,13 @@ class Select extends Component {
     super();
     this.state = {items:[]}
   }
+
   componentDidMount(){
     fetch ('../image/mapInfos.json')
     .then( direrction => direrction.json())
     .then( ({direrction: items}) => this.setState({items}))
   }
+
   update( e ){
     this.props.ChangeStatus(this.props.global, JSON.parse(e.target.value));
   }
@@ -25,12 +27,9 @@ class Select extends Component {
     
     return(
       <div className="Select">
-      
-      <select id="selectTel" onChange={this.update.bind(this)} >
-      {items}
-      </select>
-
-
+        <select id="selectTel" onChange={this.update.bind(this)} >
+        {items}
+        </select>
       </div>
     );
   }
@@ -48,3 +47,4 @@ function matchDispatchToProps(dispatch){
 }
 
 export default connect(matchStateToProps, matchDispatchToProps)(Select);
+
