@@ -26,7 +26,11 @@ class Header extends Component {
 					</a>
 				</div>
 				<div className={this.state.active? 'displayBlock slide':'displayNone slide'}>
-					<h2>map plus icone</h2>
+				<div className="mapslid">
+				</div>
+					<div className="footer">
+                     
+					</div>
 				</div>
 			</div>
 		);
