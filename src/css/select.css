@@ -1,7 +1,7 @@
 .Select {
 	text-align: center;
-	margin-bottom: 2em;
-	margin-top: 2em;
+	padding-top: 8vh;
+	padding-bottom: 3vh;
 }
 
 .selectTel {
@@ -13,6 +13,7 @@
 	border-radius: 0.3em;
 	outline: none;  
 	padding-left: 1em;
+
 }
 
 .item {

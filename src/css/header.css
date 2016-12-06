@@ -1,16 +1,20 @@
 .header {
-	position: relative;
-	margin-top: 1em;
+	position: fixed;
+	background-color: #fff;
+	width:100%;
+	margin:0;
+	padding:0;
 }
 
 .slide {
-	position: absolute;
+	
 	height: 210vh;
 	width: 110vw;
 	margin-left: -5%;
 	background-color: black;
 	z-index: 2;
 	margin-top: 1%;
+
 }
 
 .displayBlock {
@@ -19,4 +23,10 @@
 
 .displayNone {
 	display:none;
+}
+
+.footer {
+    position: relative;
+	border: 10em solid red;
+	margin-bottom: 20%;
 }
