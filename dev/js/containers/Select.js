@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 import {ChangeStatus} from '../actions/index';
+import app from './donnees';
 
 class Select extends Component {
   constructor(){
@@ -9,9 +10,9 @@ class Select extends Component {
     this.state = {items:[]}
   }
   componentDidMount(){
-    fetch ('/image/mapInfos.json')
-    .then( direrction => direrction.json())
-    .then( ({direrction: items}) => this.setState({items}))
+   this.setState({
+      items: app
+   })
   }
   update( e ){
     this.props.ChangeStatus(this.props.global, JSON.parse(e.target.value));
