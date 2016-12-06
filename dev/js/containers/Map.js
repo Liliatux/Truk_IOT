@@ -134,6 +134,7 @@ class Map extends Component {
 	}
 	render(){
 		return(
+
 			<div>
 				{this.state.content}
 			</div>
