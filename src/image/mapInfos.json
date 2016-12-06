@@ -15,13 +15,13 @@
     }, 
     {
       "Entreprise": "Connected Camp ",
-      "Phone": "nc",
+      "Phone": false,
        "Map" : "",
       "Logo": ""
     }, 
     {
       "Entreprise": "Donecle",
-      "Phone": "N C",
+      "Phone": false,
        "Map" : "",
       "Logo": ""
     },
@@ -45,7 +45,7 @@
     }, 
     {
       "Entreprise": "le lab ",
-      "Phone": " .NC.",
+      "Phone": false,
        "Map" : "",
       "Logo": ""
     }, 
@@ -70,7 +70,7 @@
     },
     {
       "Entreprise": "Pangée ",
-      "Phone": "no",
+      "Phone": false,
        "Map" : "",
       "Logo": ""
     },
@@ -82,19 +82,19 @@
     },
     {
       "Entreprise": "ProxyMedia ",
-      "Phone": "n.o",
+      "Phone": false,
        "Map" : "",
       "Logo": ""
     },
     {
       "Entreprise": "Simplon ",
-      "Phone": "non",
+      "Phone": false,
        "Map" : "",
-      "Logo": ""
+      "Logo": "simplon_logo.png"
     },
     {
       "Entreprise": "skylight ",
-      "Phone": "nop",
+      "Phone": false,
        "Map" : "",
       "Logo": ""
     },
