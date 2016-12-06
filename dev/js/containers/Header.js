@@ -22,7 +22,11 @@ class Header extends Component {
 			<div className="header">
 				<i className="content huge black icon" onClick={this.toogleMenu.bind(this)} ></i>
 				<div className={this.state.active? 'displayBlock slide':'displayNone slide'}>
-					<h2>map plus icone</h2>
+				<div className="mapslid">
+				</div>
+					<div className="footer">
+                     
+					</div>
 				</div>
 			</div>
 		);

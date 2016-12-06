@@ -6,5 +6,8 @@
 
 body {
 	margin: 0 auto;
+}
+
+#root {
 	width: 95%;
 }
