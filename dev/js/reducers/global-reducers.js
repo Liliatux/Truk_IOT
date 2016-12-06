@@ -1,7 +1,7 @@
 export default function(state={
 	phone: null,
-	map : null,
-	etage : null,
+	rdc : "null",
+	floor : "null",
 	enterprise : null,
 	test: "enterprise"
 
@@ -10,8 +10,7 @@ export default function(state={
 		case "CHANGE-STATUS":
 		console.log(action.value);
 		return {
-			state, test:action.value[1],
-			state, phone:action.value[0]
+			state, test:action.value[1], phone:action.value[0], rdc:action.value[3], floor:action.value[2]
 		}
 	}
 	return state;
