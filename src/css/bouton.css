@@ -1,18 +1,13 @@
 .Bouton {
-	margin-top: 2em;
-	height: 20em;
-	width:100%;
-	text-align: center; 
+	text-align: center;
+	margin-bottom: 1em;
 }
 
 #BtnCall {
 	background-color: green;
+	padding: 0.5em;
 	border: solid green;
 	color:#FFF;
-	width: 40%;
-	height: 40%;
 	border-radius: 5em;
 	font-size: 2rem;
-	outline: none;
-
 }
