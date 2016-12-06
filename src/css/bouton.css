@@ -2,7 +2,7 @@
 	margin-top: 2em;
 	height: 20em;
 	width:100%;
-	text-align: center;  
+	text-align: center; 
 }
 
 #BtnCall {
@@ -12,22 +12,7 @@
 	width: 40%;
 	height: 40%;
 	border-radius: 5em;
-	font-size: 19px;
+	font-size: 2rem;
 	outline: none;
-
-}
-
-
-@media screen and (max-width: 636px) {
-
-  #nom {
-  	display: none;
-  }
-
-  #phone {
-   
-   margin-top: 10%;
-
-  }
 
 }

@@ -230,8 +230,9 @@ class Map extends Component {
 	render(){
 		return(
 			<div className="Map">
-			{this.state.content}
-
+				<div className="Svg">
+					{this.state.content}
+				</div>
 			</div>
 		);
 	}

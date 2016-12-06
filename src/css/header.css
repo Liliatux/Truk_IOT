@@ -1,5 +1,4 @@
 .header {
-	margin: 2em;
 	position: relative;
 }
 
@@ -7,8 +6,7 @@
 	position: absolute;
 	display: block;
 	background-color: rgba(0, 0, 0, 0.5);
-	width: 100%;
-	height: 100vh;
+	height: 5em;
 	z-index: 2;
 }
 
