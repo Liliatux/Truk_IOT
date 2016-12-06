@@ -10,7 +10,7 @@ class Select extends Component {
   }
 
   componentDidMount(){
-    fetch ('../image/mapInfos.json')
+    fetch ('/image/mapInfos.json')
     .then( direrction => direrction.json())
     .then( ({direrction: items}) => { console.log(items);this.setState({items})})
   }
@@ -20,20 +20,17 @@ class Select extends Component {
   }
   
   render() {
-    console.log(this.state.items)
-    // let items = [{Phone:"0", "Entreprise": "ss"}].map(item => {
-      let items = this.state.items.map(item => {
-        let tab = JSON.stringify([item.Phone,item.Entreprise]);
-        return <option onChange={this.update.bind(this)} className="item" value={tab} key={item.Entreprise}>{item.Entreprise}</option>
-      });
-
-      return(
+    let items = this.state.items.map(item => {
+      let tab = JSON.stringify([item.Phone,item.Entreprise]);
+      return <option  id="option" onChange={this.update.bind(this)} className="item" value={tab} key={item.Entreprise}>{item.Entreprise}</option>
+    });
+    return(
       <div className="Select">
       <select className="selectTel" onChange={this.update.bind(this)} >
-      {items}
-      </select>
-      </div>
-      );
+        {items}
+        </select>
+        </div>
+        );
     }
   }
 
