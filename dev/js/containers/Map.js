@@ -143,8 +143,8 @@ class Floor extends Component {
 				<rect x="33.95%" y="37%" width="6%" height="9%"   className="reunion"  stroke="#000" strokeWidth ="0.5"/>
 				<rect x="33.95%" y="29%" width="6%" height="9%"   className="reunion"  stroke="#000" strokeWidth ="0.5"/>
 				<rect x="33.95%" y="20%" width="6%" height="9%"   className="reunion"  stroke="#000" strokeWidth ="0.5"/>
-				<rect x="2.55%" y="0.2%" width="10.5%" height="7%"   className="join" stroke="#000" strokeWidth ="0.5"/>
-				<rect x="12.55%" y="0.2%" width="16.5%" height="7%"   className="join" stroke="#000" strokeWidth ="0.5"/>
+				<rect x="2.55%" y="0.2%" width="10.5%" height="7%"   className="enterprise" stroke="#000" strokeWidth ="0.5"/>
+				<rect x="12.55%" y="0.2%" width="16.5%" height="7%"   className="enterprise" stroke="#000" strokeWidth ="0.5"/>
 				<rect x="2.55%" y="7.2%" width="6.5%" height="12.8%"   className="enterprise"  stroke="#000" strokeWidth ="0.5" />
 				<rect x="2.55%" y="20%" width="14.4%" height="47%"  className="enterprise"   stroke="#000" strokeWidth ="0.5" />
 				<rect x="2.55%" y="67%" width="38%" height="28%"  className="enterprise"   stroke="#000" strokeWidth ="0.5" />
