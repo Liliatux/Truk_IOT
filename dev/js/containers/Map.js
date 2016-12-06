@@ -62,7 +62,7 @@ class Map extends Component {
 				<line x1="2.5%" y1="0.1%" x2="2.5%" y2="95%" stroke="black" strokeWidth="1.5"/>
 				<line x1="40%" y1="95%" x2="2.5%" y2="95%" stroke ="black" strokeWidth="1.5"/>
 
-				<line x1="56%" y1="95%" x2="97.5%" y2="95%" stroke="black" strokeWidth = "1.5"/>
+				<line x1="54%" y1="95%" x2="97.5%" y2="95%" stroke="black" strokeWidth = "1.5"/>
 				<line x1="97.5%" y1="0.1%" x2="97.5%" y2="95%" stroke="black" strokeWidth = "1.5"/>
 
 
