@@ -11,8 +11,8 @@ class Select extends Component {
 
   componentDidMount(){
     fetch ('/image/mapInfos.json')
-    .then( direrction => direrction.json())
-    .then( ({direrction: items}) => this.setState({items}))
+    .then( direction => direction.json())
+    .then( ({direction: items}) => this.setState({items}))
   }
 
   update( e ){
