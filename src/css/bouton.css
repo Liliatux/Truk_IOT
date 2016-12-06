@@ -11,3 +11,9 @@
 	border-radius: 5em;
 	font-size: 2rem;
 }
+
+@media screen and (max-width: 600px) {
+	#nom {
+		display: none;
+	}
+}
