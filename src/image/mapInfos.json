@@ -1,132 +1,27 @@
 {  
   "direrction": [ 
     {
-      "Entreprise": "Boxmyjob",
-      "Phone" : "06 75 20 32 80",
-      "Map" : "",
-      "Logo": ""
+      "Entreprise": "Quel entreprise de l'IOT cherchez vous ?",
+      "Phone": "05 82 08 07 49",
+      "rdc" : "",
+      "floor" : "",
+      "Logo":""
     },
-    
-    {
-      "Entreprise": "Cityméo",
-      "Phone" : "05 82 95 44 00",
-       "Map" : "",
-      "Logo": ""
-    }, 
-    {
-      "Entreprise": "Connected Camp ",
-      "Phone": false,
-       "Map" : "",
-      "Logo": ""
-    }, 
-    {
-      "Entreprise": "Donecle",
-      "Phone": false,
-       "Map" : "",
-      "Logo": ""
-    },
-    {
-      "Entreprise": "Flipr  ",
-      "Phone": "07 68 48 35 95",
-       "Map" : "",
-      "Logo": ""
-    }, 
-    {
-      "Entreprise": "Guidap ",
-      "Phone": "06 45 61 04 53 ",
-       "Map" : "",
-      "Logo": ""
-    }, 
-    {
-      "Entreprise": "Gyrosense ",
-      "Phone": "06 37 28 13 32",
-       "Map" : "",
-      "Logo": ""
-    }, 
-    {
-      "Entreprise": "le lab ",
-      "Phone": false,
-       "Map" : "",
-      "Logo": ""
-    }, 
-    {
-      "Entreprise": "MediSpot ",
-      "Phone": "05 76 04 81 78",
-       "Map" : "",
-      "Logo": ""
-    },
+
     {
       "Entreprise": "Mobirider ",
       "Phone": "05 82 08 07 49",
-       "Map" : "",
-      "Logo": ""
+      "rdc" : "<path d='M530,630 L685,630 L685,100 L102,100 L102,450 L110,450' fill='none' stroke='red' className='animate' strokeWidth='3'></path> <rect x='11%' y='35%' width='6%' height='16%'  className='' fill='green' stroke='#000' strokeWidth='0.5' />",
+      "floor" : "",
+      "Logo":""
     },
-   
-    {
-      "Entreprise": "Pack Editions ",
-      "Phone": "04 48 07 03 71 ",
-       "Map" : "",
-      "Logo": ""
-    },
-    {
-      "Entreprise": "Pangée ",
-      "Phone": false,
-       "Map" : "",
-      "Logo": ""
-    },
-    {
-      "Entreprise": "Parkisseo ",
-      "Phone": "05 64 88 00 06",
-       "Map" : "",
-      "Logo": ""
-    },
-    {
-      "Entreprise": "ProxyMedia ",
-      "Phone": false,
-       "Map" : "",
-      "Logo": ""
-    },
+
     {
       "Entreprise": "Simplon ",
       "Phone": "06 12 13 70 03",
-       "Map" : "",
+      "rdc" : "<path d='M530,630 L685,630 L685,780' fill='none' stroke='red' className='animate' strokeWidth='3'></path>",
+      "floor":"<path className='animate' d='M660,770 L630,770 L630,640 L320,640 L320,105 L110,105 L110,70' fill='none'  stroke='red' strokeWidth='3'></path><rect x='2.55%' y='0.2%' width='10.5%' height='7%'  className='join' stroke='#000' strokeWidth ='0.5'/><rect x='12.55%' y='0.2%' width='16.5%' height='7%'   className='join' stroke='#000' strokeWidth ='0.5'/> ",
       "Logo": "simplon_logo.png"
-    },
-    {
-      "Entreprise": "skylight ",
-      "Phone": false,
-       "Map" : "",
-      "Logo": ""
-    },
-     {
-      "Entreprise": "Thingz ",
-      "Phone": "06 33 36 78 33",
-       "Map" : "",
-      "Logo": ""
-    },
-     {
-      "Entreprise": "Ubigreen ",
-      "Phone": "05 61 80 70 67",
-       "Map" : "",
-      "Logo": ""
-    },
-     {
-      "Entreprise": "Ubixr ",
-      "Phone": "06 15 56 38 27",
-       "Map" : "",
-      "Logo": ""
-    },
-     {
-      "Entreprise": "Unooc ",
-      "Phone": "06 72 13 40 94 ",
-       "Map" : "",
-      "Logo": ""
-    },
-     {
-      "Entreprise": "Xfield ",
-      "Phone": "06 07 57 01 55",
-       "Map" : "",
-      "Logo": ""
     }
   ] 
 } 
