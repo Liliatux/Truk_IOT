@@ -1,96 +1,27 @@
 {  
   "direrction": [ 
     {
-      "Entreprise": "Simplon.co",
-      "Phone" : "NC.",
-      "Map" : "",
-      "Logo": ""
+      "Entreprise": "Quel entreprise de l'IOT cherchez vous ?",
+      "Phone": "05 82 08 07 49",
+      "rdc" : "",
+      "floor" : "",
+      "Logo":""
     },
-    
-    {
-      "Entreprise": "Pangée",
-      "Phone" : "NC.",
-       "Map" : "",
-      "Logo": ""
-    }, 
-    {
-      "Entreprise": "Flipr ",
-      "Phone": "07 68 48 35 95",
-       "Map" : "",
-      "Logo": ""
-    }, 
-    {
-      "Entreprise": "Parkisseo",
-      "Phone": "05 64 88 00 06",
-       "Map" : "",
-      "Logo": ""
-    },
-    {
-      "Entreprise": "Connected Camp ",
-      "Phone": "N.C",
-       "Map" : "",
-      "Logo": ""
-    }, 
-    {
-      "Entreprise": "Pack Editions ",
-      "Phone": "04 48 07 03 71 ",
-       "Map" : "",
-      "Logo": ""
-    }, 
-    {
-      "Entreprise": "Boxmyjob ",
-      "Phone": "06 75 20 32 80",
-       "Map" : "",
-      "Logo": ""
-    }, 
+
     {
       "Entreprise": "Mobirider ",
       "Phone": "05 82 08 07 49",
-       "Map" : "",
-      "Logo": ""
-    }, 
-    {
-      "Entreprise": "Ubigreen ",
-      "Phone": "05 61 80 70 67",
-       "Map" : "",
-      "Logo": ""
+      "rdc" : "<path d='M530,630 L685,630 L685,100 L102,100 L102,450 L110,450' fill='none' stroke='red' className='animate' strokeWidth='3'></path>",
+      "floor" : "",
+      "Logo":""
     },
+
     {
-      "Entreprise": "Thingz ",
-      "Phone": "06 33 36 78 33",
-       "Map" : "",
-      "Logo": ""
-    },
-   
-    {
-      "Entreprise": "Guidap ",
-      "Phone": "06 45 61 04 53",
-       "Map" : "",
-      "Logo": ""
-    },
-    {
-      "Entreprise": "MediSpot ",
-      "Phone": "05 76 04 81 78",
-       "Map" : "",
-      "Logo": ""
-    },
-    {
-      "Entreprise": "Xfield ",
-      "Phone": "06 07 57 01 55",
-       "Map" : "",
-      "Logo": ""
-    },
-    {
-      "Entreprise": "Unooc ",
-      "Phone": "06 72 13 40 94",
-       "Map" : "",
-      "Logo": ""
-    },
-    {
-      "Entreprise": "Ubixr ",
-      "Phone": "06 15 56 38 27",
-       "Map" : "",
-      "Logo": ""
+      "Entreprise": "Simplon ",
+      "Phone": "06 12 13 70 03",
+      "rdc" : "<path d='M530,630 L685,630 L685,780' fill='none' stroke='red' className='animate' strokeWidth='3'></path>",
+      "floor":" <path className='animate' d='M660,770 L630,770 L630,640 L320,640 L320,105 L110,105 L110,70' fill='none'  stroke='red' strokeWidth='3'></path>",
+      "Logo": "simplon_logo.png"
     }
   ] 
 } 

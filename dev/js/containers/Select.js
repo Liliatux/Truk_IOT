@@ -9,7 +9,7 @@ class Select extends Component {
     this.state = {items:[]}
   }
   componentDidMount(){
-    fetch ('http://192.168.1.117:3800/image/mapInfos.json')
+    fetch ('/image/mapInfos.json')
     .then( direrction => direrction.json())
     .then( ({direrction: items}) => this.setState({items}))
   }
@@ -19,14 +19,14 @@ class Select extends Component {
   
   render() {
     let items = this.state.items.map(item => {
-      let tab = JSON.stringify([item.Phone,item.Entreprise]);
+      let tab = JSON.stringify([item.Phone,item.Entreprise,item.floor,item.rdc]);
       return <option id="option" onChange={this.update.bind(this)} className="item" value={tab} key={item.Entreprise}>{item.Entreprise}</option>
     });
     
     return(
       <div className="Select">
       
-      <select id="selectTel" onChange={this.update.bind(this)} >
+      <select className="selectTel" onChange={this.update.bind(this)} >
       {items}
       </select>
 
