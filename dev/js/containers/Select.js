@@ -10,9 +10,9 @@ class Select extends Component {
   }
 
   componentDidMount(){
-    fetch ('../image/mapInfos.json')
+    fetch ('/image/mapInfos.json')
     .then( direrction => direrction.json())
-    .then( ({direrction: items}) => this.setState({items}))
+    .then( ({direrction: items}) => { console.log(items);this.setState({items})})
   }
 
   update( e ){
@@ -22,29 +22,28 @@ class Select extends Component {
   render() {
     let items = this.state.items.map(item => {
       let tab = JSON.stringify([item.Phone,item.Entreprise]);
-      return <option onChange={this.update.bind(this)} className="item" value={tab} key={item.Entreprise}>{item.Entreprise}</option>
+      return <option  id="option" onChange={this.update.bind(this)} className="item" value={tab} key={item.Entreprise}>{item.Entreprise}</option>
     });
-    
     return(
       <div className="Select">
-        <select className="selectTel" onChange={this.update.bind(this)} >
+      <select className="selectTel" onChange={this.update.bind(this)} >
         {items}
         </select>
-      </div>
-    );
+        </div>
+        );
+    }
   }
-}
 
 
-function matchStateToProps(state){
-  return {
+  function matchStateToProps(state){
+    return {
       global: state.global
+    }
   }
-}
 
-function matchDispatchToProps(dispatch){
-  return bindActionCreators({ChangeStatus : ChangeStatus}, dispatch);
-}
+  function matchDispatchToProps(dispatch){
+    return bindActionCreators({ChangeStatus : ChangeStatus}, dispatch);
+  }
 
-export default connect(matchStateToProps, matchDispatchToProps)(Select);
+  export default connect(matchStateToProps, matchDispatchToProps)(Select);
 
