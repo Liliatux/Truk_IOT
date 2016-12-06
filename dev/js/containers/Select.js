@@ -22,36 +22,31 @@ class Select extends Component {
   render() {
     console.log(this.state.items)
     // let items = [{Phone:"0", "Entreprise": "ss"}].map(item => {
-    let items = this.state.items.map(item => {
-      let tab = JSON.stringify([item.Phone,item.Entreprise]);
-      return <option 
-      id="option" 
-      onChange={this.update.bind(this)} 
-      className="item" value="bidule" 
-      key={item.Entreprise}>machin 
-      </option>
-    });
-    
-    return(
+      let items = this.state.items.map(item => {
+        let tab = JSON.stringify([item.Phone,item.Entreprise]);
+        return <option onChange={this.update.bind(this)} className="item" value={tab} key={item.Entreprise}>{item.Entreprise}</option>
+      });
+
+      return(
       <div className="Select">
-        <select id="selectTel" onChange={this.update.bind(this)} >
-        {items}
-        </select>
+      <select className="selectTel" onChange={this.update.bind(this)} >
+      {items}
+      </select>
       </div>
       );
+    }
   }
-}
 
 
-function matchStateToProps(state){
-  return {
+  function matchStateToProps(state){
+    return {
       global: state.global
+    }
   }
-}
 
-function matchDispatchToProps(dispatch){
-  return bindActionCreators({ChangeStatus : ChangeStatus}, dispatch);
-}
+  function matchDispatchToProps(dispatch){
+    return bindActionCreators({ChangeStatus : ChangeStatus}, dispatch);
+  }
 
-export default connect(matchStateToProps, matchDispatchToProps)(Select);
+  export default connect(matchStateToProps, matchDispatchToProps)(Select);
 

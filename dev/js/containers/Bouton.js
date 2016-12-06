@@ -6,7 +6,12 @@ class Bouton extends Component {
 	render() {
 		return (
 			<div className="Bouton">
-     			<a href={"tel:" + this.props.global.phone}><button id="BtnCall"><i id="phone" className="call large icon"></i><span id="nom">{this.props.global.test}</span></button></a>
+     			<a href={"tel:" + this.props.global.phone}>
+            <button id="BtnCall">
+              <i id="phone" className="call large icon"></i>
+              <span id="nom">{this.props.global.test}</span>
+            </button>
+          </a>
      		</div>
      	);
 	}
