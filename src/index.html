@@ -1,79 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height"/>
     <title>React Webpack</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/semantic.min.css">
     <link rel="stylesheet" href="./css/main.css">
     <style>
-    	.black-line{
-    		stroke: black; 
-    		stroke-width: 1.5;
-    	}
-    	.green-line{
-			stroke: green; 
-			stroke-width: 0.5;
-    	}
-
-    	.red-line {
-    		stroke: red; 
-			stroke-width: 0.5;
-    	}
-
-    	.animate_first {
-		  stroke-dasharray: 1000;
-		  stroke-dashoffset: 1000;
-		  animation: dash 10s linear forwards;
+    	.reunion{
+			fill: #ffbbd6;
 		}
 
-		.animate_second {
-		  stroke-dasharray: 1000;
-		  stroke-dashoffset: 1000;
-		  animation: dash 5s linear forwards;
-		  animation-delay: 1s;
+		.enterprise {
+			fill :#84B1ED;
 		}
 
-		.animate_third {
-		  stroke-dasharray: 1000;
-		  stroke-dashoffset: 1000;
-		  animation: dash 5s linear forwards;
-		  animation-delay: 2s;
+		.rdc {
+			fill : #fff;
 		}
 
-		.animate_fourth {
-		  stroke-dasharray: 1000;
-		  stroke-dashoffset: 1000;
-		  animation: dash 5s linear forwards;
-		  animation-delay: 4.5s;
+		.join {
+			fill:#f94e3f;
 		}
 
-		.animate_fifth {
-		  stroke-dasharray: 1000;
-		  stroke-dashoffset: 1000;
-		  animation: dash 5s linear forwards;
-		  animation-delay: 7s;
+		.sanitaire{
+			fill:#f8ecc9;
 		}
 
-		.animate_last {
-		  stroke-dasharray: 1000;
-		  stroke-dashoffset: 1000;
-		  animation: dash 5s linear forwards;
-		  animation-delay: 8.5s;
+		.animate {
+		  stroke-dasharray: 4000;
+		  stroke-dashoffset: 4000;
+		  animation: dash 15s linear forwards;
 		}
 
 		@keyframes dash {
 		  to {
-		    stroke-dashoffset: 0;
+		    stroke-dashoffset: 1;
 		  }
 		}
-		select#soflow-color {
-		   color: #fff;
-		 
-		   background-color: black;
-		   -webkit-border-radius: 20px;
-		   -moz-border-radius: 20px;
-		   border-radius: 20px;
-		   padding-left: 15px;
+
+		.icon {
+		  display: inline-block;
+		  width: 1em;
+		  height: 1em;
+		  stroke-width: 0;
+		  stroke: currentColor;
+		  fill: currentColor;
+		}
+
+		.svg{
+			margin-top:0;
+			padding-top:0;
+		}
+	
+		.green-line {
+			stroke: green; 
+			stroke-width: 0.5;
 		}
 
     </style>

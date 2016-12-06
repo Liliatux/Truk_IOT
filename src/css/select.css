@@ -1,22 +1,21 @@
 .Select {
 	text-align: center;
 	margin-bottom: 2em;
+	margin-top: 2em;
 }
 
-#selectTel {
-	width: 80%;
+.selectTel {
+	width: 100%;
 	height: 2em;
-	background-color:purple;
-	color: white;
+	background-color: white;
+	border-color: purple;
 	font-size: 2rem;
-	border-style: none;
 	border-radius: 0.3em;
 	outline: none;  
 	padding-left: 1em;
 }
 
-#option {
+.item {
 	background-color:white;
-	color: black;
 	border-style: none;
 }

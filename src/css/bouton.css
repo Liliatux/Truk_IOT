@@ -1,33 +1,19 @@
 .Bouton {
-	margin-top: 2em;
-	height: 20em;
-	width:100%;
-	text-align: center;  
+	text-align: center;
+	margin-bottom: 1em;
 }
 
 #BtnCall {
 	background-color: green;
+	padding: 0.5em;
 	border: solid green;
 	color:#FFF;
-	width: 40%;
-	height: 40%;
 	border-radius: 5em;
-	font-size: 19px;
-	outline: none;
-
+	font-size: 2rem;
 }
 
-
-@media screen and (max-width: 636px) {
-
-  #nom {
-  	display: none;
-  }
-
-  #phone {
-   
-   margin-top: 10%;
-
-  }
-
+@media screen and (max-width: 600px) {
+	#nom {
+		display: none;
+	}
 }

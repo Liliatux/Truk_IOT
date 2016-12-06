@@ -5,233 +5,138 @@ class Map extends Component {
 		super();
 		this.state = {
 			content : 
-				<svg width="100%" height="100vh">
-				    
-				    <line className="animate_last red-line"  x1="10.8%" y1="11.5%" x2="10.8%" y2="6.5%" />
-					<line className="animate_fifth red-line" x1="31.5%" y1="11.5%" x2="10.8%" y2="11.5%" />
-					<line className="animate_fourth red-line" x1="31.5%" y1="57.5%" x2="31.5%" y2="11.5%" />
-					<line className="animate_third red-line" x1="68%" y1="57.5%" x2="31.5%" y2="57.5%" />
-					<line className="animate_second red-line" x1="68%" y1="74.5%" x2="68%" y2="57.5%" />
-					<line className="animate_first red-line" x1="73%" y1="74.5%" x2="68%" y2="74.5%" />
-					<circle cx="10.8%" cy="6.2%" r="0.3%" fill="red" />
-					
-				    <line x1="2.5%" y1="0.1%" x2="97.5%" y2="0.1%" className="black-line"/>
-					<line x1="2.5%" y1="0.1%" x2="2.5%" y2="95%" className="black-line"/>
-					<line x1="40%" y1="95%" x2="2.5%" y2="95%" className="black-line"/>
-					<line x1="40%" y1="15%" x2="40%" y2="56%" className="black-line"/>
-					<line x1="40%" y1="59%" x2="40%" y2="95%" className="black-line"/>
-					<line x1="40%" y1="16%" x2="60%" y2="16%" className="black-line"/>
-					<line x1="60%" y1="13%" x2="60%" y2="56%" className="black-line"/>
-					<line x1="60%" y1="59%" x2="60%" y2="95%" className="black-line"/>
-					<line x1="60%" y1="95%" x2="74%" y2="95%" className="black-line"/>
-					<line x1="97.5%" y1="0.1%" x2="97.5%" y2="97.5%" className="black-line"/>
-					<line x1="73.5%" y1="88%" x2="76%" y2="88%" className="black-line"/>
-					<line x1="76%" y1="97.5%" x2="97.5%" y2="97.5%" className="black-line"/>
-					<line x1="76%" y1="88%" x2="76%" y2="97.5%" className="black-line"/>
+			<svg version="1.1"  width="100%" height="100%" viewBox="0 0 1000 1000" >
+				<rect x="23.05%" y="20%" width="6%" height="15%" className="reunion"    stroke="#000" strokeWidth ="0.5" />
+				<rect x="23.05%" y="35%" width="6%" height="15%"   className="reunion"  stroke="#000" strokeWidth ="0.5" />
+				<rect x="23.05%" y="50%" width="6%" height="12%"   className="reunion"  stroke="#000" strokeWidth ="0.5" />
+				<rect x="16.05%" y="13%" width="13%" height="7%"   className="reunion"  stroke="#000" strokeWidth ="0.5"/>
+				<rect x="9%" y="13%" width="7.05%" height="7%"   className="reunion"  stroke="#000" strokeWidth ="0.5"/>
 
-					<line x1="34%" y1="55%" x2="60%" y2="55%" className="black-line"/>
-					<line x1="39%" y1="60%" x2="60%" y2="60%" className="black-line"/>
+				<rect x="33.95%" y="53%" width="6%" height="9%"   className="reunion"  stroke="#000" strokeWidth ="0.5"/>
+				<rect x="33.95%" y="45%" width="6%" height="9%"   className="reunion"  stroke="#000" strokeWidth ="0.5"/>
+				<rect x="33.95%" y="37%" width="6%" height="9%"   className="reunion"  stroke="#000" strokeWidth ="0.5"/>
+				<rect x="33.95%" y="29%" width="6%" height="9%"   className="reunion"  stroke="#000" strokeWidth ="0.5"/>
+				<rect x="33.95%" y="20%" width="6%" height="9%"   className="reunion"  stroke="#000" strokeWidth ="0.5"/>
 
-					<line x1="23%" y1="59%" x2="23%" y2="75%" className="black-line"/>
-					<line x1="18.5%" y1="59%" x2="18.5%" y2="75%" className="black-line"/>
-					<line x1="23%" y1="23%" x2="23%" y2="56%" className="black-line"/>
-					<line x1="18.5%" y1="14%" x2="18.5%" y2="56%" className="black-line"/>
-					<line x1="10%" y1="14%" x2="29%" y2="14%" className="black-line"/>
-					<line x1="18.5%" y1="75%" x2="23%" y2="75%" className="black-line"/>
-
-					<line x1="18.5%" y1="55%" x2="29%" y2="55%" className="black-line"/>
-					<line x1="2.5%" y1="60%" x2="36%" y2="60%" className="black-line"/>
-
-					<line x1="34%" y1="52%" x2="34%" y2="55%" className="black-line"/>
-					<line x1="34%" y1="47%" x2="34%" y2="49%" className="black-line"/>
-					<line x1="34%" y1="48%" x2="40%" y2="48%" className="black-line"/>
-
-					<line x1="34%" y1="38%" x2="34%" y2="44%" className="black-line"/>
-					<line x1="34%" y1="41%" x2="40%" y2="41%" className="black-line"/>
-
-					<line x1="34%" y1="30%" x2="34%" y2="35%" className="black-line"/>
-					<line x1="34%" y1="34%" x2="40%" y2="34%" className="black-line"/>
-					
-					<line x1="34%" y1="27%" x2="34%" y2="25%" className="black-line"/>
-					<line x1="34%" y1="15%" x2="34%" y2="22%" className="black-line"/>
-					<line x1="34%" y1="26%" x2="40%" y2="26%" className="black-line"/>
-
-					<line x1="34%" y1="15%" x2="40%" y2="15%" className="black-line"/>
-
-					
-					<line x1="29%" y1="52%" x2="29%" y2="55%" className="black-line"/>
-					<line x1="29%" y1="47%" x2="29%" y2="49%" className="black-line"/>
-					<line x1="29%" y1="48%" x2="23%" y2="48%" className="black-line"/>
-
-					<line x1="29%" y1="34%" x2="23%" y2="34%" className="black-line"/>
-					<line x1="29%" y1="37%" x2="29%" y2="45%" className="black-line"/>
-					
-					<line x1="29%" y1="26%" x2="29%" y2="35%" className="black-line"/>
-					<line x1="29%" y1="23%" x2="2.5%" y2="23%" className="black-line"/>
-					<line x1="29%" y1="22%" x2="29%" y2="24%" className="black-line"/>
-					<line x1="29%" y1="14%" x2="29%" y2="20%" className="black-line"/>
-					
-					<line x1="10%" y1="12%" x2="10%" y2="23%" className="black-line"/>
-
-					<line x1="10%" y1="8%" x2="10%" y2="10%" className="black-line"/>
-					<line x1="10%" y1="8%" x2="2.5%" y2="8%" className="black-line"/>
-					<line x1="29%" y1="8%" x2="29%" y2="0.1%" className="black-line"/>
-					<line x1="12%" y1="8%" x2="12%" y2="0.1%" className="black-line"/>
-					<line x1="11.5%" y1="8%" x2="12.5%" y2="8%" className="black-line"/>
-					<line x1="14%" y1="8%" x2="27%" y2="8%" className="black-line"/>
-					<line x1="28.5%" y1="8%" x2="31%" y2="8%" className="black-line"/>
-
-					
-					<text x="37%" y="4%">WC</text>
-
-					<line x1="33%" y1="8%" x2="43%" y2="8%" className="black-line"/>
-					<line x1="34%" y1="8%" x2="34%" y2="0.1%" className="black-line"/>
-					<line x1="44%" y1="5%" x2="44%" y2="0.1%" className="black-line"/>
-					<line x1="42%" y1="5%" x2="44%" y2="5%" className="black-line"/>
-					<line x1="44%" y1="8%" x2="44%" y2="5%" className="black-line"/>
-					<line x1="46%" y1="8%" x2="46%" y2="6.5%" className="black-line"/>
-					<line x1="44%" y1="4%" x2="47%" y2="4%" className="black-line"/>
-					<line x1="44%" y1="8%" x2="46%" y2="8%" className="black-line"/>
-					<line x1="46%" y1="4%" x2="46%" y2="5%" className="black-line"/>
-					<line x1="48%" y1="2%" x2="48%" y2="0.1%" className="black-line"/>
-					<line x1="45%" y1="2%" x2="48%" y2="2%" className="black-line"/>
-					
-					
-					<line x1="45.6%" y1="2%" x2="45.6%" y2="0.1%" className="green-line"/>	
-					<line x1="45.8%" y1="2%" x2="45.8%" y2="0.1%" className="green-line"/>
-					<line x1="46%" y1="2%" x2="46%" y2="0.1%" className="green-line"/>
-					<line x1="46.2%" y1="2%" x2="46.2%" y2="0.1%" className="green-line"/>
-					<line x1="46.4%" y1="2%" x2="46.4%" y2="0.1%" className="green-line"/>
-					<line x1="46.6%" y1="2%" x2="46.6%" y2="0.1%" className="green-line"/>
-					<line x1="46.8%" y1="2%" x2="46.8%" y2="0.1%" className="green-line"/>
-					<line x1="47%" y1="2%" x2="47%" y2="0.1%" className="green-line"/>
-					<line x1="47.2%" y1="2%" x2="47.2%" y2="0.1%" className="green-line"/>
-					<line x1="47.4%" y1="2%" x2="47.4%" y2="0.1%" className="green-line"/>
-					<line x1="47.6%" y1="2%" x2="47.6%" y2="0.1%" className="green-line"/>
-					<line x1="47.8%" y1="2%" x2="47.8%" y2="0.1%" className="green-line"/>
+				<rect x="2.55%" y="0.2%" width="10.5%" height="7%"   className="join" stroke="#000" strokeWidth ="0.5"/>
+				<rect x="12.55%" y="0.2%" width="16.5%" height="7%"   className="join" stroke="#000" strokeWidth ="0.5"/>
+				<rect x="2.55%" y="7.2%" width="6.5%" height="12.8%"   className="enterprise"  stroke="#000" strokeWidth ="0.5" />
 
 
-					<line x1="45.6%" y1="4%" x2="45.6%" y2="2%" className="green-line"/>	
-					<line x1="45.8%" y1="4%" x2="45.8%" y2="2%" className="green-line"/>
-					<line x1="46%" y1="4%" x2="46%" y2="2%" className="green-line"/>
-					<line x1="46.2%" y1="4%" x2="46.2%" y2="2%" className="green-line"/>
-					<line x1="46.4%" y1="4%" x2="46.4%" y2="2%" className="green-line"/>
-					<line x1="46.6%" y1="4%" x2="46.6%" y2="2%" className="green-line"/>
-					<line x1="46.8%" y1="4%" x2="46.8%" y2="2%" className="green-line"/>
-					<line x1="47%" y1="4%" x2="47%" y2="2%" className="green-line"/>
-					
-					<text x="56.5%" y="4%">WC</text>
+				<rect x="2.55%" y="20%" width="14.4%" height="47%"  className="enterprise"   stroke="#000" strokeWidth ="0.5" />
 
-					<line x1="51%" y1="5%" x2="51%" y2="0.1%" className="black-line"/>
-					<line x1="51%" y1="8%" x2="51%" y2="7%" className="black-line"/>
-					<line x1="51%" y1="8%" x2="53%" y2="8%" className="black-line"/>
+				<rect x="2.55%" y="67%" width="38%" height="28%"  className="enterprise"   stroke="#000" strokeWidth ="0.5" />
 
-					<line x1="53%" y1="8%" x2="53%" y2="0.1%" className="black-line"/>
-					<line x1="51%" y1="3%" x2="53%" y2="3%" className="black-line"/>
+				<rect x="29%" y="0.2%" width="5.5%" height="7%"   className="sanitaire"  stroke="#000" strokeWidth ="0.5"/>
+				<rect x="34.5%" y="0.2%" width="7%" height="7%"   className="sanitaire"  stroke="#000" strokeWidth ="0.5"/>
+				<rect x="50%" y="0.2%" width="7%" height="7%"   className="sanitaire"  stroke="#000" strokeWidth ="0.5"/>
+				<rect x="63%" y="79%" width="7%" height="6%"   className="sanitaire"  stroke="#000" strokeWidth ="0.5"/>
 
-					<line x1="51%" y1="3%" x2="53%" y2="0.1%"  className="red-line"/>
-					<line x1="53%" y1="3%" x2="51%" y2="0.1%"  className="red-line"/>
-
-					<line x1="53%" y1="5%" x2="55%" y2="5%" className="black-line"/>
-
-					<line x1="54%" y1="8%" x2="83%" y2="8%" className="black-line"/>
-					<line x1="62%" y1="8%" x2="62%" y2="0.1%" className="black-line"/>
+			    <rect x="54%" y="20%" width="12%" height="42%"   className="enterprise"   stroke="#000" strokeWidth ="0.5"/>
 
 
-					<line x1="72.5%" y1="13%" x2="72.5%" y2="55%" className="black-line"/>
-					<line x1="68%" y1="55%" x2="72.5%" y2="55%" className="black-line"/>
-					<line x1="60%" y1="55%" x2="65%" y2="55%" className="black-line"/>
-					<line x1="60%" y1="13%" x2="83%" y2="13%" className="black-line"/>
+				<rect x="54%" y="67%" width="4.5%" height="9%"   className="enterprise"   stroke="#000" strokeWidth ="0.5"/>
+				<rect x="54%" y="76%" width="4.5%" height="6%"   className="enterprise"   stroke="#000" strokeWidth ="0.5"/>
+				<rect x="54%" y="82%" width="4.5%" height="6%"   className="enterprise"  stroke="#000" strokeWidth ="0.5"/>
+
+				<rect x="54%" y="88%" width="7%" height="7%"   className="enterprise"   stroke="#000" strokeWidth ="0.5"/>
 
 
+				<rect x="61%" y="88%" width="6%" height="7%"   className="enterprise"   stroke="#000" strokeWidth ="0.5"/>
+				<rect x="67%" y="88%" width="6%" height="7%"   className="enterprise"   stroke="#000" strokeWidth ="0.5"/>
+				<rect x="73%" y="88%" width="6%" height="7%"   className="enterprise"   stroke="#000" strokeWidth ="0.5"/>
+				<rect x="79%" y="88%" width="10%" height="7%"   className="enterprise"   stroke="#000" strokeWidth ="0.5"/>
+				<rect x="70%" y="79%" width="9.5%" height="6%"   className="enterprise"   stroke="#000" strokeWidth ="0.5"/>
+				<rect x="79.5%" y="79%" width="5%" height="6%"   className="enterprise"   stroke="#000" strokeWidth ="0.5"/>
+				<rect x="84.5%" y="79%" width="4.5%" height="6%"   className="enterprise"   stroke="#000" strokeWidth ="0.5"/>
 
-					
-					<line x1="60%" y1="62%" x2="65%" y2="62%" className="black-line"/>
-					<line x1="65%" y1="62%" x2="65%" y2="63%" className="black-line"/>
-					<line x1="65%" y1="65%" x2="65%" y2="78%" className="black-line"/>
-					<line x1="60%" y1="74%" x2="65%" y2="74%" className="black-line"/>
-
-
-				    <line x1="60%" y1="81%" x2="65%" y2="81%" className="black-line"/>
-					<line x1="65%" y1="80%" x2="65%" y2="85%" className="black-line"/>
-					<line x1="60%" y1="88%" x2="66%" y2="88%" className="black-line"/>
-					<line x1="65%" y1="87%" x2="65%" y2="88%" className="black-line"/>
-					
-					
-					<line x1="67.5%" y1="88%" x2="70%" y2="88%" className="black-line"/>
-					<line x1="68%" y1="88%" x2="68%" y2="95%" className="black-line"/>
-					<line x1="71%" y1="88%" x2="71%" y2="95%" className="black-line"/>
-					<line x1="74%" y1="88%" x2="74%" y2="95%" className="black-line"/>
-					<line x1="71%" y1="88%" x2="72.5%" y2="88%" className="black-line"/>
-					
-					<text x="68.5%" y="80%">WC</text>
-					<line x1="67.5%" y1="84%" x2="72%" y2="84%" className="black-line"/>
-					<line x1="67.5%" y1="76%" x2="67.5%" y2="82%" className="black-line"/>
-					<line x1="67.5%" y1="76%" x2="97.5%" y2="76%" className="black-line"/>
-					<line x1="72%" y1="76%" x2="72%" y2="84%" className="black-line"/>
-
-					<line x1="72%" y1="60%" x2="72%" y2="73%" className="black-line"/>
-					<line x1="72%" y1="60%" x2="83%" y2="60%" className="black-line"/>
-					<line x1="72%" y1="55%" x2="83%" y2="55%" className="black-line"/>
-					<line x1="83%" y1="60%" x2="83%" y2="76%" className="black-line"/>
-					<line x1="74%" y1="63%" x2="74%" y2="76%" className="black-line"/>
-
-					<line x1="72%" y1="63%" x2="74%" y2="63%" className="green-line"/>
-					<line x1="72%" y1="63.4%" x2="74%" y2="63.4%" className="green-line"/>
-					<line x1="72%" y1="63.8%" x2="74%" y2="63.8%" className="green-line"/>
-					<line x1="72%" y1="64.2%" x2="74%" y2="64.2%" className="green-line"/>
-					<line x1="72%" y1="64.6%" x2="74%" y2="64.6%" className="green-line"/>
-					<line x1="72%" y1="65%" x2="74%" y2="65%" className="green-line"/>
-					<line x1="72%" y1="65.4%" x2="74%" y2="65.4%" className="green-line"/>
-					<line x1="72%" y1="65.8%" x2="74%" y2="65.8%" className="green-line"/>
-					<line x1="72%" y1="66.2%" x2="74%" y2="66.2%" className="green-line"/>
-					<line x1="72%" y1="66.6%" x2="74%" y2="66.6%" className="green-line"/>
-					<line x1="72%" y1="67%" x2="74%" y2="67%" className="green-line"/>
-					<line x1="72%" y1="67.4%" x2="74%" y2="67.4%" className="green-line"/>
-					<line x1="72%" y1="67.8%" x2="74%" y2="67.8%" className="green-line"/>
-					<line x1="72%" y1="68.2%" x2="74%" y2="68.2%" className="green-line"/>
-					<line x1="72%" y1="68.6%" x2="74%" y2="68.6%" className="green-line"/>
-					<line x1="72%" y1="69%" x2="74%" y2="69%" className="green-line"/>
-					<line x1="72%" y1="69.4%" x2="74%" y2="69.4%" className="green-line"/>
-					<line x1="72%" y1="69.8%" x2="74%" y2="69.8%" className="green-line"/>
-					<line x1="72%" y1="70.2%" x2="74%" y2="70.2%" className="green-line"/>
-					<line x1="72%" y1="70.6%" x2="74%" y2="70.6%" className="green-line"/>
-					<line x1="72%" y1="71%" x2="74%" y2="71%" className="green-line"/>
-					<line x1="72%" y1="71.4%" x2="74%" y2="71.4%" className="green-line"/>
-					<line x1="72%" y1="71.8%" x2="74%" y2="71.8%" className="green-line"/>
-					<line x1="72%" y1="72.2%" x2="74%" y2="72.2%" className="green-line"/>
-					<line x1="72%" y1="72.6%" x2="74%" y2="72.6%" className="green-line"/>
-					<line x1="72%" y1="73%" x2="74%" y2="73%" className="green-line"/>
+				<rect x="40%" y="20%" width="14%" height="42%" stroke="black"  className="rdc" strokeWidth ="1.5"/>
+				<rect x="40%" y="67%" width="14%" height="28%" stroke="black"  className="rdc" strokeWidth ="1.5"/>
+				<rect x="17%" y="67%" width="6%" height="10%" stroke="black"  className="rdc" strokeWidth ="1.5"/>
+				<rect x="17%" y="20%" width="6%" height="42%" stroke="black"  className="rdc" strokeWidth ="1.5"/>
+				<rect x="66%" y="20%" width="15%" height="42%" stroke="black"  className="rdc" strokeWidth ="1.5"/>
+				<rect x="70%" y="67%" width="11%" height="12%" stroke="black"  className="rdc" strokeWidth ="1.5"/>
 
 
-					<line x1="83%" y1="55%" x2="83%" y2="13%" className="black-line"/>
-					<line x1="83%" y1="11%" x2="83%" y2="13%" className="black-line"/>
-					<line x1="83%" y1="8%" x2="83%" y2="9%" className="black-line"/>
+			 	<line x1="2.5%" y1="0.1%" x2="97.5%" y2="0.1%" stroke="black" strokeWidth="1.5"/>
+				<line x1="2.5%" y1="0.1%" x2="2.5%" y2="95%" stroke="black" strokeWidth="1.5"/>
+				<line x1="40%" y1="95%" x2="2.5%" y2="95%" stroke ="black" strokeWidth="1.5"/>
+
+				<line x1="54%" y1="95%" x2="97.5%" y2="95%" stroke="black" strokeWidth = "1.5"/>
+				<line x1="97.5%" y1="0.1%" x2="97.5%" y2="95%" stroke="black" strokeWidth = "1.5"/>
 
 
-					<text x="3%" y="4%">Simplon.co</text>
-					<text x="17%" y="4%">Simplon.co</text>
-					<text x="2.6%" y="15%">Proxy</text>
-					<text x="3.6%" y='17%'>Media</text>
-					<text x="18%" y="85%">Sigfox</text>
-					<text x="7.5%" y="45%">CityMeo</text>
+				<line x1="67%" y1="67%" x2="67%" y2="75%" stroke="black" strokeWidth = "1.5"/>
+				<line x1="67%" y1="67%" x2="70%" y2="67%" stroke="black" strokeWidth = "1.5"/>
+				
 
-					<text x="66%" y="22%">U</text>
-					<text x="66%" y="25%">b</text>
-					<text x="66.2%" y="28%">i</text>
-					<text x="66%" y="31%">g</text>
-					<text x="66.2%" y="34%">r</text>
-					<text x="66%" y="37%">e</text>
-					<text x="66%" y="40%">e</text>
-					<text x="66%" y="43%">n</text>
-				</svg> 
+				<line x1="67%" y1="67.4%" x2="70%" y2="67.4%" className="green-line"/>
+				<line x1="67%" y1="67.8%" x2="70%" y2="67.8%" className="green-line"/>
+				<line x1="67%" y1="68.2%" x2="70%" y2="68.2%" className="green-line"/>
+				<line x1="67%" y1="68.6%" x2="70%" y2="68.6%" className="green-line"/>
+				<line x1="67%" y1="69%" x2="70%" y2="69%" className="green-line"/>
+				<line x1="67%" y1="69.4%" x2="70%" y2="69.4%" className="green-line"/>
+				<line x1="67%" y1="69.8%" x2="70%" y2="69.8%" className="green-line"/>
+				<line x1="67%" y1="70.2%" x2="70%" y2="70.2%" className="green-line"/>
+				<line x1="67%" y1="70.6%" x2="70%" y2="70.6%" className="green-line"/>
+				<line x1="67%" y1="71%" x2="70%" y2="71%" className="green-line"/>
+				<line x1="67%" y1="71.4%" x2="70%" y2="71.4%" className="green-line"/>
+				<line x1="67%" y1="71.8%" x2="70%" y2="71.8%" className="green-line"/>
+				<line x1="67%" y1="72.2%" x2="70%" y2="72.2%" className="green-line"/>
+				<line x1="67%" y1="72.6%" x2="70%" y2="72.6%" className="green-line"/>
+				<line x1="67%" y1="73%" x2="70%" y2="73%" className="green-line"/>
+				<line x1="67%" y1="73.4%" x2="70%" y2="73.4%" className="green-line"/>
+				<line x1="67%" y1="73.8%" x2="70%" y2="73.8%" className="green-line"/>
+				<line x1="67%" y1="74.2%" x2="70%" y2="74.2%" className="green-line"/>
+				<line x1="67%" y1="74.6%" x2="70%" y2="74.6%" className="green-line"/>
+				<line x1="67%" y1="75%" x2="70%" y2="75%" className="green-line"/>
+
+				<line x1="43%" y1="2%" x2="45%" y2="2%"  stroke="black" strokeWidth = "1.5"/>
+				<line x1="41.5%" y1="4%" x2="45%" y2="4%"  stroke="black" strokeWidth = "1.5"/>
+				<line x1="45%" y1="0.1%" x2="45%" y2="2%"  stroke="black" strokeWidth = "1.5"/>
+
+				<line x1="44.8%" y1="0.1%" x2="44.8%" y2="4%" className="green-line"/>
+				<line x1="44.6%" y1="0.1%" x2="44.6%" y2="4%" className="green-line"/>
+				<line x1="44.4%" y1="0.1%" x2="44.4%" y2="4%" className="green-line"/>
+				<line x1="44.2%" y1="0.1%" x2="44.2%" y2="4%" className="green-line"/>
+				<line x1="44%" y1="0.1%" x2="44%" y2="4%" className="green-line"/>
+				<line x1="43.8%" y1="0.1%" x2="43.8%" y2="4%" className="green-line"/>
+				<line x1="43.6%" y1="0.1%" x2="43.6%" y2="4%" className="green-line"/>
+				<line x1="43.4%" y1="0.1%" x2="43.4%" y2="4%" className="green-line"/>
+				<line x1="43.2%" y1="0.1%" x2="43.2%" y2="4%" className="green-line"/>
+				<line x1="43%" y1="0.1%" x2="43%" y2="4%" className="green-line"/>
+
+				<rect x="57%" y="0.2%" width="7%" height="7%"   className="sanitaire"  stroke="#000" strokeWidth ="0.5"/>
+				<rect x="64%" y="0.2%" width="10%" height="7%"   className="reunion"  stroke="#000" strokeWidth ="0.5"/>
+
+				<rect x="74%" y="0.2%" width="8%" height="7%"   className="enterprise"  stroke="#000" strokeWidth ="0.5"/>
+				<rect x="82%" y="0.2%" width="8%" height="7%"   className="enterprise"  stroke="#000" strokeWidth ="0.5"/>
+				<rect x="90%" y="0.2%" width="7.5%" height="7%"   className="enterprise"  stroke="#000" strokeWidth ="0.5"/>
+				<line x1="66%" y1="7.3%" x2="66%" y2="20%"  stroke="black" strokeWidth = "0.5"/>
+				<line x1="81%" y1="60%" x2="81%" y2="79%"  stroke="black" strokeWidth = "0.5"/>
+				<line x1="89%" y1="79%" x2="89%" y2="95%"  stroke="black" strokeWidth = "0.5"/>
+
+
+				<path className="path1" d="M385 21c0 1.657-1.343 3-3 3s-3-1.343-3-3c0-1.657 1.343-3 3-3s3 1.343 3 3z"></path>
+				<path className="path2" d="M385 25h-6c-1.105 0-2 0.895-2 2v10h2v12h2.5v-12h1v12h2.5v-12h2v-10c0-1.105-0.895-2-2-2z"></path>
+
+				<path className="path1" d="M535 21c0 1.657-1.343 3-3 3s-3-1.343-3-3c0-1.657 1.343-3 3-3s3 1.343 3 3z"></path>
+				<path className="path2" d="M539.5 33l1.531-1.109-4.165-6.441c-0.185-0.281-0.499-0.45-0.835-0.45h-8c-0.336 0-0.65 0.169-0.835 0.45l-4.165 6.441 1.531 1.109 3.458-4.487 1.202 2.804-4.191 7.683h3.833l0.667 10h2v-10h1v10h2l0.667-10h3.833l-4.191-7.683 1.202-2.804 3.458 4.487z"></path>
+				
+
+				<path className="path1" d="M660 807c0 1.657-1.343 3-3 3s-3-1.343-3-3c0-1.657 1.343-3 3-3s3 1.343 3 3z"></path>
+				<path className="path2" d="M675 807c0 1.657-1.343 3-3 3s-3-1.343-3-3c0-1.657 1.343-3 3-3s3 1.343 3 3z"></path>
+				<path className="path3" d="M660 810h-6c-1.105 0-2 0.895-2 2v10h2v12h2.5v-12h1v12h2.5v-12h2v-10c0-1.105-0.895-2-2-2z"></path>
+				<path className="path4" d="M679.469 818l1.531-1.109-4.165-6.441c-0.185-0.281-0.499-0.45-0.835-0.45h-8c-0.336 0-0.65 0.169-0.835 0.45l-4.165 6.441 1.531 1.109 3.458-4.487 1.202 2.804-4.191 7.683h3.833l0.667 10h2v-10h1v10h2l0.667-10h3.833l-4.191-7.683 1.202-2.804 3.458 4.487z"></path>
+
+			</svg>
 		}
 	}
 	render(){
 		return(
-			<div className="Map">
-			{this.state.content}
 
+			<div>
+				{this.state.content}
 			</div>
 		);
 	}
