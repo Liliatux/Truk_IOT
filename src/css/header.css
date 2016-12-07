@@ -26,13 +26,112 @@
 }
 
 .footer {
-    position: relative;
-	border: 10em solid red;
-	margin-bottom: 20%;
+	
+	background-color: #6e358b;
+
+}
+
+@media screen and (max-width: 683px) {
+	
+	.slide {
+
+		height: 210vh;
+		width: 110vw;
+		margin-left: -7%;
+		background-color: black;
+		z-index: 2;
+		margin-top: 1%;
+
+	}
+}
+
+@media screen and (max-width: 378px) {
+
+	.slide {
+
+		height: 210vh;
+		width: 130vw;
+		margin-left: -13%;
+		background-color: black;
+		z-index: 2;
+		margin-top: 1%;
+
+	}
+	
+}
+
+@media screen and (max-width: 310px) {
+
+	.slide {
+
+		height: 210vh;
+		width: 150vw;
+		margin-left: -13%;
+		background-color: black;
+		z-index: 2;
+		margin-top: 1%;
+
+	}
+	
 }
 
 
 .title {
 	margin-left:5%;
-	font-size:20px;
+	margin-top: 2em;
+	font-size:25px;
+}
+
+.information {
+
+	background-color: #6e358b;
+	position: relative;
+
+}
+
+.nomEntreprise {
+	padding-top: 2em;
+	color: white;
+	margin-left: 10%;
+	position: relative;
+	padding-bottom: 2em;
+}
+
+
+
+.numeroTel {
+
+	color: white;
+	margin-left:10%;
+	position: relative;
+	padding-bottom: 2em;
+
+}
+
+.web {
+
+	color: white;
+	margin-left: 10%;
+	position: relative;
+	padding-bottom: 2em;
+}
+
+.mail {
+
+	color: white;
+	margin-left: 10%;
+	position: relative;
+	padding-bottom: 2em;
+}
+
+.logoEntreprise img {
+
+	
+	height: 50%;
+	width: 10%;
+	margin-left: 60%;
+	margin-top: 0%;
+	position: absolute;
+
+
 }
