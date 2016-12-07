@@ -25,9 +25,6 @@ class Header extends Component {
 				<div className={this.state.active? 'displayBlock slide':'displayNone slide'}>
 					<div className="footer">
 						<div className="information">
-							<div className="logoEntreprise">
-								<img src="http://iness.simplon.co/img/Simplon_MIP-b.jpg"/>
-							</div>
 							<h4 className="nomEntreprise">Nom Entreprise : [NomEntreprise]</h4>
 							<h4 className="numeroTel">Numero de Telephone : [NumeroTel]</h4>
 							<h4 className="web">Site Internet : [siteWeb]</h4>

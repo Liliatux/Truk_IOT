@@ -4,7 +4,7 @@
 	width:100%;
 	margin:0;
 	padding:3vh;
-   	box-shadow: 0 0 1em black;
+	box-shadow: 0 0 1em black;
 }
 
 .slide {
@@ -12,7 +12,7 @@
 	height: 210vh;
 	width: 110vw;
 	margin-left: -5%;
-	background-color: black;
+	background-color: white;
 	z-index: 2;
 	margin-top: 1%;
 
@@ -29,6 +29,8 @@
 .footer {
 	
 	background-color: #6e358b;
+	box-shadow: 0 9px 19px grey;
+
 
 }
 
@@ -39,7 +41,7 @@
 		height: 210vh;
 		width: 110vw;
 		margin-left: -7%;
-		background-color: black;
+		background-color: white;
 		z-index: 2;
 		margin-top: 1%;
 
@@ -53,7 +55,7 @@
 		height: 210vh;
 		width: 130vw;
 		margin-left: -13%;
-		background-color: black;
+		background-color: white;
 		z-index: 2;
 		margin-top: 1%;
 
@@ -68,7 +70,7 @@
 		height: 210vh;
 		width: 150vw;
 		margin-left: -13%;
-		background-color: black;
+		background-color: white;
 		z-index: 2;
 		margin-top: 1%;
 
@@ -95,7 +97,6 @@
 	color: white;
 	margin-left: 10%;
 	position: relative;
-	padding-bottom: 2em;
 }
 
 
@@ -105,7 +106,6 @@
 	color: white;
 	margin-left:10%;
 	position: relative;
-	padding-bottom: 2em;
 
 }
 
@@ -114,7 +114,6 @@
 	color: white;
 	margin-left: 10%;
 	position: relative;
-	padding-bottom: 2em;
 }
 
 .mail {
@@ -122,17 +121,5 @@
 	color: white;
 	margin-left: 10%;
 	position: relative;
-	padding-bottom: 2em;
-}
-
-.logoEntreprise img {
-
-	
-	height: 50%;
-	width: 10%;
-	margin-left: 60%;
-	margin-top: 0%;
-	position: absolute;
-
-
+	padding-bottom: 2%;
 }
