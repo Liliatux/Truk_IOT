@@ -20,8 +20,9 @@
 
 .range-input[type=range] {
   -webkit-appearance: none;
-  width: 10%;
+  width: 98%;
   margin: 8.3px 0;
+  margin-top:6vh;
 }
 .range-input[type=range]:focus {
   outline: none;
@@ -55,4 +56,9 @@
   background: #fff;
   border-radius: 1.3px;
   border: 0.2px solid #fff;
+}
+
+.range-container {
+	width:30%;
+	height:16vh;
 }

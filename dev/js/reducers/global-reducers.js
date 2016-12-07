@@ -1,7 +1,7 @@
 export default function(state={
 	phone: null,
 	rdc : "null",
-	floor : "null",
+	floor : "start",
 	enterprise : null,
 	test: "enterprise"
 
