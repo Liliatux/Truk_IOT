@@ -1,5 +1,3 @@
-
-
 .reunion{
 	fill: #ffbbd6;
 }
@@ -65,8 +63,9 @@
 }
 
 .map-container {
-  margin-top: 2vh;
-  padding-top: 8vh;
-  box-shadow: 5px 5px 10px 2px #656565;
+  margin: 2vh;
+  text-align: center;
+  padding: 2vh;
+  box-shadow: 3px 3px 1em #656565;
   background-color: #fff;
 }
