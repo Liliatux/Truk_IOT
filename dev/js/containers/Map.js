@@ -8,51 +8,37 @@ class Map extends Component {
 		super();
 		this.state = {
 			default:false,
+			slideValue : 0
 		}
-	} 
-	rdc(){
-		this.setState({
-			default: false
-		})
 	}
 
-	floor(){
-		this.setState({
-			default: true
-		})
-	}
-	render(){
- 
+	updateStage(){
 		if(!this.state.default){
-			return(
-				<section>
-					<div className="map-container bck-white">
-						<button className="stage" onClick={this.rdc.bind(this)}>RDC</button>
-						<button className="stage" onClick={this.floor.bind(this)}>1er</button>
-						<svg version="1.1"  width="100%" height="100%" viewBox="0 0 1000 1000"  >
-							<RDC>
-								{Parser(this.props.global.rdc)}
-							</RDC>
-						</svg>
-					</div>
-				</section>
-			);
+			this.setState({
+				default: true,
+				slideValue: 1
+			});
 		}else {
-
-			return(
-				<section>
-					<div className="map-container bck-white">
-						<button onClick={this.rdc.bind(this)}>RDC</button>
-						<button onClick={this.floor.bind(this)}>1er</button>
-						<svg version="1.1"  width="100%" height="100%" viewBox="0 0 1000 1000"  >
-							<Floor>
-								{Parser(this.props.global.floor)}
-							</Floor>
-						</svg>
-					</div>
-				</section>
-			);
+			this.setState({
+				default: false,
+				slideValue: 0
+			});
 		}
+	}
+
+	render(){
+		return(
+			<section>
+				<div className="map-container bck-white">
+					<input className={this.state.default? 'range-input range-input-rdc':'range-input range-input-floor'} onClick={this.updateStage.bind(this)} type="range" max="1" min="0" value={this.state.slideValue}/>
+					<button onClick={this.rdc.bind(this)}>RDC</button>
+					<button onClick={this.floor.bind(this)}>1er</button>
+					<svg version="1.1"  width="100%" height="100%" viewBox="0 0 1000 1000"  >						
+						{this.state.default ? <Floor>{Parser(this.props.global.floor)}</Floor> : <RDC>{Parser(this.props.global.rdc)}</RDC>}					
+					</svg>
+				</div>
+			</section>
+		);
 	}
 }
 
@@ -76,8 +62,11 @@ class RDC extends Component {
 				<rect x="84%" y="55%" width="13.5%" height="13%"   className="enterprise black-stroke"    strokeWidth="0.01"/>
 				<rect x="84%" y="7%" width="13.5%" height="48%"   className="enterprise black-stroke"    strokeWidth="0.5"/>
 			
-				<rect x="40%" y="20%" width="14%" height="75%"  stroke="black" fill="white" stroke-width="1.5"/>
+				<rect x="40%" y="20%" width="14%" height="75%"  stroke="black" fill="white" strokeWidth="1.5"/>
+
 				<line x1="54%" y1="95%" x2="35%" y2="95%" stroke="white" strokeWidth="3"/>
+				<line x1="54%" y1="60%" x2="54%" y2="64%" stroke="white" strokeWidth="3"/>
+
 
 				<rect x="17%" y="20%" width="6%" height="50%" stroke="black"  className="rdc" strokeWidth="1.5"/>
 				<rect x="67%" y="67%" width="17%" height="12%" stroke="#fff"  fill="#fff" strokeWidth="0.001"/>
@@ -242,6 +231,7 @@ class Floor extends Component {
 				<path className="path3" d="M660 810h-6c-1.105 0-2 0.895-2 2v10h2v12h2.5v-12h1v12h2.5v-12h2v-10c0-1.105-0.895-2-2-2z"></path>
 				<path className="path4" d="M679.469 818l1.531-1.109-4.165-6.441c-0.185-0.281-0.499-0.45-0.835-0.45h-8c-0.336 0-0.65 0.169-0.835 0.45l-4.165 6.441 1.531 1.109 3.458-4.487 1.202 2.804-4.191 7.683h3.833l0.667 10h2v-10h1v10h2l0.667-10h3.833l-4.191-7.683 1.202-2.804 3.458 4.487z"></path>
 				{this.props.children}
+				<line x1="54%" y1="95%" x2="40%" y2="95%" stroke="white" strokeWidth="3"/>
 			</svg>
 		)
 	}
