@@ -1,6 +1,4 @@
-.background-white {
-	fill: red;
-}
+
 
 .reunion{
 	fill: #ffbbd6;
@@ -56,5 +54,19 @@
 .white-border {
   stroke: #000; 
   stroke-width:"0.5"
+}
 
+.black-stroke {
+  stroke:#000;
+}
+
+.little-stroke {
+  stroke-width:0.5;
+}
+
+.map-container {
+  margin-top: 2vh;
+  padding-top: 8vh;
+  box-shadow: 5px 5px 10px 2px #656565;
+  background-color: #fff;
 }
