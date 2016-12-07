@@ -2,7 +2,7 @@ var app =
 
  [ 
     {
-      "Entreprise": "Quel entreprise de l'IOT cherchez vous ?",
+      "Entreprise": "Choisi ton entreprise",
       "Phone": "05 82 08 07 49",
       "rdc" : "",
       "floor" : "",

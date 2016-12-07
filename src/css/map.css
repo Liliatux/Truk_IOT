@@ -52,3 +52,9 @@
 	stroke: green; 
 	stroke-width: 0.5;
 }
+
+.white-border {
+  stroke: #000; 
+  stroke-width:"0.5"
+
+}

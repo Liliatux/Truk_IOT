@@ -8,6 +8,12 @@ body {
 	margin: 0 auto;
 }
 
-#root {
-	width: 95%;
+.content {
+	margin-left:auto;
+	margin-right: auto;
+	width:95%;
+}
+
+.white {
+	color:#fff;
 }
