@@ -8,47 +8,37 @@ class Map extends Component {
 		super();
 		this.state = {
 			default:false,
+			slideValue : 0
 		}
 	}
-	rdc(){
-		this.setState({
-			default: false
-		})
+	updateStage(){
+		if(!this.state.default){
+			this.setState({
+				default: true,
+				slideValue: 1
+			});
+		}else {
+			this.setState({
+				default: false,
+				slideValue: 0
+			});
+		}
 	}
 
-	floor(){
-		this.setState({
-			default: true
-		})
-	}
 	render(){
  
-		if(!this.state.default){
 			return(
-				<div className="bck-white">
-					<button onClick={this.rdc.bind(this)}>Rez de chaussé</button>
-					<button onClick={this.floor.bind(this)}>1ere Etage</button>
-					<svg version="1.1"  width="100%" height="100%" viewBox="0 0 1000 1000"  >
-						<RDC>
-							{Parser(this.props.global.rdc)}
-						</RDC>
-					</svg>
-				</div>
+				<section>
+					<input className={this.state.default? 'range-input range-input-rdc':'range-input range-input-floor'} onClick={this.updateStage.bind(this)} type="range" max="1" min="0" value={this.state.slideValue}/>
+					<div className="map-container bck-white">
+						<svg version="1.1"  width="100%" height="100%" viewBox="0 0 1000 1000"  >
+							
+							{this.state.default ? <Floor>{Parser(this.props.global.floor)}</Floor> : <RDC>{Parser(this.props.global.rdc)}</RDC>}
+							
+						</svg>
+					</div>
+				</section>
 			);
-		}else {
-
-			return(
-				<div className="bck-white">
-					<button onClick={this.rdc.bind(this)}>ChangeLevel</button>
-					<button onClick={this.floor.bind(this)}>ChangeLevel</button>
-					<svg version="1.1"  width="100%" height="100%" viewBox="0 0 1000 1000"  >
-						<Floor>
-							{Parser(this.props.global.floor)}
-						</Floor>
-					</svg>
-				</div>
-			);
-		}
 	}
 }
 
@@ -56,30 +46,36 @@ class RDC extends Component {
 	render(){
 		return (
 			<svg version="1.1"  width="100%" height="100%" viewBox="0 0 1000 1000" >
-				<rect x="2.55%" y="11%" width="6.5%" height="40%"   className="enterprise"  stroke="#000" strokeWidth="0.5" />
-				<rect x="2.55%" y="67%" width="38%" height="28%"  className="enterprise"   stroke="#000" strokeWidth="0.5" />
-				<rect x="2.55%" y="0.2%" width="35.5%" height="7%"   className="sanitaire"  stroke="#000" strokeWidth="0.01"/>
-				<rect x="34.5%" y="0.2%" width="7%" height="7%"   className="sanitaire"  stroke="#000" strokeWidth="0.5"/>
-				<rect x="50%" y="0.2%" width="7%" height="7%"   className="sanitaire"  stroke="#000" strokeWidth="0.5"/>
-				<rect x="2.55%" y="7%" width="6.5%" height="4%"   className="sanitaire"  stroke="#000" strokeWidth="0.001" />
-				<rect x="13%" y="13%" width="10%" height="7%"   className="sanitaire"  stroke="#000" strokeWidth="0.5"/>
-				<rect x="11%" y="20%" width="6%" height="15%"  className="sanitaire"   stroke="#000" strokeWidth="0.5" />
-			    <rect x="54%" y="20%" width="12%" height="38%"   className="enterprise"   stroke="#000" strokeWidth="0.5"/>
-			    <rect x="11%" y="35%" width="6%" height="16%"  className="enterprise"   stroke="#000" strokeWidth="0.5" />
-				<rect x="2.5%" y="51%" width="14.5%" height="16%"  className="enterprise"   stroke="#000" strokeWidth="0.5" />
-				<rect x="54%" y="67%" width="43.5%" height="28%"   className="enterprise"   stroke="#000" strokeWidth="0.01"/>
-				<rect x="84%" y="55%" width="13.5%" height="13%"   className="enterprise"   stroke="#000" strokeWidth="0.01"/>
-				<rect x="84%" y="55%" width="13.5%" height="13%"   className="enterprise"   stroke="#000" strokeWidth="0.01"/>
-				<rect x="84%" y="7%" width="13.5%" height="48%"   className="enterprise"   stroke="#000" strokeWidth="0.5"/>
-				<rect x="40%" y="20%" width="14%" height="75%" stroke="black"  className="rdc" strokeWidth="1.5"/>
+				<rect x="2.55%" y="11%" width="6.5%" height="40%"   className="enterprise black-stroke"   strokeWidth="0.5" />
+				<rect x="2.55%" y="67%" width="38%" height="28%"  className="enterprise black-stroke"    strokeWidth="0.5" />
+				<rect x="2.55%" y="0.2%" width="35.5%" height="7%"   className="sanitaire black-stroke"   strokeWidth="0.01"/>
+				<rect x="34.5%" y="0.2%" width="7%" height="7%"   className="sanitaire black-stroke"   strokeWidth="0.5"/>
+				<rect x="50%" y="0.2%" width="7%" height="7%"   className="sanitaire black-stroke"   strokeWidth="0.5"/>
+				<rect x="2.55%" y="7%" width="6.5%" height="4%"   className="sanitaire black-stroke"   strokeWidth="0.001" />
+				<rect x="13%" y="13%" width="10%" height="7%"   className="sanitaire black-stroke"   strokeWidth="0.5"/>
+				<rect x="11%" y="20%" width="6%" height="15%"  className="sanitaire black-stroke"    strokeWidth="0.5" />
+			    <rect x="54%" y="20%" width="12%" height="38%"   className="enterprise black-stroke"    strokeWidth="0.5"/>
+			    <rect x="11%" y="35%" width="6%" height="16%"  className="enterprise black-stroke"    strokeWidth="0.5" />
+				<rect x="2.5%" y="51%" width="14.5%" height="16%"  className="enterprise black-stroke"    strokeWidth="0.5" />
+				<rect x="54%" y="67%" width="43.5%" height="28%"   className="enterprise black-stroke"    strokeWidth="0.01"/>
+				<rect x="84%" y="55%" width="13.5%" height="13%"   className="enterprise black-stroke"    strokeWidth="0.01"/>
+				<rect x="84%" y="55%" width="13.5%" height="13%"   className="enterprise black-stroke"    strokeWidth="0.01"/>
+				<rect x="84%" y="7%" width="13.5%" height="48%"   className="enterprise black-stroke"    strokeWidth="0.5"/>
+			
+				<rect x="40%" y="20%" width="14%" height="75%"  stroke="black" fill="white" strokeWidth="1.5"/>
+
+				<line x1="54%" y1="95%" x2="35%" y2="95%" stroke="white" strokeWidth="3"/>
+				<line x1="54%" y1="60%" x2="54%" y2="64%" stroke="white" strokeWidth="3"/>
+
+
 				<rect x="17%" y="20%" width="6%" height="50%" stroke="black"  className="rdc" strokeWidth="1.5"/>
-				<rect x="67%" y="67%" width="17%" height="12%" stroke="#fff"  className="rdc" strokeWidth="0.001"/>
+				<rect x="67%" y="67%" width="17%" height="12%" stroke="#fff"  fill="#fff" strokeWidth="0.001"/>
 			 	<line x1="2.5%" y1="0.1%" x2="97.5%" y2="0.1%" stroke="black" strokeWidth="1.5"/>
 				<line x1="2.5%" y1="0.1%" x2="2.5%" y2="95%" stroke="black" strokeWidth="1.5"/>
 				<line x1="40%" y1="95%" x2="2.5%" y2="95%" stroke="black" strokeWidth="1.5"/>
 				<line x1="54%" y1="95%" x2="97.5%" y2="95%" stroke="black" strokeWidth="1.5"/>
 				<line x1="97.5%" y1="0.1%" x2="97.5%" y2="95%" stroke="black" strokeWidth="1.5"/>
-				<line x1="67%" y1="67%" x2="67%" y2="75%" stroke="black" strokeWidth="1.5"/>
+				<line x1="67%" y1="67%" x2="67%" y2="79%" stroke="black" strokeWidth="1.5"/>
 				<line x1="70%" y1="67%" x2="70%" y2="79%" stroke="black" strokeWidth="1.5"/>
 				<line x1="67%" y1="79%" x2="70%" y2="79%" stroke="black" strokeWidth="1.5"/>
 				<line x1="67%" y1="67.4%" x2="70%" y2="67.4%" stroke="green" strokeWidth="1"/>
@@ -115,15 +111,23 @@ class RDC extends Component {
 				<line x1="43.4%" y1="0.1%" x2="43.4%" y2="4%" stroke="green" strokeWidth="0.5"/>
 				<line x1="43.2%" y1="0.1%" x2="43.2%" y2="4%" stroke="green" strokeWidth="0.5"/>
 				<line x1="43%" y1="0.1%" x2="43%" y2="4%" stroke="green" strokeWidth="0.5"/>
-				<rect x="57%" y="0.2%" width="11%" height="7%"   className="sanitaire"  stroke="#000" strokeWidth="0.5"/>
-				<rect x="68%" y="0.2%" width="12%" height="7%"   className="sanitaire"  stroke="#000" strokeWidth="0.5"/>
-				<rect x="80%" y="0.2%" width="17.5%" height="7%"   className="sanitaire"  stroke="#000" strokeWidth="0.5"/>
+
+				<rect x="57%" y="0.2%" width="11%" height="7%"   className="sanitaire black-stroke"   strokeWidth="0.5"/>
+				<rect x="68%" y="0.2%" width="12%" height="7%"   className="sanitaire black-stroke"   strokeWidth="0.5"/>
+				<rect x="80%" y="0.2%" width="17.5%" height="7%"   className="sanitaire black-stroke"   strokeWidth="0.5"/>
 				<path className="path1" d="M385 21c0 1.657-1.343 3-3 3s-3-1.343-3-3c0-1.657 1.343-3 3-3s3 1.343 3 3z"></path>
 				<path className="path2" d="M385 25h-6c-1.105 0-2 0.895-2 2v10h2v12h2.5v-12h1v12h2.5v-12h2v-10c0-1.105-0.895-2-2-2z"></path>
 				<path className="path1" d="M535 21c0 1.657-1.343 3-3 3s-3-1.343-3-3c0-1.657 1.343-3 3-3s3 1.343 3 3z"></path>
 				<path className="path2" d="M539.5 33l1.531-1.109-4.165-6.441c-0.185-0.281-0.499-0.45-0.835-0.45h-8c-0.336 0-0.65 0.169-0.835 0.45l-4.165 6.441 1.531 1.109 3.458-4.487 1.202 2.804-4.191 7.683h3.833l0.667 10h2v-10h1v10h2l0.667-10h3.833l-4.191-7.683 1.202-2.804 3.458 4.487z"></path>
 				<path className="red-fill" d="M520 600c-5.523 0-10 4.477-10 10 0 10 10 22 10 22s10-12 10-22c0-5.523-4.477-10-10-10zM520 616c-3.314 0-6-2.686-6-6s2.686-6 6-6 6 2.686 6 6-2.686 6-6 6z"></path>
 				{this.props.children}
+				<line x1="84%" y1="55%" x2="84%" y2="79%" className="black-stroke" strokeWidth="0.5"/>
+				<line x1="84%" y1="79%" x2="69%" y2="79%" className="black-stroke" strokeWidth="0.5"/>
+				<line x1="83%" y1="67%" x2="69%" y2="67%" stroke="#fff" strokeWidth="2"/>
+				<line x1="67%" y1="67%" x2="54%" y2="67%" className="black-stroke" strokeWidth="0.5"/>
+				<line x1="9%" y1="7.1%" x2="34.5%" y2="7.1%" className="black-stroke" strokeWidth="0.5"/>
+				<line x1="9.1%" y1="7.1%" x2="9.1%" y2="11%" className="black-stroke" strokeWidth="0.5"/>
+
 			</svg>
 			)
 	}
@@ -227,6 +231,7 @@ class Floor extends Component {
 				<path className="path3" d="M660 810h-6c-1.105 0-2 0.895-2 2v10h2v12h2.5v-12h1v12h2.5v-12h2v-10c0-1.105-0.895-2-2-2z"></path>
 				<path className="path4" d="M679.469 818l1.531-1.109-4.165-6.441c-0.185-0.281-0.499-0.45-0.835-0.45h-8c-0.336 0-0.65 0.169-0.835 0.45l-4.165 6.441 1.531 1.109 3.458-4.487 1.202 2.804-4.191 7.683h3.833l0.667 10h2v-10h1v10h2l0.667-10h3.833l-4.191-7.683 1.202-2.804 3.458 4.487z"></path>
 				{this.props.children}
+				<line x1="54%" y1="95%" x2="40%" y2="95%" stroke="white" strokeWidth="3"/>
 			</svg>
 		)
 	}

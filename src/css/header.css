@@ -4,6 +4,7 @@
 	width:100%;
 	margin:0;
 	padding:3vh;
+   	box-shadow: 0 0 1em black;
 }
 
 .slide {

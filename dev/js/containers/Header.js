@@ -20,21 +20,21 @@ class Header extends Component {
 	render(){
 		return (
 			<div className="header">
-			<i className="content big white icon" onClick={this.toogleMenu.bind(this)} ></i>
-			<span className="white title">Map IOT2</span>
-			<div className={this.state.active? 'displayBlock slide':'displayNone slide'}>
-			<div className="mapslid">
+				<i className="content big white icon" onClick={this.toogleMenu.bind(this)} ></i>
+				<span className="white title">Map IOT2</span>
+				<div className={this.state.active? 'displayBlock slide':'displayNone slide'}>
+					<div className="mapslid"></div>
+					<div className="footer"></div>
+				</div>
 			</div>
 			<div className="footer">
-			<div className="information">
-			<h4 className="nomEntreprise">Nom Entreprise : [NomEntreprise]</h4>
-			<div className="logoEntreprise"><img src="http://iness.simplon.co/img/Simplon_MIP-b.jpg"/></div>
-			<h4 className="numeroTel">Numero de Telephone : [NumeroTel]</h4>
-			<h4 className="web">Site Internet : [siteWeb]</h4>
-			<h4 className="mail">Email : [mailto]</h4>
-			</div>
-			</div>
-			</div>
+				<div className="information">
+					<h4 className="nomEntreprise">Nom Entreprise : [NomEntreprise]</h4>
+					<div className="logoEntreprise"><img src="http://iness.simplon.co/img/Simplon_MIP-b.jpg"/></div>
+					<h4 className="numeroTel">Numero de Telephone : [NumeroTel]</h4>
+					<h4 className="web">Site Internet : [siteWeb]</h4>
+					<h4 className="mail">Email : [mailto]</h4>
+				</div>
 			</div>
 			);
 	}
