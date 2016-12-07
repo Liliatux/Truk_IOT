@@ -20,7 +20,8 @@ class Header extends Component {
 	render(){
 		return (
 			<div className="header">
-				<i className="content large white icon" onClick={this.toogleMenu.bind(this)} ></i>
+				<i className="content big white icon" onClick={this.toogleMenu.bind(this)} ></i>
+				<span className="white title">Map IOT2</span>
 				<div className={this.state.active? 'displayBlock slide':'displayNone slide'}>
 					<div className="mapslid"></div>
 					<div className="footer"></div>

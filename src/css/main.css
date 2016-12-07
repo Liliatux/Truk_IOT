@@ -6,9 +6,15 @@
 
 body {
 	margin: 0 auto;
-	background-color: #dcdcdc;
+	background-color: #efefef;
 }
 
-#root {
-	width: 95%;
+.content {
+	margin-left:auto;
+	margin-right: auto;
+	width:95%;
+}
+
+.white {
+	color:#fff;
 }

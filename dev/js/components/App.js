@@ -7,9 +7,11 @@ import Bouton from '../containers/Bouton';
 const App = () => (
 	<div>
 		<Header/>
-		<Select/>
-		<Map/>
-		<Bouton/>
+		<div className="content">
+			<Select/>
+			<Map/>
+			<Bouton/>
+		</div>
 	</div>
 );
 

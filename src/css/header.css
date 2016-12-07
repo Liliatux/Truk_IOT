@@ -1,9 +1,10 @@
 .header {
 	position: fixed;
-	background-color: #9400d3;
+	background-color: #6e358b;
 	width:100%;
 	margin:0;
-	padding:0;
+	padding:3vh;
+   	box-shadow: 0 0 1em black;
 }
 
 .slide {
@@ -29,4 +30,10 @@
     position: relative;
 	border: 10em solid red;
 	margin-bottom: 20%;
+}
+
+
+.title {
+	margin-left:5%;
+	font-size:20px;
 }

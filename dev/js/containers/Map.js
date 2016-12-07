@@ -25,7 +25,7 @@ class Map extends Component {
  
 		if(!this.state.default){
 			return(
-				<div>
+				<div className="bck-white">
 					<button onClick={this.rdc.bind(this)}>Rez de chaussé</button>
 					<button onClick={this.floor.bind(this)}>1ere Etage</button>
 					<svg version="1.1"  width="100%" height="100%" viewBox="0 0 1000 1000"  >
@@ -38,7 +38,7 @@ class Map extends Component {
 		}else {
 
 			return(
-				<div>
+				<div className="bck-white">
 					<button onClick={this.rdc.bind(this)}>ChangeLevel</button>
 					<button onClick={this.floor.bind(this)}>ChangeLevel</button>
 					<svg version="1.1"  width="100%" height="100%" viewBox="0 0 1000 1000"  >
