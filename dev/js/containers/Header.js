@@ -27,15 +27,24 @@ class Header extends Component {
 					<div className="footer"></div>
 				</div>
 			</div>
-		);
+			<div className="footer">
+				<div className="information">
+					<h4 className="nomEntreprise">Nom Entreprise : [NomEntreprise]</h4>
+					<div className="logoEntreprise"><img src="http://iness.simplon.co/img/Simplon_MIP-b.jpg"/></div>
+					<h4 className="numeroTel">Numero de Telephone : [NumeroTel]</h4>
+					<h4 className="web">Site Internet : [siteWeb]</h4>
+					<h4 className="mail">Email : [mailto]</h4>
+				</div>
+			</div>
+			);
 	}
 
 }
 
 
 function matchStateToProps(state){
-  return {
-      global: state.global
-  }
+	return {
+		global: state.global
+	}
 }
 export default connect(matchStateToProps)(Header);
