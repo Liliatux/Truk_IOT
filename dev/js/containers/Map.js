@@ -9,7 +9,7 @@ class Map extends Component {
 		this.state = {
 			default:false,
 		}
-	}
+	} 
 	rdc(){
 		this.setState({
 			default: false
@@ -26,8 +26,8 @@ class Map extends Component {
 		if(!this.state.default){
 			return(
 				<div className="bck-white">
-					<button onClick={this.rdc.bind(this)}>Rez de chaussé</button>
-					<button onClick={this.floor.bind(this)}>1ere Etage</button>
+					<button className="stage" onClick={this.rdc.bind(this)}>Rez de chaussé</button>
+					<button className="stage" onClick={this.floor.bind(this)}>1ere Etage</button>
 					<svg version="1.1"  width="100%" height="100%" viewBox="0 0 1000 1000"  >
 						<RDC>
 							{Parser(this.props.global.rdc)}
