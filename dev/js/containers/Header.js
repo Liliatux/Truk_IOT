@@ -20,13 +20,10 @@ class Header extends Component {
 	render(){
 		return (
 			<div className="header">
-				<i className="content huge black icon" onClick={this.toogleMenu.bind(this)} ></i>
+				<i className="content large white icon" onClick={this.toogleMenu.bind(this)} ></i>
 				<div className={this.state.active? 'displayBlock slide':'displayNone slide'}>
-				<div className="mapslid">
-				</div>
-					<div className="footer">
-                     
-					</div>
+					<div className="mapslid"></div>
+					<div className="footer"></div>
 				</div>
 			</div>
 		);
