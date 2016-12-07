@@ -31,8 +31,6 @@ class Map extends Component {
 			<section>
 				<div className="map-container bck-white">
 					<input className={this.state.default? 'range-input range-input-rdc':'range-input range-input-floor'} onClick={this.updateStage.bind(this)} type="range" max="1" min="0" value={this.state.slideValue}/>
-					<button onClick={this.rdc.bind(this)}>RDC</button>
-					<button onClick={this.floor.bind(this)}>1er</button>
 					<svg version="1.1"  width="100%" height="100%" viewBox="0 0 1000 1000"  >						
 						{this.state.default ? <Floor>{Parser(this.props.global.floor)}</Floor> : <RDC>{Parser(this.props.global.rdc)}</RDC>}					
 					</svg>
