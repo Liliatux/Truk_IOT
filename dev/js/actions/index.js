@@ -7,3 +7,12 @@ export const ChangeStatus =  (state, value) => {
 	}
 
 }
+ 
+export const UpdateStage = (state, value) => {
+	console.log("UPDATE-STAGE");
+	return {
+		type: "UPDATE-STAGE",
+		playload: state,
+		value: value
+	}
+}

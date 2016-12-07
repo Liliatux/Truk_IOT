@@ -2,41 +2,35 @@ import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 import Parser from 'html-react-parser';
+import {UpdateStage} from '../actions';
 
 class Map extends Component {
-	constructor(){
-		super();
-		this.state = {
-			default:false,
-			slideValue : 0
-		}
-	}
-
-	updateStage(){
-		if(!this.state.default){
-			this.setState({
-				default: true,
-				slideValue: 1
-			});
-		}else {
-			this.setState({
-				default: false,
-				slideValue: 0
-			});
-		}
-	}
 
 	render(){
-		return(
-			<section>
-				<div className="map-container bck-white">
-					<input className={this.state.default? 'range-input range-input-rdc':'range-input range-input-floor'} onClick={this.updateStage.bind(this)} type="range" max="1" min="0" value={this.state.slideValue}/>
-					<svg version="1.1"  width="100%" height="100%" viewBox="0 0 1000 1000"  >						
-						{this.state.default ? <Floor>{Parser(this.props.global.floor)}</Floor> : <RDC>{Parser(this.props.global.rdc)}</RDC>}					
-					</svg>
-				</div>
-			</section>
-		);
+
+ 		if(this.props.global.floor === 'none'){
+			return(
+				<section>
+					<div className="map-container bck-white">
+						
+						<svg version="1.1"  width="100%" height="100%" viewBox="0 0 1000 1000"  >
+							{this.props.stage.default ? <Floor>{Parser(this.props.global.floor)}</Floor> : <RDC>{Parser(this.props.global.rdc)}</RDC>}		
+						</svg>
+					</div>
+				</section>
+			);
+		}else {
+			return(
+				<section>
+					<div className="map-container bck-white">
+						<button onClick={() => this.props.UpdateStage(this.props.stage, !this.props.stage.default)}>{this.props.stage.name}</button>
+						<svg version="1.1"  width="100%" height="100%" viewBox="0 0 1000 1000"  >
+							{this.props.stage.default ?<Floor>{Parser(this.props.global.floor)}</Floor> : <RDC>{Parser(this.props.global.rdc)}</RDC>}
+						</svg>
+					</div>
+				</section>
+			);
+		}
 	}
 }
 
@@ -64,7 +58,6 @@ class RDC extends Component {
 
 				<line x1="54%" y1="95%" x2="35%" y2="95%" stroke="white" strokeWidth="3"/>
 				<line x1="54%" y1="60%" x2="54%" y2="64%" stroke="white" strokeWidth="3"/>
-
 
 				<rect x="17%" y="20%" width="6%" height="50%" stroke="black"  className="rdc" strokeWidth="1.5"/>
 				<rect x="67%" y="67%" width="17%" height="12%" stroke="#fff"  fill="#fff" strokeWidth="0.001"/>
@@ -237,8 +230,12 @@ class Floor extends Component {
 
 function matchStateToProps(state){
   return {
-      global: state.global
+      global: state.global,
+      stage: state.stage
   }
 }
 
-export default connect(matchStateToProps)(Map);
+function matchDispatchToProps(dispatch){
+	return bindActionCreators({UpdateStage:UpdateStage}, dispatch)
+}
+export default connect(matchStateToProps,matchDispatchToProps)(Map);

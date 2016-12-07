@@ -3,6 +3,7 @@ import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 import {ChangeStatus} from '../actions/index';
 import app from './donnees';
+import {UpdateStage} from '../actions';
 
 class Select extends Component {
   constructor(){
@@ -16,12 +17,13 @@ class Select extends Component {
   }
   update( e ){
     this.props.ChangeStatus(this.props.global, JSON.parse(e.target.value));
+    this.props.UpdateStage(this.props.stage, false);
   }
   
   render() {
     let items = this.state.items.map(item => {
       let tab = JSON.stringify([item.Phone,item.Entreprise,item.floor,item.rdc]);
-      return <option id="option" onChange={this.update.bind(this)} className="item" value={tab} key={item.Entreprise}>{item.Entreprise}</option>
+      return <option id="option"  className="item" value={tab} key={item.Entreprise}>{item.Entreprise}</option>
     });
     
     return(
@@ -40,12 +42,13 @@ class Select extends Component {
 
 function matchStateToProps(state){
   return {
-      global: state.global
+      global: state.global,
+      stage: state.stage
   }
 }
 
 function matchDispatchToProps(dispatch){
-  return bindActionCreators({ChangeStatus : ChangeStatus}, dispatch);
+  return bindActionCreators({ChangeStatus : ChangeStatus, UpdateStage:UpdateStage }, dispatch);
 }
 
 export default connect(matchStateToProps, matchDispatchToProps)(Select);
