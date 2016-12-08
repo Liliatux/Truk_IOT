@@ -31,6 +31,7 @@
   }
 }
 
+
 .svg{
 	margin-top:0;
 	padding-top:0;
@@ -43,7 +44,7 @@
 
 .white-border {
   stroke: #000; 
-  stroke-width:"0.5"
+  stroke-width:"0.5";
 }
 
 .black-stroke {
@@ -69,4 +70,9 @@
 
 #colorPurple {
   background-color: #6e358b;
+}
+
+
+#noneButton {
+  display:none;
 }

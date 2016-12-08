@@ -85,7 +85,7 @@
 
 	background-color: #6e358b;
 	position: relative;
-	padding-bottom: 4vh;
+	padding-bottom: 70vh;
 
 }
 
@@ -123,12 +123,21 @@
 
 .logo-zone {
 	background-color: #fff;
-	min-height:15vh;
+	height:25vh;
 	padding-bottom: 5vh;
 	padding-top: 5vh;
 	width:100%;
+	overflow:scroll;
+	display:block;
 }
 
 .centered {
-	width:80%;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.size-image {
+	width:50%;
 }
