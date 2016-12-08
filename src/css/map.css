@@ -37,14 +37,6 @@
   }
 }
 
-.icon {
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor;
-}
 
 .svg{
 	margin-top:0;
@@ -58,7 +50,7 @@
 
 .white-border {
   stroke: #000; 
-  stroke-width:"0.5"
+  stroke-width:"0.5";
 }
 
 .black-stroke {
