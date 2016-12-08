@@ -4,7 +4,7 @@ import {bindActionCreators} from 'redux';
 
 class Bouton extends Component {
 	render() {
-    if(this.props.global.phone){
+    if(this.props.global.phone !== 'NC'){
       return (
        <div className="Bouton">
         <a href={"tel:" + this.props.global.phone}>
@@ -12,7 +12,7 @@ class Bouton extends Component {
             <i id="phone" className="call large icon">
             </i>
               <span id="nom">
-                {this.props.global.test}
+                {this.props.global.enterprise}
               </span>
           </button>
         </a>
