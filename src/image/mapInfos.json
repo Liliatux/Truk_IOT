@@ -2,9 +2,8 @@
 	"direction": [ 
 
 		{
-			"test": "Choisi ton entreprise",
 			"id":"",
-			"Entreprise": "Choisi ton entreprise ",
+			"Entreprise": "Choix entreprise",
 			"Phone": "05 82 08 07 49",
 			"Logo":""
 		},
