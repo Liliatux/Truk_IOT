@@ -15,6 +15,13 @@
     <div id="root"></div>
  
     <script src="js/bundle.min.js"></script>
-<!-- -->
+
+<script>
+if('serviceWorker' in navigator) {
+  navigator.serviceWorker
+           .register('./js/sw.js')
+           .then(function() { console.log("Service Worker Registered"); });
+}
+</script>
 </body>
 </html>
