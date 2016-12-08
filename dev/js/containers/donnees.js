@@ -2,7 +2,7 @@ var donnees =
 
  [ 
     {
-      "Entreprise": "Choisi ton entreprise",
+      "Entreprise": "Choix entreprise",
       "Phone": "NC",
       "rdc" : "",
       "floor" : "start",
@@ -36,7 +36,7 @@ var donnees =
     {
       "Entreprise": "Skylights",
       "Phone": "NC",
-      "rdc" : "<path d='M530,630 L685,630 L685,100 L102,100 L102,180 L100,510' fill='none' stroke='red' className='animate' strokeWidth='5'></path>",
+      "rdc" : "<path d='M530,630 L685,630 L685,100 L102,100 L102,180 L100,510' fill='none' stroke='red' className='animate' strokeWidth='5'></path><rect x='2.55%' y='11%' width='6.5%' height='40%'   className='join black-stroke'   strokeWidth='0.5' />",
       "floor":"none",
       "Logo": "skylights.png",
       "Web": "http://www.skylights.aero/"
