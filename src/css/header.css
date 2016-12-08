@@ -30,6 +30,7 @@
 	
 	background-color: #6e358b;
 	box-shadow: 0 9px 19px grey;
+	margin-top:4vh;
 
 
 }
@@ -81,12 +82,14 @@
 .title {
 	margin-left:5%;
 	font-size: 1.5rem;
+
 }
 
 .information {
 
 	background-color: #6e358b;
 	position: relative;
+	padding-bottom: 4vh;
 
 }
 
