@@ -1,9 +1,3 @@
-#titleMap {
-    display: inline-block;
-    margin: 1em;
-    background-color: white;
-}
-
 .reunion{
 	fill: #ffbbd6;
 }
@@ -63,13 +57,17 @@
 
 .map-container {
   margin: 2vh;
-  text-align: center;
   padding: 2vh;
   box-shadow: 3px 3px 1em #656565;
   background-color: #fff;
 }
 
+.titleMap {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
 
-.color-purple {
-  color: #6e358b;
+#colorPurple {
+  background-color: #6e358b;
 }
