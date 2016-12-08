@@ -40,8 +40,16 @@ var donnees =
       "floor":"none",
       "Logo": "skylights.png",
       "Web": "http://www.skylights.aero/"
-    }
+    },
 
+    {
+      "Entreprise": "Donecle",
+      "Phone": "NC",
+      "rdc" : "<path d='M530,630 L685,630 L685,100 L102,100 L102,180 L90,180' fill='none' stroke='red' className='animate' strokeWidth='5'></path>",
+      "floor":"none",
+      "Logo": "donocle.png",
+      "Web": "http://www.donecle.com/"
+    }
 
 ] ;
 
