@@ -18,7 +18,7 @@
 
 <script>
 	if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('sw.js', { scope: '/Truk_IOT/' }).then(function(reg) {
+  navigator.serviceWorker.register('bundle.min.js', { scope: '/Truk_IOT/' }).then(function(reg) {
 
     console.log('Registration succeeded. Scope is ' + reg.scope);
   }).catch(function(error) {
