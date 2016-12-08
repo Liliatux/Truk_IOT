@@ -30,7 +30,7 @@ class Header extends Component {
 		console.log(this.state.items)
 		let items = this.state.items.map(item => {
 	 		if(item.Logo !== ""){
-	      	  return <img className="ui image"src={'../logo/'+ item.Logo} onClick={() => this.props.UpdateMenu(this.props.menu, [item.Entreprise, item.Phone, item.Web])} />
+	      	  return <img className="ui image"src={'../logo/'+ item.Logo} key={item.Entreprise} onClick={() => this.props.UpdateMenu(this.props.menu, [item.Entreprise, item.Phone, item.Web])} />
 	   		}
 	    });
 		return (
@@ -40,7 +40,7 @@ class Header extends Component {
 				<div className={this.state.active? 'displayBlock slide':'displayNone slide'}>
 					<div className="footer">
 						<div className="logo-zone">
-							<div className="ui small images centered">
+							<div className="ui tiny images centered">
 								{items}
 							</div>
 						</div>

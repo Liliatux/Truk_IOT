@@ -17,7 +17,6 @@ var donnees =
       "Logo":"mobirider.png",
       "Web" : "http://www.mobirider.com/fr/"
     },
-
     {
       "Entreprise": "Simplon ",
       "Phone": "06 12 13 70 03",

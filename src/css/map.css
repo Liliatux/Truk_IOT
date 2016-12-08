@@ -1,3 +1,9 @@
+#titleMap {
+    display: inline-block;
+    margin: 1em;
+    background-color: white;
+}
+
 .reunion{
 	fill: #ffbbd6;
 }
@@ -68,4 +74,9 @@
   padding: 2vh;
   box-shadow: 3px 3px 1em #656565;
   background-color: #fff;
+}
+
+
+.color-purple {
+  color: #6e358b;
 }

@@ -126,10 +126,14 @@
 }
 
 .logo-zone {
-	background-color: #fff;
+	background-color: #6e358b;
 	width:100%;
 }
 
 .centered {
 	width:80%;
+}
+
+.color-purple {
+	color: #6e358b;
 }
