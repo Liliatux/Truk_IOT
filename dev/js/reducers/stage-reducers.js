@@ -5,7 +5,7 @@ export default function(state={
 	switch(action.type){
 		case "UPDATE-STAGE":
 			return{
-				state, default : action.value, name: action.value? 'Rez de chaussé':'1ére Etage'
+				state, default : action.value, name: action.value? 'Rez-de-chaussée':'1er Etage'
 			}
 			break;
 	}
