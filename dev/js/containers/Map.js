@@ -118,6 +118,7 @@ class RDC extends Component {
 				<line x1="9%" y1="7.1%" x2="34.5%" y2="7.1%" className="black-stroke" strokeWidth="0.5"/>
 				<line x1="9.1%" y1="7.1%" x2="9.1%" y2="11%" className="black-stroke" strokeWidth="0.5"/>
 
+				
 			</svg>
 			)
 	}

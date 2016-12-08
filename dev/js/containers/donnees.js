@@ -24,9 +24,19 @@ var donnees =
       "floor":"<path className='animate' d='M660,770 L630,770 L630,640 L320,640 L320,105 L110,105 L110,70' fill='none'  stroke='red' strokeWidth='5'></path><rect x='2.55%' y='0.2%' width='10.5%' height='7%'  className='join' stroke='#000' strokeWidth ='0.5'/><rect x='12.55%' y='0.2%' width='16.5%' height='7%'   className='join' stroke='#000' strokeWidth ='0.5'/> ",
       "Logo": "simplon2.png",
       "Web": "https://mip.simplon.co/"
-    }
-] ;
+    },
 
+    {
+      "Entreprise": "Skylights",
+      "Phone": "NC",
+      "rdc" : "<path d='M530,630 L685,630 L685,100 L102,100 L102,180 L100,510' fill='none' stroke='red' className='animate' strokeWidth='5'></path>",
+      "floor":"none",
+      "Logo": "skylights.png",
+      "Web": "http://www.skylights.aero/"
+    }
+
+
+] ;
 
 
 export default donnees;
