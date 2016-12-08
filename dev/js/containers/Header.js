@@ -31,7 +31,11 @@ class Header extends Component {
 	
 		let items = this.state.items.map(item => {
 	 		if(item.Logo !== ""){
-	      	  return <img className="ui centered image size-image"src={'../logo/'+ item.Logo} key={item.Entreprise} onClick={() => this.props.UpdateMenu(this.props.menu, [item.Entreprise, item.Phone, item.Web])} />
+	      	 	return (
+	      	 		<div>
+	      	  			<img className="size-image"src={item.Logo} key={item.Entreprise} onClick={() => this.props.UpdateMenu(this.props.menu, [item.Entreprise, item.Phone, item.Web])} />
+	   				</div>
+	   			)
 	   		}
 	    });
 		return (
