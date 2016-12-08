@@ -26,8 +26,9 @@ class Header extends Component {
 				<div className={this.state.active? 'displayBlock slide':'displayNone slide'}>
 					<div className="footer">
 						<div>
-							<h1>lalala</h1>
+						
 						</div>
+						<hr></hr>
 						<div className="information">
 							<h4 className="nomEntreprise">Nom Entreprise : {this.props.menu.name}</h4>
 							<h4 className="numeroTel">Numero de Telephone : {this.props.menu.phone}</h4>

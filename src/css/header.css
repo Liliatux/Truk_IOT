@@ -29,7 +29,6 @@
 .footer {
 	
 	background-color: #6e358b;
-	box-shadow: 0 9px 19px grey;
 
 
 }
@@ -84,14 +83,14 @@
 }
 
 .information {
-
+    position: fixed;
 	background-color: #6e358b;
 	position: relative;
+	margin-bottom: 10%;
 
 }
 
 .nomEntreprise {
-	padding-top: 2em;
 	color: white;
 	margin-left: 10%;
 	position: relative;
@@ -119,5 +118,4 @@
 	color: white;
 	margin-left: 10%;
 	position: relative;
-	padding-bottom: 2%;
 }
