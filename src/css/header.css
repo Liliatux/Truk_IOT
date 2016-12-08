@@ -15,7 +15,6 @@
 	background-color: white;
 	z-index: 2;
 	margin-top: 1%;
-
 }
 
 .displayBlock {
@@ -27,12 +26,9 @@
 }
 
 .footer {
-	
 	background-color: #6e358b;
 	box-shadow: 0 9px 19px grey;
 	margin-top:4vh;
-
-
 }
 
 @media screen and (max-width: 683px) {
