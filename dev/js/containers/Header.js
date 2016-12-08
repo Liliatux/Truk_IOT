@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
+import {UpdateMenu} from '../actions';
+import donnees from './donnees';
 
 class Header extends Component {
 
 	constructor(){
 		super();
 		this.state = {
-			active: false
+			active: false,
+			items : [],
 		}
 	}
 
@@ -17,18 +20,34 @@ class Header extends Component {
 		});
 	}
 
+	componentDidMount(){
+	    this.setState({
+     		 items: donnees 
+  		 })
+	}
+
 	render(){
+		console.log(this.state.items)
+		let items = this.state.items.map(item => {
+	 		if(item.Logo !== ""){
+	      	  return <img className="ui image"src={'../logo/'+ item.Logo} onClick={() => this.props.UpdateMenu(this.props.menu, [item.Entreprise, item.Phone, item.Web])} />
+	   		}
+	    });
 		return (
 			<div className="header">
 				<i className="content big white icon" onClick={this.toogleMenu.bind(this)} ></i>
 				<span className="white title">Map IOT2</span>
 				<div className={this.state.active? 'displayBlock slide':'displayNone slide'}>
 					<div className="footer">
+						<div className="logo-zone">
+							<div className="ui small images centered">
+								{items}
+							</div>
+						</div>
 						<div className="information">
-							<h4 className="nomEntreprise">Nom Entreprise : [NomEntreprise]</h4>
-							<h4 className="numeroTel">Numero de Telephone : [NumeroTel]</h4>
-							<h4 className="web">Site Internet : [siteWeb]</h4>
-							<h4 className="mail">Email : [mailto]</h4>
+							<h4 className="nomEntreprise">Nom Entreprise : {this.props.menu.name}</h4>
+							<h4 className="numeroTel">Numero de Telephone : {this.props.menu.phone}</h4>
+							<h4 className="web">Site Internet : {this.props.menu.web}</h4>
 						</div>
 					</div>
 					<div className="mapslid"></div>
@@ -42,7 +61,12 @@ class Header extends Component {
 
 function matchStateToProps(state){
 	return {
-		global: state.global
+		menu:  state.menu
 	}
 }
-export default connect(matchStateToProps)(Header);
+
+function matchDispatchToProps(dispatch){
+  return bindActionCreators({UpdateMenu: UpdateMenu}, dispatch);
+}
+
+export default connect(matchStateToProps, matchDispatchToProps)(Header);
