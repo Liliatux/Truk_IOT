@@ -121,3 +121,12 @@
 	position: relative;
 	padding-bottom: 2%;
 }
+
+.logo-zone {
+	background-color: #fff;
+	width:100%;
+}
+
+.centered {
+	width:80%;
+}
