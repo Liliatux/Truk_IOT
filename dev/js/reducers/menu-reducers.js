@@ -1,7 +1,7 @@
 export default function(state={
-	name : "Simplon.co",
-	phone : "05 82 08 07 49",
-	web: "tralla.com",
+	name : "",
+	phone : "",
+	web: "",
 },action){
 	switch(action.type){
 		case "UPDATE-MENU":

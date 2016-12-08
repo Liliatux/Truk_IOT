@@ -47,7 +47,7 @@ class Header extends Component {
 						<div className="information">
 							<h4 className="nomEntreprise">Nom Entreprise : {this.props.menu.name}</h4>
 							<h4 className="numeroTel">Numero de Telephone : {this.props.menu.phone}</h4>
-							<h4 className="web">Site Internet : {this.props.menu.web}</h4>
+							<h4 className="web">Site Internet : <a href={this.props.menu.web}>{this.props.menu.web}</a></h4>
 						</div>
 					</div>
 					<div className="mapslid"></div>

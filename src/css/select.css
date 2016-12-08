@@ -10,12 +10,15 @@
 	border-color: #6e358b;
 	font-size: 1.5rem;
 	border-radius: 0.3em;
-	outline: none;  
-	padding-left: 1em;
+	outline: none; 
+	cursor: pointer;
+
 
 }
 
 .item {
 	background-color:white;
 	border-style: none;
+	outline: none;
+	cursor: pointer;
 }
