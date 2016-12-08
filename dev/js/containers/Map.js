@@ -129,9 +129,8 @@ class RDC extends Component {
 				        fontSize="25" fill='red'>
 				    Vous êtes ici !
 				</text>
-				
                  
-
+ 
 			</svg>
 			)
 	}
@@ -236,6 +235,9 @@ class Floor extends Component {
 				<path className="path4" d="M679.469 818l1.531-1.109-4.165-6.441c-0.185-0.281-0.499-0.45-0.835-0.45h-8c-0.336 0-0.65 0.169-0.835 0.45l-4.165 6.441 1.531 1.109 3.458-4.487 1.202 2.804-4.191 7.683h3.833l0.667 10h2v-10h1v10h2l0.667-10h3.833l-4.191-7.683 1.202-2.804 3.458 4.487z"></path>
 				{this.props.children}
 				<line x1="53.9%" y1="95%" x2="40.1%" y2="95%" stroke="white" strokeWidth="3"/>
+
+				<path className='animate' d='M660,770 L630,770 L630,640 L170,640' fill='none'  stroke='red' strokeWidth='10'></path>
+
 			</svg>
 		)
 	}
