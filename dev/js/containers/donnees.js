@@ -32,9 +32,18 @@ var donnees =
       "floor":"none",
       "Logo": "connit.png",
       "Web": "http://www.connit.com/"
+    },
+    {
+      "Entreprise": "Skylights",
+      "Phone": "NC",
+      "rdc" : "<path d='M530,630 L685,630 L685,100 L102,100 L102,180 L100,510' fill='none' stroke='red' className='animate' strokeWidth='5'></path>",
+      "floor":"none",
+      "Logo": "skylights.png",
+      "Web": "http://www.skylights.aero/"
     }
-] ;
 
+
+] ;
 
 
 export default donnees;

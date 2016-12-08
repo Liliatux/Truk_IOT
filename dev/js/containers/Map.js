@@ -51,7 +51,7 @@ class RDC extends Component {
 				<rect x="54%" y="67%" width="43.5%" height="28%"   className="enterprise black-stroke"    strokeWidth="0.01"/>
 				<rect x="84%" y="55%" width="13.5%" height="13%"   className="enterprise black-stroke"    strokeWidth="0.01"/>
 				<rect x="84%" y="55%" width="13.5%" height="13%"   className="enterprise black-stroke"    strokeWidth="0.01"/>
-		
+				<rect x="84%" y="7%" width="13.5%" height="48%"   className="enterprise black-stroke"    strokeWidth="0.5"/>
 			
 				<rect x="40%" y="20%" width="14%" height="75%"  stroke="black" fill="white" strokeWidth="1.5"/>
 
