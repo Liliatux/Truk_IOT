@@ -41,7 +41,6 @@ var donnees =
       "Logo": "skylights.png",
       "Web": "http://www.skylights.aero/"
     },
-
     {
       "Entreprise": "Donecle",
       "Phone": "NC",

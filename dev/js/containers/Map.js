@@ -26,7 +26,9 @@ class Map extends Component {
 								<h3>{this.props.stage.name}</h3>
 							</div>
 							<div>
-								<button id="colorPurple" className="circular ui icon button" onClick={() => this.props.UpdateStage(this.props.stage, !this.props.stage.default)}><i className={this.props.stage.icon}></i></button>
+								<button id={this.props.toogle.active ? 'noneButton':'colorPurple'} className='circular ui icon button'
+								onClick={() => this.props.UpdateStage(this.props.stage, !this.props.stage.default)}
+								><i className={this.props.stage.icon}></i></button>
 							</div>
 						</div>
 						<svg version="1.1"  width="100%" height="100%" viewBox="0 0 1000 1000"  >
@@ -242,7 +244,8 @@ class Floor extends Component {
 function matchStateToProps(state){
   return {
       global: state.global,
-      stage: state.stage
+      stage: state.stage,
+      toogle: state.toogle
   }
 }
 
