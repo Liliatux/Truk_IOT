@@ -16,3 +16,12 @@ export const UpdateStage = (state, value) => {
 		value: value
 	}
 }
+
+export const UpdateMenu = (state, value) => {
+	console.log('UPDATE-MENU');
+	return {
+		type : 'UPDATE-MENU',
+		playload: state,
+		value: value
+	}
+}
