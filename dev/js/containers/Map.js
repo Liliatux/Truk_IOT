@@ -21,8 +21,14 @@ class Map extends Component {
 			return(
 				<section>
 					<div className="map-container bck-white">
-						<h3 id="titleMap">{this.props.stage.name}</h3>
-						<button id="titleMap" className="circular ui button" onClick={() => this.props.UpdateStage(this.props.stage, !this.props.stage.default)}><i className={this.props.stage.icon}></i></button>
+						<div className="titleMap">
+							<div>
+								<h3>{this.props.stage.name}</h3>
+							</div>
+							<div>
+								<button id="colorPurple" className="circular ui icon button" onClick={() => this.props.UpdateStage(this.props.stage, !this.props.stage.default)}><i className={this.props.stage.icon}></i></button>
+							</div>
+						</div>
 						<svg version="1.1"  width="100%" height="100%" viewBox="0 0 1000 1000"  >
 							{this.props.stage.default ?<Floor>{Parser(this.props.global.floor)}</Floor> : <RDC>{Parser(this.props.global.rdc)}</RDC>}
 						</svg>
