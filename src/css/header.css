@@ -126,14 +126,13 @@
 }
 
 .logo-zone {
-	background-color: #6e358b;
+	background-color: #fff;
+	min-height:15vh;
+	padding-bottom: 5vh;
+	padding-top: 5vh;
 	width:100%;
 }
 
 .centered {
 	width:80%;
-}
-
-.color-purple {
-	color: #6e358b;
 }
