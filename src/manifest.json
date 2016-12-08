@@ -1,0 +1,24 @@
+{
+  "lang": "fr",
+  "dir": "ltr",
+  "name": "Map IOT",
+  "description": "map indoor iot valley",
+  "short_name": "MapIOT",
+  "icons": [{
+    "src": "logo/simplon.png",
+    "sizes": "64x64"
+  }],
+  "scope": "/src/",
+  "start_url": "/src/index.html",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "theme_color": "aliceblue",
+  "background_color": "red",
+  "screenshots": [{
+    "src": "logo/simplon1.png",
+    "sizes": "640x480",
+    "type": "image/jpeg"
+  }
+],
+
+}
