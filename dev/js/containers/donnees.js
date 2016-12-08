@@ -55,11 +55,10 @@ var donnees =
       "Entreprise": "CityMeo",
       "Phone": "05 82 95 44 00",
       "rdc" : "<path d='M530,630 L685,630 L685,780' fill='none' stroke='red' className='animate' strokeWidth='3'></path>",
-      "floor":"<path className='animate' d='M660,770 L630,770 L630,640 L170,640' fill='none'  stroke='red' strokeWidth='10'></path>",
+      "floor":"<path d='M660,770 L630,770 L630,640 L170,640' fill='none'  stroke='red' strokeWidth='10'></path>",
       "Logo": "citymeo.png",
       "Web": "http://citymeo.fr/"
-    }
-
+    },
 
 
 ] ;

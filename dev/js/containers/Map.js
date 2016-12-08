@@ -234,7 +234,7 @@ class Floor extends Component {
 				{this.props.children}
 				<line x1="53.9%" y1="95%" x2="40.1%" y2="95%" stroke="white" strokeWidth="3"/>
 
-				<path className='animate' d='M660,770 L630,770 L630,640 L170,640' fill='none'  stroke='red' strokeWidth='10'></path>
+				
 
 			</svg>
 		)
