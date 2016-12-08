@@ -7,8 +7,7 @@ import {UpdateStage} from '../actions';
 class Map extends Component {
 
 	render(){
-
- 		if(this.props.global.floor === 'none'){
+		if(this.props.global.floor === 'none'){
 			return(
 				<section>
 					<div className="map-container bck-white">
@@ -56,8 +55,8 @@ class RDC extends Component {
 			
 				<rect x="40%" y="20%" width="14%" height="75%"  stroke="black" fill="white" strokeWidth="1.5"/>
 
-				<line x1="54%" y1="95%" x2="35%" y2="95%" stroke="white" strokeWidth="3"/>
-				<line x1="54%" y1="60%" x2="54%" y2="64%" stroke="white" strokeWidth="3"/>
+				<line x1="53.9%" y1="95%" x2="40.05%" y2="95%" stroke="white" strokeWidth="3"/>
+				<line x1="54%" y1="61%" x2="54%" y2="64%" stroke="white" strokeWidth="3"/>
 
 				<rect x="17%" y="20%" width="6%" height="50%" stroke="black"  className="rdc" strokeWidth="1.5"/>
 				<rect x="67%" y="67%" width="17%" height="12%" stroke="#fff"  fill="#fff" strokeWidth="0.001"/>
@@ -110,7 +109,7 @@ class RDC extends Component {
 				<path className="path2" d="M385 25h-6c-1.105 0-2 0.895-2 2v10h2v12h2.5v-12h1v12h2.5v-12h2v-10c0-1.105-0.895-2-2-2z"></path>
 				<path className="path1" d="M535 21c0 1.657-1.343 3-3 3s-3-1.343-3-3c0-1.657 1.343-3 3-3s3 1.343 3 3z"></path>
 				<path className="path2" d="M539.5 33l1.531-1.109-4.165-6.441c-0.185-0.281-0.499-0.45-0.835-0.45h-8c-0.336 0-0.65 0.169-0.835 0.45l-4.165 6.441 1.531 1.109 3.458-4.487 1.202 2.804-4.191 7.683h3.833l0.667 10h2v-10h1v10h2l0.667-10h3.833l-4.191-7.683 1.202-2.804 3.458 4.487z"></path>
-				<path className="red-fill" d="M520 600c-5.523 0-10 4.477-10 10 0 10 10 22 10 22s10-12 10-22c0-5.523-4.477-10-10-10zM520 616c-3.314 0-6-2.686-6-6s2.686-6 6-6 6 2.686 6 6-2.686 6-6 6z"></path>
+				<path className="red-fill" fill="red" d="M520 600c-5.523 0-10 4.477-10 10 0 10 10 22 10 22s10-12 10-22c0-5.523-4.477-10-10-10zM520 616c-3.314 0-6-2.686-6-6s2.686-6 6-6 6 2.686 6 6-2.686 6-6 6z"></path>
 				{this.props.children}
 				<line x1="84%" y1="55%" x2="84%" y2="79%" className="black-stroke" strokeWidth="0.5"/>
 				<line x1="84%" y1="79%" x2="69%" y2="79%" className="black-stroke" strokeWidth="0.5"/>
@@ -159,9 +158,9 @@ class Floor extends Component {
 				<rect x="70%" y="79%" width="9.5%" height="6%"   className="enterprise"   stroke="#000" strokeWidth ="0.5"/>
 				<rect x="79.5%" y="79%" width="5%" height="6%"   className="enterprise"   stroke="#000" strokeWidth ="0.5"/>
 				<rect x="84.5%" y="79%" width="4.5%" height="6%"   className="enterprise"   stroke="#000" strokeWidth ="0.5"/>
-				<rect x="40%" y="20%" width="14%" height="42%" stroke="black"  className="rdc" strokeWidth ="1.5"/>
-				<rect x="40%" y="67%" width="14%" height="28%" stroke="black"  className="rdc" strokeWidth ="1.5"/>
-				<rect x="17%" y="67%" width="6%" height="10%" stroke="black"  className="rdc" strokeWidth ="1.5"/>
+				<rect x="40%" y="20%" width="14%" height="42%" stroke="black"  fill="#fff" strokeWidth ="1.5"/>
+				<rect x="40%" y="67%" width="14%" height="28%" stroke="black"  fill="#fff" strokeWidth ="1.5"/>
+				<rect x="17%" y="67%" width="6%" height="4%" stroke="black"  className="rdc" strokeWidth ="1.5"/>
 				<rect x="17%" y="20%" width="6%" height="42%" stroke="black"  className="rdc" strokeWidth ="1.5"/>
 				<rect x="66%" y="20%" width="15%" height="42%" stroke="black"  className="rdc" strokeWidth ="1.5"/>
 				<rect x="70%" y="67%" width="11%" height="12%" stroke="black"  className="rdc" strokeWidth ="1.5"/>
@@ -222,7 +221,7 @@ class Floor extends Component {
 				<path className="path3" d="M660 810h-6c-1.105 0-2 0.895-2 2v10h2v12h2.5v-12h1v12h2.5v-12h2v-10c0-1.105-0.895-2-2-2z"></path>
 				<path className="path4" d="M679.469 818l1.531-1.109-4.165-6.441c-0.185-0.281-0.499-0.45-0.835-0.45h-8c-0.336 0-0.65 0.169-0.835 0.45l-4.165 6.441 1.531 1.109 3.458-4.487 1.202 2.804-4.191 7.683h3.833l0.667 10h2v-10h1v10h2l0.667-10h3.833l-4.191-7.683 1.202-2.804 3.458 4.487z"></path>
 				{this.props.children}
-				<line x1="54%" y1="95%" x2="40%" y2="95%" stroke="white" strokeWidth="3"/>
+				<line x1="53.9%" y1="95%" x2="40.1%" y2="95%" stroke="white" strokeWidth="3"/>
 			</svg>
 		)
 	}
