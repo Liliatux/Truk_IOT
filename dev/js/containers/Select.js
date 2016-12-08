@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 import {ChangeStatus} from '../actions/index';
-import app from './donnees';
+import donnees from './donnees';
 import {UpdateStage} from '../actions';
 
 class Select extends Component {
@@ -12,7 +12,7 @@ class Select extends Component {
   }
   componentDidMount(){
    this.setState({
-      items: app
+      items: donnees
    })
   }
   update( e ){

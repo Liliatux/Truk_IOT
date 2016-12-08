@@ -18,7 +18,7 @@ export const UpdateStage = (state, value) => {
 }
 
 export const UpdateMenu = (state, value) => {
-	console.log('UPDATE-MENU');
+	console.log('UPDATE-MENU', value);
 	return {
 		type : 'UPDATE-MENU',
 		playload: state,
