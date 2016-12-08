@@ -17,11 +17,15 @@
     <script src="bundle.min.js"></script>
 
 <script>
-	if('serviceWorker' in navigator) {
-  	navigator.serviceWorker
-           .register('/sw.js')
-           .then(function() { console.log("Service Worker Registered"); });
-	}
+	if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw-test/sw.js', { scope: '/sw-test/' }).then(function(reg) {
+
+    console.log('Registration succeeded. Scope is ' + reg.scope);
+  }).catch(function(error) {
+   
+    console.log('Registration failed with ' + error);
+  });
+};
 
 </script>
 </body>
