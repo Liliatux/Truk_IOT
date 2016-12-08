@@ -25,8 +25,9 @@
 }
 
 .animate {
-  stroke-dasharray: 4000;
-  stroke-dashoffset: 4000;
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 2000;
+  stroke-width:10;
   animation: dash 15s linear forwards;
 }
 
