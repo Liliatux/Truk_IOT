@@ -29,6 +29,8 @@
 .footer {
 	
 	background-color: #6e358b;
+	box-shadow: 0 9px 19px grey;
+	margin-top:4vh;
 
 
 }
@@ -80,17 +82,19 @@
 .title {
 	margin-left:5%;
 	font-size: 1.5rem;
+
 }
 
 .information {
-    position: fixed;
+
 	background-color: #6e358b;
 	position: relative;
-	margin-bottom: 10%;
+	padding-bottom: 4vh;
 
 }
 
 .nomEntreprise {
+	padding-top: 2em;
 	color: white;
 	margin-left: 10%;
 	position: relative;
@@ -118,17 +122,17 @@
 	color: white;
 	margin-left: 10%;
 	position: relative;
-<<<<<<< HEAD
-=======
 	padding-bottom: 2%;
 }
 
 .logo-zone {
 	background-color: #fff;
+	min-height:15vh;
+	padding-bottom: 5vh;
+	padding-top: 5vh;
 	width:100%;
 }
 
 .centered {
 	width:80%;
->>>>>>> 7373b698c416c18832c52560a24bb9c13096d2b9
 }

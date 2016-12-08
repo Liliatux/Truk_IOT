@@ -56,7 +56,7 @@ class RDC extends Component {
 				<rect x="40%" y="20%" width="14%" height="75%"  stroke="black" fill="white" strokeWidth="1.5"/>
 
 				<line x1="53.9%" y1="95%" x2="40.05%" y2="95%" stroke="white" strokeWidth="3"/>
-				<line x1="54%" y1="61%" x2="54%" y2="64%" stroke="white" strokeWidth="3"/>
+				<line x1="54%" y1="61%" x2="54%" y2="66%" stroke="white" strokeWidth="3"/>
 
 				<rect x="17%" y="20%" width="6%" height="50%" stroke="black"  className="rdc" strokeWidth="1.5"/>
 				<rect x="67%" y="67%" width="17%" height="12%" stroke="#fff"  fill="#fff" strokeWidth="0.001"/>
@@ -115,8 +115,14 @@ class RDC extends Component {
 				<line x1="84%" y1="79%" x2="69%" y2="79%" className="black-stroke" strokeWidth="0.5"/>
 				<line x1="83%" y1="67%" x2="69%" y2="67%" stroke="#fff" strokeWidth="2"/>
 				<line x1="67%" y1="67%" x2="54%" y2="67%" className="black-stroke" strokeWidth="0.5"/>
-				<line x1="9%" y1="7.1%" x2="34.5%" y2="7.1%" className="black-stroke" strokeWidth="0.5"/>
-				<line x1="9.1%" y1="7.1%" x2="9.1%" y2="11%" className="black-stroke" strokeWidth="0.5"/>
+				<line x1="9.1%" y1="7.2%" x2="34.5%" y2="7.2%" className="black-stroke" strokeWidth="0.5"/>
+				<line x1="9.05%" y1="7.2%" x2="9.05%" y2="11%" className="black-stroke" strokeWidth="0.5"/>
+				 <text x="450" y="660" 
+				        fontSize="25" fill='red'>
+				    Vous êtes ici !
+				</text>
+				
+
 
 			</svg>
 			)
