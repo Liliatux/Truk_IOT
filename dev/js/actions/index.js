@@ -25,3 +25,11 @@ export const UpdateMenu = (state, value) => {
 		value: value
 	}
 }
+
+export const ChangeToogle = (state) => {
+	console.log('CHANGE-TOOGLE');
+	return {
+		type : 'CHANGE-TOOGLE',
+		playload: state
+	}
+}
