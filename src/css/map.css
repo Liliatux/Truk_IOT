@@ -95,3 +95,8 @@
     background-color: #6e358b;
   }
 }
+
+
+#noneButton {
+  display:none;
+}
