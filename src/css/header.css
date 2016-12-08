@@ -133,13 +133,11 @@
 	display:block;
 }
 
-.centered {
-	display:block;
-	margin-left: auto;
-	margin-right: auto;
-}
 
 
 .size-image {
 	width:50%;
+	margin-left: 10%;
+	padding-bottom: 10vh;
+
 }
