@@ -22,35 +22,35 @@ class Header extends Component {
 	}
 
 	componentDidMount(){
-	    this.setState({
-     		 items: donnees 
-  		 })
+		this.setState({
+			items: donnees 
+		})
 	}
 
 	render(){
-	
+
 		let items = this.state.items.map(item => {
-	 		if(item.Logo !== ""){
-	      	  return <img className="ui centered image size-image"src={item.Logo} key={item.Entreprise} onClick={() => this.props.UpdateMenu(this.props.menu, [item.Entreprise, item.Phone, item.Web])} />
-	   		}
-	    });
+			if(item.Logo !== ""){
+				return <img className="ui centered image size-image"src={item.Logo} key={item.Entreprise} onClick={() => this.props.UpdateMenu(this.props.menu, [item.Entreprise, item.Phone, item.Web]) } />
+			}
+		});
 		return (
 			<div className="header">
-				<i className="content big white icon" onClick={() => this.props.ChangeToogle()} ></i>
-				<span className="white title">Map IOT2</span>
-				<span className="white title adresse">231 Rue Pierre et Marie Curie, 31670 Labège</span>
-				<div className={this.props.toogle.active? 'displayBlock slide':'displayNone slide'}>
-					<div className="logo-zone">
-						{items}
-					</div>
-					<div className="information">
-						<h4 className="nomEntreprise">Nom Entreprise : {this.props.menu.name}</h4>
-						<h4 className="numeroTel">Numero de Telephone : {this.props.menu.phone}</h4>
-						<h4 className="web">Site Internet : <a href={this.props.menu.web}>{this.props.menu.web}</a></h4>
-					</div>
-				</div>
+			<i className="content big white icon" onClick={() => this.props.ChangeToogle()} ></i>
+			<span className="white title">Map IOT2</span>
+			<span className="white title adresse">231 Rue Pierre et Marie Curie, 31670 Labège</span>
+			<div className={this.props.toogle.active? 'displayBlock slide':'displayNone slide'}>
+			<div className="logo-zone">
+			{items}
 			</div>
-		);
+			<div className="information">
+			<h4 className="nomEntreprise">Nom Entreprise : {this.props.menu.name}</h4>
+			<h4 className="numeroTel">Numero de Telephone : {this.props.menu.phone}</h4>
+			<h4 className="web">Site Internet : <a href={this.props.menu.web}>{this.props.menu.web}</a></h4>
+			</div>
+			</div>
+			</div>
+			);
 	}
 
 }
@@ -64,7 +64,7 @@ function matchStateToProps(state){
 }
 
 function matchDispatchToProps(dispatch){
-  return bindActionCreators({UpdateMenu: UpdateMenu, ChangeToogle:ChangeToogle}, dispatch);
+	return bindActionCreators({UpdateMenu: UpdateMenu, ChangeToogle:ChangeToogle}, dispatch);
 }
 
 export default connect(matchStateToProps, matchDispatchToProps)(Header);

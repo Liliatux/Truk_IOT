@@ -91,6 +91,7 @@
 }
 
 .information {
+	display: none;
 	
 	background-color: #6e358b;
 	position: relative;

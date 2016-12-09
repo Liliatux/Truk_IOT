@@ -14,12 +14,13 @@
 }
 
 #BtnCall {
-	background-color: green;
-	padding: 0.5em;
-	border: solid green;
-	color:#FFF;
-	border-radius: 5em;
-	font-size: 2rem;
+ outline: none;
+ background-color: green;
+ padding: 0.5em;
+ border: solid green;
+ color:#FFF;
+ border-radius: 5em;
+ font-size: 2rem;
 }
 
 @media screen and (max-width: 600px) {
