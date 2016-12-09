@@ -81,6 +81,22 @@
 
 }
 
+
+
+.adresse {
+
+	padding: 17%;
+}
+
+@media screen and (max-width: 399px) {
+	
+	.title {
+		margin-left:5%;
+		font-size: 1rem;
+
+	}
+}
+
 .information {
 	
 	background-color: #6e358b;

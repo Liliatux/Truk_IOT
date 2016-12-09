@@ -57,7 +57,7 @@ var donnees =
       "floor":"<path d='M660,770 L630,770 L630,640 L170,640' fill='none' className='animate' stroke='red' strokeWidth='5'></path>",
       "Logo": "http://originalgreenwakepark.fr/mapiot/logo/citymeo.png",
       "Web": "http://citymeo.fr/"
-    },
+    }
 
 
 ] ;
