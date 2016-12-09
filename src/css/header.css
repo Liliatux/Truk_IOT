@@ -82,7 +82,7 @@
 }
 
 .information {
-
+	
 	background-color: #6e358b;
 	position: relative;
 	padding-bottom: 70vh;
@@ -122,9 +122,10 @@
 }
 
 .logo-zone {
+	display: none;
 	background-color: #fff;
 	height:25vh;
-	padding-bottom: 5vh;
+	padding-bottom: 60vh;
 	padding-top: 5vh;
 	width:100%;
 	overflow:scroll;
