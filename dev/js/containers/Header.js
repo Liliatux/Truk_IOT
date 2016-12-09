@@ -38,6 +38,7 @@ class Header extends Component {
 			<div className="header">
 				<i className="content big white icon" onClick={() => this.props.ChangeToogle()} ></i>
 				<span className="white title">Map IOT2</span>
+				<span className="white title adresse">231 Rue Pierre et Marie Curie, 31670 Labège</span>
 				<div className={this.props.toogle.active? 'displayBlock slide':'displayNone slide'}>
 					<div className="logo-zone">
 						{items}
