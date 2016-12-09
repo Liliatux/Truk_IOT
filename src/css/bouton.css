@@ -2,6 +2,16 @@
 	text-align: center;
 	margin: 1em;
 }
+#BtnCallNone {
+  cursor: not-allowed;
+  outline: none;
+  background-color: grey;
+  padding: 0.5em;
+  border: solid grey;
+  color:#FFF;
+  border-radius: 5em;
+  font-size: 2rem;
+}
 
 #BtnCall {
 	background-color: green;
