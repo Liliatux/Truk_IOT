@@ -19,7 +19,7 @@
         "type": "image/png"
       }],
   "start_url": "https://liliatux.github.io/Truk_IOT/",
-  "display": "standalone",
+  "display": "fullscreen",
   "background_color": "#6e358b",
   "theme_color": "#6e358b"
 }
