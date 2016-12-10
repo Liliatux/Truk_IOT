@@ -1,32 +1,26 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, height=device-height"/>
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
-    <meta name="mobile-web-app-capable" content="yes">
-    <title>IOT Map</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/semantic.min.css">
-    <link rel="stylesheet" href="./css/main.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, height=device-height"/>
+	<meta name="application-name" content="MapIOT">
+	<title>Map IoT</title>
+	<link rel="icon" sizes="16x16 32x32 48x48" href="src/logo/simplon.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/semantic.min.css">
+	<link rel="stylesheet" href="./css/main.css">
+	<link rel="manifest" href="/manifest.json">
 </head>
 <body>
 
-    <div id="root"></div>
- 
-    <script src="bundle.min.js"></script>
+	<div id="root"></div>
 
-<script>
-	if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('sw.js', { scope: '/Truk_IOT/' }).then(function(reg) {
-
-    console.log('Registration succeeded. Scope is ' + reg.scope);
-  }).catch(function(error) {
-   
-    console.log('Registration failed with ' + error);
-  });
-};
-
+	<script src="bundle.min.js"></script>
+	<script>
+	if('serviceWorker' in navigator) {
+	  navigator.serviceWorker
+	           .register('/sw.js')
+	           .then(function() { console.log("Service Worker Registered"); });
+	}
 </script>
 </body>
 </html>

@@ -1,0 +1,25 @@
+{
+  "name": "IOT 2 Map",
+  "short_name": "IOT 2 Map",
+  "icons": [{
+        "src": "image/icon/favicon.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      }, {
+        "src": "image/icon/favicon.png",
+        "sizes": "152x152",
+        "type": "image/png"
+      }, {
+        "src": "image/icon/favicon.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      }, {
+        "src": "image/icon/favicon.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#6e358b",
+  "theme_color": "#6e358b"
+}
