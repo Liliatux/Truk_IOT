@@ -3,9 +3,9 @@ self.addEventListener('install', e => {
     caches.open('pwa').then(cache => {
       return cache.addAll([
         '/Truk_IOT/',
-        '/Truk_IOT/sw.js',
-        '/Truk_IOT/index.html',
-        '/Truk_IOT/bundle.min.js',
+        'sw.js',
+        'index.html',
+        'bundle.min.js',
         '/css/main.css',
         '/css/bouton.css',
         '/css/header.css',
