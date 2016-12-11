@@ -8,7 +8,7 @@
 	<title>Map IoT</title>
 	<link rel="icon" sizes="16x16 32x32 48x48" href="image/icon/icoiot.ico">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/semantic.min.css">
-	<link rel="stylesheet" href="./css/main.min.css">
+	<link rel="stylesheet" href="css/main.min.css">
 	<link rel="manifest" href="/Truk_IOT/manifest.json">
 
 </head>
@@ -16,8 +16,8 @@
 
 	<div id="root"></div>
 
-	<script src="bundle.min.js" async></script>
-	<script async>
+	<script src="bundle.min.js"></script>
+	<script>
 	if ('serviceWorker' in navigator) {
  		navigator.serviceWorker.register('sw.js', { scope: '/Truk_IOT/' }).then(function(reg) {
  		console.log('Registration succeeded. Scope is ' + reg.scope);
