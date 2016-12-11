@@ -5,14 +5,14 @@ self.addEventListener('install', e => {
           'sw.js',
           'index.html',
           'bundle.min.js',   
-          'css/main.min.css',    
+          'css/main.min.css', 
+          'css/semantic.min.css',   
           'manifest.json'
       ])
       .then(() => self.skipWaiting());
     })
   )
 });
-
 self.addEventListener('fetch', event => {
   event.respondWith(
     caches.match(event.request).then(response => {
