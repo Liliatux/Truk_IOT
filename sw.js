@@ -6,7 +6,7 @@ self.addEventListener('install', e => {
           'index.html',
           'bundle.min.js',
           'bundle.min.js',   
-          'css/main.css',
+          'css/main.min.css',
           'css/bouton.css',
           'css/header.css',
           'css/map.css',
