@@ -7,21 +7,24 @@ class Bouton extends Component {
     if(this.props.global.phone !== 'NC'){
       return (
        <div className="Bouton">
-        <a href={"tel:" + this.props.global.phone}>
-          <button id="BtnCall">
-            <i id="phone" className="call large icon">
-            </i>
-              <span id="nom">
-                {this.props.global.enterprise}
-              </span>
-          </button>
-        </a>
+       <a href={"tel:" + this.props.global.phone}>
+       <button id="BtnCall">
+       <i id="phone" className="call large icon">
+       </i>
+       <span id="nom">
+       {this.props.global.enterprise}
+       </span>
+       </button>
+       </a>
        </div>
        );
     }else {
       return (
-        <div>
-
+        <div className="Bouton">
+        <button id="BtnCallNone">
+        <i id="phone" className="call large icon">
+        </i>
+        </button>
         </div>
         );
     }
