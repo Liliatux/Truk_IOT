@@ -5,7 +5,7 @@ self.addEventListener('install', e => {
           'sw.js',
           'index.html',
           'js/bundle.min.js',   
-          'css/main.min.css',   
+          'css/main.min.css', 
           'manifest.json'
       ])
       .then(() => self.skipWaiting());
