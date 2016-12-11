@@ -4,8 +4,8 @@ self.addEventListener('install', e => {
       return cache.addAll([
           'sw.js',
           'index.html',
-          'bundle.min.js',
-          'css/main.min.css',    
+          'bundle.min.js',  
+          'css/main.min.css',
       ])
       .then(() => self.skipWaiting());
     })
