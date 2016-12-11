@@ -4,7 +4,7 @@ self.addEventListener('install', e => {
       return cache.addAll([
           'sw.js',
           'index.html',
-          'bundle.min.js',   
+          'js/bundle.min.js',   
           'css/main.min.css', 
           'css/semantic.min.css',   
           'manifest.json'
