@@ -10,7 +10,6 @@
 	<script>function loadCSS(e,t,n){"use strict";function r(){for(var t,i=0;i<d.length;i++)d[i].href&&d[i].href.indexOf(e)>-1&&(t=!0);t?o.media=n||"all":setTimeout(r)}var o=window.document.createElement("link"),i=t||window.document.getElementsByTagName("script")[0],d=window.document.styleSheets;return o.rel="stylesheet",o.href=e,o.media="only x",i.parentNode.insertBefore(o,i),r(),o}</script>
 	<script>
     loadCSS( "css/main.min.css" );
-    loadCSS( "css/semantic.css");
 	</script>
 	<link rel="manifest" href="/Truk_IOT/manifest.json">
 </head>
@@ -27,10 +26,6 @@
  	};
 
 	 window.addEventListener('beforeinstallprompt', function(e) {
-	  // beforeinstallprompt Event fired
-
-	  // e.userChoice will return a Promise.
-	  // For more details read: https://developers.google.com/web/fundamentals/getting-started/primers/promises
 	  e.userChoice.then(function(choiceResult) {
 
 	    console.log(choiceResult.outcome);
