@@ -57,10 +57,6 @@
 @keyframes dash {
   to {
     stroke-dashoffset: 1; } }
-.svg {
-  margin-top: 0;
-  padding-top: 0; }
-
 .green-line {
   stroke: green;
   stroke-width: 0.5; }
@@ -86,40 +82,18 @@
   justify-content: space-between;
   padding: 1em; }
 
-#colorPurple {
-  background-color: #6e358b;
-  animation-name: stretch;
-  animation-duration: 1.5s;
-  animation-timing-function: ease-out;
-  animation-delay: 0;
-  animation-direction: alternate;
-  animation-iteration-count: infinite;
-  animation-fill-mode: none;
-  animation-play-state: running; }
-
-@keyframes stretch {
-  0% {
-    transform: scale(0.8);
-    background-color: #6e358b;
-    border-radius: 100%; }
-  50% {
-    background-color: #6e358b; }
-  100% {
-    transform: scale(1);
-    background-color: #6e358b; } }
-#noneButton {
-  display: none; }
-
 .bouton {
-  margin: 1em; }
+  margin: 1em;
+  position: fixed;
+  background-color: white; }
 
 .btnCallNone {
   cursor: not-allowed;
   outline: none;
   background-color: #999;
-  padding: 0.5em;
+  padding: 1em;
   border: solid #999;
-  border-radius: 5em; }
+  border-radius: 2em; }
 
 .btnCall {
   outline: none;
