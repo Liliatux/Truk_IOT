@@ -112,7 +112,6 @@
 
 .bouton {
   margin: 1em;
-  position: fixed;
   background-color: white; }
 
 .btnCallNone {
@@ -129,6 +128,10 @@
   padding: 1.5em;
   border: solid green;
   border-radius: 5em; }
+
+.nom {
+  font-size: 2rem;
+  margin-left: 1em; }
 
 @media screen and (max-width: 600px) {
   .nom {
