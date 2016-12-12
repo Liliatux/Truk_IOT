@@ -31,12 +31,6 @@
   }
 }
 
-
-.svg{
-	margin-top:0;
-	padding-top:0;
-}
-
 .green-line {
 	stroke: green; 
 	stroke-width: 0.5;
@@ -69,6 +63,10 @@
 }
 
 #colorPurple {
+  outline: none;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
   background-color: #6e358b;
   animation-name: stretch;
   animation-duration: 1.5s; 
