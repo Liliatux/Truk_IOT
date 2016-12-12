@@ -22,8 +22,8 @@ class Map extends Component {
 				<section>
 					<div className="map-container bck-white">
 						<div className="titleMap">
-							<div>
-								<h3>{this.props.stage.name}</h3>
+							<div className="titleDivMap">
+								<h5>{this.props.stage.name}</h5>
 							</div>
 							<div>
 								<button id='colorPurple'className='circular ui icon button'

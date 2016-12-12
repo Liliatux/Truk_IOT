@@ -71,16 +71,18 @@
 .little-stroke {
   stroke-width: 0.5; }
 
+.titleDivMap {
+  margin-top: 0; }
+
 .map-container {
   margin: 2vh;
   padding: 2vh;
-  box-shadow: 3px 3px 1em #656565;
   background-color: #fff; }
 
 .titleMap {
+  height: 3em;
   display: flex;
-  justify-content: space-between;
-  padding: 1em; }
+  justify-content: space-between; }
 
 #colorPurple {
   outline: none;
@@ -111,23 +113,21 @@
   display: none; }
 
 .bouton {
-  margin: 1em;
-  background-color: white; }
+  margin: 1em; }
+
+.btn {
+  padding: 1.5em;
+  border-radius: 5em;
+  outline: none; }
 
 .btnCallNone {
   cursor: not-allowed;
-  outline: none;
   background-color: #999;
-  padding: 1.5em;
-  border: solid #999;
-  border-radius: 2em; }
+  border: solid #999; }
 
 .btnCall {
-  outline: none;
   background-color: green;
-  padding: 1.5em;
-  border: solid green;
-  border-radius: 5em; }
+  border: solid green; }
 
 .nom {
   font-size: 2rem;
