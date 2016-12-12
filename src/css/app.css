@@ -3,7 +3,6 @@
   width: 100%;
   margin: 0;
   padding-top: 1vh;
-  padding-bottom: 1vh;
   box-shadow: 0 0 1em black;
   text-align: center; }
 
@@ -155,4 +154,6 @@ body {
   color: #fff; }
 
 .size {
-  font-size: 1.5rem; }
+  font-size: 1rem; }
+
+/*# sourceMappingURL=app.css.map */
