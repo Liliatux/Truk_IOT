@@ -4,16 +4,17 @@
 	padding-bottom: 2vh;
 }
 
+.vertical-align {
+	display: block;
+}
+
 .selectTel {
-	height: 1.5em;
+	padding: 0.5em;
 	background-color: white;
 	border-color: #6e358b;
-	font-size: 1.5rem;
 	border-radius: 0.3em;
 	outline: none; 
 	cursor: pointer;
-
-
 }
 
 .item {
