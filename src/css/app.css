@@ -2,19 +2,19 @@
   background-color: #6e358b;
   width: 100%;
   margin: 0;
-  padding-top: 1vh;
-  padding-bottom: 1vh;
+  padding: 0.1vh;
   box-shadow: 0 0 1em black; }
 
 .Select {
-  padding-top: 15vh;
+  padding-top: 2vh;
   padding-bottom: 2vh; }
 
 .labelSelect {
   font-weight: bold; }
 
 .selectTel {
-  width: 100%;
+  margin: 0 auto;
+  width: 60%;
   color: #999;
   font-weight: 700;
   background-color: #fff;
@@ -144,7 +144,7 @@ body {
   color: #fff; }
 
 .size {
-  font-size: 2rem; }
+  font-size: 1rem; }
 
 .center {
   text-align: center; }

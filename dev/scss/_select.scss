@@ -5,7 +5,7 @@ $vertical: block;
 $none: none;
 
 .Select {
-	padding-top: 15vh;
+	padding-top: 2vh;
 	padding-bottom: 2vh;
 }
 
@@ -14,7 +14,8 @@ $none: none;
 }
 
 .selectTel {
-	width: 100%;
+	margin: 0 auto;
+	width: 60%;
     color: $color-grey;
     font-weight: 700;
     background-color: $background-white;
