@@ -10,7 +10,7 @@
 }
 
 .selectTel {
-	width: 100%;
+	width: 40%;
     height: 60px;
     line-height: 60px;
     color: #999;
@@ -21,6 +21,7 @@
     padding: 0.3em;
     position: relative;
     cursor: pointer;
+    margin-top: 1em;
 
 }
 

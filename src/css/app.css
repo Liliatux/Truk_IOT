@@ -73,7 +73,9 @@
 		display: block;
 		padding: 0.3em;
 		position: relative;
-		cursor: pointer; }
+		cursor: pointer; 
+		margin-top: 1em;
+		}
 
 		.labelSelect {
 		font-weight: bold;
