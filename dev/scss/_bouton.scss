@@ -1,8 +1,8 @@
-.Bouton {
+.bouton {
 	text-align: center;
 	margin: 1em;
 }
-#BtnCallNone {
+.btnCallNone {
   cursor: not-allowed;
   outline: none;
   background-color: grey;
@@ -13,7 +13,7 @@
   font-size: 2rem;
 }
 
-#BtnCall {
+.btnCall {
  outline: none;
  background-color: green;
  padding: 0.5em;
