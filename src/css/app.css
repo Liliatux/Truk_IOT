@@ -57,10 +57,6 @@
 @keyframes dash {
   to {
     stroke-dashoffset: 1; } }
-.svg {
-  margin-top: 0;
-  padding-top: 0; }
-
 .green-line {
   stroke: green;
   stroke-width: 0.5; }
@@ -81,7 +77,6 @@
 .map-container {
   margin: 2vh;
   padding: 2vh;
-  box-shadow: 3px 3px 1em #656565;
   background-color: #fff; }
 
 .titleMap {
@@ -124,16 +119,20 @@
   cursor: not-allowed;
   outline: none;
   background-color: #999;
-  padding: 0.5em;
+  padding: 1.5em;
   border: solid #999;
-  border-radius: 5em; }
+  border-radius: 2em; }
 
 .btnCall {
   outline: none;
   background-color: green;
-  padding: 0.5em;
+  padding: 1.5em;
   border: solid green;
   border-radius: 5em; }
+
+.nom {
+  font-size: 2rem;
+  margin-left: 1em; }
 
 @media screen and (max-width: 600px) {
   .nom {
@@ -152,7 +151,8 @@ body {
   color: #fff; }
 
 .size {
-  font-size: 1rem; }
+  font-size: 1rem;
+  padding: 1rem; }
 
 .center {
   text-align: center; }

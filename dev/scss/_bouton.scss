@@ -3,23 +3,29 @@ $color-green: green;
 $none: none;
 
 .bouton {
-	margin: 1em;
+  margin: 1em;
 }
+
 .btnCallNone {
   cursor: not-allowed;
   outline: $none;
   background-color: $color-grey;
-  padding: 0.5em;
+  padding: 1.5em;
   border: solid $color-grey;
-  border-radius: 5em;
+  border-radius: 2em;
 }
 
 .btnCall {
  outline: $none;
  background-color: $color-green;
- padding: 0.5em;
+ padding: 1.5em;
  border: solid $color-green;
  border-radius: 5em;
+}
+
+.nom {
+  font-size: 2rem;
+  margin-left: 1em;
 }
 
 @media screen and (max-width: 600px) {
