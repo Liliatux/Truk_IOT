@@ -10,20 +10,21 @@ $none: none;
 }
 
 .labelSelect {
-  font-weight: bold;
+	font-weight: bold;
+	font-size: 30px;
 }
 
 .selectTel {
 	margin: 0 auto;
 	width: 60%;
-    color: $color-grey;
-    font-weight: 700;
-    border-color: $color-IOT;
-    background-color: $background-white;
-    display: $vertical;
-    padding: 0.3em;
-    position: relative;
-    cursor: pointer;
+	color: $color-grey;
+	font-weight: 700;
+	border-color: $color-IOT;
+	background-color: $background-white;
+	display: $vertical;
+	padding: 0.3em;
+	position: relative;
+	cursor: pointer;
 }
 
 .vertical-align {
