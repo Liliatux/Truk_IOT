@@ -27,7 +27,7 @@ class Select extends Component {
     });
     
     return(
-      <div className="Select">
+      <div className="Select center">
         <div className="vertical-align">
           <label className="labelSelect size" htmlFor='select-enterprise'>Choix entreprises</label>
         </div>
