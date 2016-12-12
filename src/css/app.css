@@ -57,10 +57,6 @@
 @keyframes dash {
   to {
     stroke-dashoffset: 1; } }
-.svg {
-  margin-top: 0;
-  padding-top: 0; }
-
 .green-line {
   stroke: green;
   stroke-width: 0.5; }
@@ -115,7 +111,8 @@
   display: none; }
 
 .bouton {
-  margin: 1em; }
+  margin: 1em;
+  background-color: white; }
 
 .btnCallNone {
   cursor: not-allowed;
@@ -123,7 +120,7 @@
   background-color: #999;
   padding: 1.5em;
   border: solid #999;
-  border-radius: 5em; }
+  border-radius: 2em; }
 
 .btnCall {
   outline: none;
@@ -131,6 +128,10 @@
   padding: 1.5em;
   border: solid green;
   border-radius: 5em; }
+
+.nom {
+  font-size: 2rem;
+  margin-left: 1em; }
 
 @media screen and (max-width: 600px) {
   .nom {
