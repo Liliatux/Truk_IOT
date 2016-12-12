@@ -1,62 +1,84 @@
 $background-white: #fff;
 
-.reunion{
-	fill: #ffbbd6;
+
+.train {
+	stroke: black; 
+	stroke-width: 1.5;
 }
 
-.enterprise {
-	fill : #84B1ED;
+.border-map {
+	stroke: black; 
+	stroke-width: 1.5;
 }
 
-.rdc {
-	fill : grey;
+.border-int {
+	stroke: black; 
+	stroke-width: 2;
 }
 
-.join {
-	fill:  #228b22;
+.couloir {
+	stroke:#d6ecfa;
+	stroke-width: 25;
 }
 
-.sanitaire{
-	fill: #f8ecc9;
+.couloir-min {
+	stroke:#d6ecfa;
+	stroke-width: 18;
 }
 
-.animate {
-  stroke-dasharray: 2000;
-  stroke-dashoffset: 2000;
-  stroke-width:10;
-  animation: dash 15s linear forwards;
+.large-haut {
+	stroke-width: 50;
 }
 
-@keyframes dash {
-  to {
-    stroke-dashoffset: 1;
-  }
+.large-bas {
+	stroke-width: 40;
+}
+.entreprise {
+    stroke:#000;
+ 	stroke-width:1;
+ 	fill:#fff;
 }
 
-.green-line {
-	stroke: green; 
-	stroke-width: 0.5;
+.escalier {
+	stroke:green;
+	stroke-width:1.5;
 }
 
-.white-border {
-  stroke: #000; 
-  stroke-width:"0.5";
+.jardin {
+	fill:#fff;
+	stroke:#000;
+ 	stroke-width:1;
 }
 
-.black-stroke {
-  stroke:#000;
+.accenseur {
+	stroke:red;
+	stroke-width:1.5;
 }
 
-.little-stroke {
-  stroke-width:0.5;
+.parking {
+	stroke:blue;
+	stroke-width:4; 
+	fill:blue;
 }
+
+.parking-border {
+	stroke:#fff;
+	stroke-width:4; 
+	fill:blue;
+}
+
+.parking-text {
+	fill:#fff; 
+	font-family:Verdana;
+	font-size:30px;
+}
+
 
 .titleDivMap {
   margin-top: 0;
 }
 .map-container {
-  margin: 2vh;
-  padding: 2vh;
+
   background-color: $background-white;
 }
 
@@ -96,9 +118,4 @@ $background-white: #fff;
     transform: scale(1);
     background-color: #6e358b;
   }
-}
-
-
-#noneButton {
-  display:none;
 }
