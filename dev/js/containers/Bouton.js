@@ -10,7 +10,6 @@ class Bouton extends Component {
            <a href={"tel:" + this.props.global.phone}>
              <button className="btn btnCall white">
                <i className="fa fa-phone fa-3x"></i>
-               <span className="nom">{this.props.global.enterprise}</span>
              </button>
            </a>
        </div>

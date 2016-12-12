@@ -121,21 +121,18 @@
   outline: none; }
 
 .btnCallNone {
+  height: 6em;
+  width: 10em;
   cursor: not-allowed;
   background-color: #999;
   border: solid #999; }
 
 .btnCall {
+  height: 6em;
+  width: 10em;
   background-color: green;
   border: solid green; }
 
-.nom {
-  font-size: 2rem;
-  margin-left: 1em; }
-
-@media screen and (max-width: 600px) {
-  .nom {
-    display: none; } }
 body {
   margin: 0 auto;
   background-color: #efefef;
