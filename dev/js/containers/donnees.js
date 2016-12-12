@@ -2,13 +2,6 @@ var donnees =
 
  [ 
     {
-      "Entreprise": "Choix entreprise",
-      "Phone": "NC",
-      "rdc" : "",
-      "floor" : "start",
-    },
-
-    {
       "Entreprise": "Mobirider ",
       "Phone": "05 82 08 07 49",
       "rdc" : "<path d='M530,630 L685,630 L685,100 L102,100 L102,450 L110,450' fill='none' stroke='red' className='animate' strokeWidth='10'></path> <rect x='11%' y='35%' width='6%' height='16%'  className='' fill='#228b22' stroke='#000' strokeWidth='0.5' />",
