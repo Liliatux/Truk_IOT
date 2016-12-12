@@ -6,21 +6,21 @@ $none: none;
   margin: 1em;
 }
 
+.btn {
+  padding: 1.5em;
+  border-radius: 5em;
+  outline: $none;
+  
+}
 .btnCallNone {
   cursor: not-allowed;
-  outline: $none;
   background-color: $color-grey;
-  padding: 1.5em;
   border: solid $color-grey;
-  border-radius: 2em;
 }
 
 .btnCall {
- outline: $none;
  background-color: $color-green;
- padding: 1.5em;
  border: solid $color-green;
- border-radius: 5em;
 }
 
 .nom {

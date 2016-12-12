@@ -115,20 +115,19 @@
 .bouton {
   margin: 1em; }
 
+.btn {
+  padding: 1.5em;
+  border-radius: 5em;
+  outline: none; }
+
 .btnCallNone {
   cursor: not-allowed;
-  outline: none;
   background-color: #999;
-  padding: 1.5em;
-  border: solid #999;
-  border-radius: 2em; }
+  border: solid #999; }
 
 .btnCall {
-  outline: none;
   background-color: green;
-  padding: 1.5em;
-  border: solid green;
-  border-radius: 5em; }
+  border: solid green; }
 
 .nom {
   font-size: 2rem;
@@ -151,8 +150,7 @@ body {
   color: #fff; }
 
 .size {
-  font-size: 1rem;
-  padding: 1rem; }
+  font-size: 1rem; }
 
 .center {
   text-align: center; }
