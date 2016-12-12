@@ -55,6 +55,9 @@
   stroke-width:0.5;
 }
 
+.titleDivMap {
+  margin-top: 0;
+}
 .map-container {
   margin: 2vh;
   padding: 2vh;
@@ -63,9 +66,9 @@
 }
 
 .titleMap {
+  height: 3em;
   display: flex;
   justify-content: space-between;
-  padding: 1em;
 }
 
 #colorPurple {
