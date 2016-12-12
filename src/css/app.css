@@ -133,7 +133,9 @@ body {
   margin: 0 auto; }
 
 .content {
-  width: 95%; }
+  width: 95%;
+  margin-right: auto;
+  margin-left: auto; }
 
 .white {
   color: #fff; }
