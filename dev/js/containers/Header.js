@@ -28,7 +28,7 @@ class Header extends Component {
 		
 		return (
 			<div className="header">
-				<h1 className="white title">231 Rue Pierre et Marie Curie, 31670 Labège</h1>
+				<h1 className="white size">231 Rue Pierre et Marie Curie, 31670 Labège</h1>
 			</div>
 		
 		);
