@@ -19,7 +19,7 @@ class Bouton extends Component {
       return (
         <div className="bouton center">
           <button className="btnCallNone size white">
-            <i id="phone" className="phoneIcone">
+            <i id="phone" className="fa fa-phone">
             </i>
           </button>
         </div>
