@@ -7,13 +7,12 @@ $none: none;
 }
 
 .btn {
-	padding: 1.5em;
+	padding: 1em;
 	border-radius: 5em;
 	outline: $none;
-	height: 6em;
-	width: 10em;
-
+	width: 40%;
 }
+
 .btnCallNone {
 	cursor: not-allowed;
 	background-color: $color-grey;

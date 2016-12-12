@@ -1,3 +1,5 @@
+$background-white: #fff;
+
 .reunion{
 	fill: #ffbbd6;
 }
@@ -55,7 +57,7 @@
 .map-container {
   margin: 2vh;
   padding: 2vh;
-  background-color: #fff;
+  background-color: $background-white;
 }
 
 .titleMap {
