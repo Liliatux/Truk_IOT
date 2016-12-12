@@ -1,79 +1,9 @@
+$color-IOT: #6e358b;
+
 .header {
-	background-color: #6e358b;
+	background-color: $color-IOT;
 	width:100%;
 	margin:0;
-	padding-top:1vh;
-	padding-bottom:1vh;
+	padding: 0.1vh;
 	box-shadow: 0 0 1em black;
-	text-align:center;
-}
-
-
-
-.title {
-	font-size: 1.5rem;
-}
-
-
-
-.information {
-	display: none;
-	
-	background-color: #6e358b;
-	position: relative;
-	padding-bottom: 60vh;
-
-}
-
-.nomEntreprise {
-	padding-top: 2em;
-	color: white;
-	margin-left: 10%;
-	position: relative;
-}
-
-
-
-.numeroTel {
-
-	color: white;
-	margin-left:10%;
-	position: relative;
-
-}
-
-.web {
-	color: white;
-	margin-left: 10%;
-	position: relative;
-}
-
-.mail {
-
-	color: white;
-	margin-left: 10%;
-	position: relative;
-	padding-bottom: 2%;
-}
-
-.logo-zone {
-	display: none;
-	background-color: #fff;
-	height:25vh;
-	padding-bottom: 60vh;
-	padding-top: 5vh;
-	width:100%;
-	overflow:scroll;
-	display:block;
-}
-
-.centered {
-	display:block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-
-.size-image {
-	width:50%;
 }

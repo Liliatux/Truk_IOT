@@ -1,24 +1,37 @@
+$background-white: #fff;
+$color-grey: #999;
+$color-IOT: #6e358b;
+$vertical: block;
+$none: none;
+
 .Select {
-	text-align: center;
 	padding-top: 2vh;
 	padding-bottom: 2vh;
 }
 
+.labelSelect {
+  font-weight: bold;
+}
+
 .selectTel {
-	height: 1.5em;
-	background-color: white;
-	border-color: #6e358b;
-	font-size: 1.5rem;
-	border-radius: 0.3em;
-	outline: none; 
-	cursor: pointer;
+	margin: 0 auto;
+	width: 60%;
+    color: $color-grey;
+    font-weight: 700;
+    background-color: $background-white;
+    display: $vertical;
+    padding: 0.3em;
+    position: relative;
+    cursor: pointer;
+}
 
-
+.vertical-align {
+	display: $vertical;
 }
 
 .item {
-	background-color:white;
-	border-style: none;
-	outline: none;
+	background-color: $background-white;
+	border-style: $none;
+	outline: $none;
 	cursor: pointer;
 }

@@ -2,76 +2,32 @@
   background-color: #6e358b;
   width: 100%;
   margin: 0;
-  padding-top: 1vh;
-  padding-bottom: 1vh;
-  box-shadow: 0 0 1em black;
-  text-align: center; }
-
-.title {
-  font-size: 1.5rem; }
-
-.information {
-  display: none;
-  background-color: #6e358b;
-  position: relative;
-  padding-bottom: 60vh; }
-
-.nomEntreprise {
-  padding-top: 2em;
-  color: white;
-  margin-left: 10%;
-  position: relative; }
-
-.numeroTel {
-  color: white;
-  margin-left: 10%;
-  position: relative; }
-
-.web {
-  color: white;
-  margin-left: 10%;
-  position: relative; }
-
-.mail {
-  color: white;
-  margin-left: 10%;
-  position: relative;
-  padding-bottom: 2%; }
-
-.logo-zone {
-  display: none;
-  background-color: #fff;
-  height: 25vh;
-  padding-bottom: 60vh;
-  padding-top: 5vh;
-  width: 100%;
-  overflow: scroll;
-  display: block; }
-
-.centered {
-  display: block;
-  margin-left: auto;
-  margin-right: auto; }
-
-.size-image {
-  width: 50%; }
+  padding: 0.1vh;
+  box-shadow: 0 0 1em black; }
 
 .Select {
-  text-align: center;
   padding-top: 2vh;
   padding-bottom: 2vh; }
 
+.labelSelect {
+  font-weight: bold; }
+
 .selectTel {
-  height: 1.5em;
-  background-color: white;
-  border-color: #6e358b;
-  font-size: 1.5rem;
-  border-radius: 0.3em;
-  outline: none;
+  margin: 0 auto;
+  width: 60%;
+  color: #999;
+  font-weight: 700;
+  background-color: #fff;
+  display: block;
+  padding: 0.3em;
+  position: relative;
   cursor: pointer; }
 
+.vertical-align {
+  display: block; }
+
 .item {
-  background-color: white;
+  background-color: #fff;
   border-style: none;
   outline: none;
   cursor: pointer; }
@@ -154,30 +110,25 @@
   display: none; }
 
 .bouton {
-  text-align: center;
   margin: 1em; }
 
 .btnCallNone {
   cursor: not-allowed;
   outline: none;
-  background-color: grey;
+  background-color: #999;
   padding: 0.5em;
-  border: solid grey;
-  color: #FFF;
-  border-radius: 5em;
-  font-size: 2rem; }
+  border: solid #999;
+  border-radius: 5em; }
 
 .btnCall {
   outline: none;
   background-color: green;
   padding: 0.5em;
   border: solid green;
-  color: #FFF;
-  border-radius: 5em;
-  font-size: 2rem; }
+  border-radius: 5em; }
 
 @media screen and (max-width: 600px) {
-  #nom {
+  .nom {
     display: none; } }
 body {
   margin: 0 auto;
@@ -191,5 +142,11 @@ body {
 
 .white {
   color: #fff; }
+
+.size {
+  font-size: 1rem; }
+
+.center {
+  text-align: center; }
 
 /*# sourceMappingURL=app.css.map */

@@ -27,8 +27,9 @@ class Header extends Component {
 	render(){
 		
 		return (
-			<div className="header">
-				<h1 className="white title">231 Rue Pierre et Marie Curie, 31670 Labège</h1>
+			<div className="header center">
+			    <h1 className="white size">IOT 2</h1>
+				<h1 className="white size">231 Rue Pierre et Marie Curie 31670 Labège</h1>
 			</div>
 		
 		);

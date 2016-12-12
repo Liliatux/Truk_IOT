@@ -1,31 +1,29 @@
+$color-grey: #999;
+$color-green: green;
+$none: none;
+
 .bouton {
-	text-align: center;
 	margin: 1em;
 }
 .btnCallNone {
   cursor: not-allowed;
-  outline: none;
-  background-color: grey;
+  outline: $none;
+  background-color: $color-grey;
   padding: 0.5em;
-  border: solid grey;
-  color:#FFF;
+  border: solid $color-grey;
   border-radius: 5em;
-  font-size: 2rem;
 }
 
 .btnCall {
- outline: none;
- background-color: green;
+ outline: $none;
+ background-color: $color-green;
  padding: 0.5em;
- border: solid green;
- color:#FFF;
+ border: solid $color-green;
  border-radius: 5em;
- font-size: 2rem;
 }
 
 @media screen and (max-width: 600px) {
-	#nom {
-		display: none;
+	.nom {
+		display: $none;
 	}
 }
-
