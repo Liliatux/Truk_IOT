@@ -130,13 +130,9 @@
   border: solid green; }
 
 body {
-  margin: 0 auto;
-  background-color: #efefef;
-  font-size: 18px; }
+  margin: 0 auto; }
 
 .content {
-  margin-left: auto;
-  margin-right: auto;
   width: 95%; }
 
 .white {
