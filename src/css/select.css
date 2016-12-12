@@ -1,6 +1,6 @@
 .Select {
 	text-align: center;
-	padding-top: 2vh;
+	padding-top: 15vh;
 	padding-bottom: 2vh;
 }
 
@@ -22,10 +22,6 @@
     position: relative;
     cursor: pointer;
 
-
-
-.vertical-align {
-	display: block;
 }
 
 .item {
