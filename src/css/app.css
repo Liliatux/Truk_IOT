@@ -16,7 +16,7 @@
   margin: 0 auto;
   width: 60%;
   font-weight: 700;
-  color: #999;
+  color: #6e358b;
   border: solid 1px #6e358b;
   outline: none;
   background-color: #fff;
@@ -130,14 +130,12 @@
   border: solid green; }
 
 body {
-  margin: 0 auto;
-  background-color: #efefef;
-  font-size: 18px; }
+  margin: 0 auto; }
 
 .content {
-  margin-left: auto;
+  width: 95%;
   margin-right: auto;
-  width: 95%; }
+  margin-left: auto; }
 
 .white {
   color: #fff; }
