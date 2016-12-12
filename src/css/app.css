@@ -82,6 +82,34 @@
   justify-content: space-between;
   padding: 1em; }
 
+#colorPurple {
+  outline: none;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  background-color: #6e358b;
+  animation-name: stretch;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running; }
+
+@keyframes stretch {
+  0% {
+    transform: scale(0.8);
+    background-color: #6e358b;
+    border-radius: 100%; }
+  50% {
+    background-color: #6e358b; }
+  100% {
+    transform: scale(1);
+    background-color: #6e358b; } }
+#noneButton {
+  display: none; }
+
 .bouton {
   margin: 1em;
   position: fixed;
@@ -91,14 +119,14 @@
   cursor: not-allowed;
   outline: none;
   background-color: #999;
-  padding: 1em;
+  padding: 1.5em;
   border: solid #999;
   border-radius: 2em; }
 
 .btnCall {
   outline: none;
   background-color: green;
-  padding: 0.5em;
+  padding: 1.5em;
   border: solid green;
   border-radius: 5em; }
 
