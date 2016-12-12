@@ -1,0 +1,33 @@
+.Select {
+	text-align: center;
+	padding-top: 15vh;
+	padding-bottom: 2vh;
+}
+
+.labelSelect {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.selectTel {
+	width: 40%;
+    height: 60px;
+    line-height: 60px;
+    color: #999;
+    font-weight: 700;
+    font-size: 24px;
+    background: #fff;
+    display: block;
+    padding: 0.3em;
+    position: relative;
+    cursor: pointer;
+    margin-top: 1em;
+
+}
+
+.item {
+	background-color:white;
+	border-style: none;
+	outline: none;
+	cursor: pointer;
+}
