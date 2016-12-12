@@ -6,9 +6,9 @@ class Bouton extends Component {
 	render() {
     if(this.props.global.phone !== 'NC'){
       return (
-       <div className="bouton">
+       <div className="bouton center">
            <a href={"tel:" + this.props.global.phone}>
-             <button className="btnCall">
+             <button className="btnCall white size">
                <i id="phone" className="fa fa-phone"></i>
                <span className="nom">{this.props.global.enterprise}</span>
              </button>
@@ -17,9 +17,9 @@ class Bouton extends Component {
        );
     }else {
       return (
-        <div className="bouton">
-          <button className="btnCallNone">
-            <i id="phone" className="phoneIcone">
+        <div className="bouton center">
+          <button className="btnCallNone size white">
+            <i id="phone" className="fa fa-phone">
             </i>
           </button>
         </div>
