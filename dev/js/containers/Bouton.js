@@ -9,7 +9,7 @@ class Bouton extends Component {
        <div className="bouton">
            <a href={"tel:" + this.props.global.phone}>
              <button className="btnCall">
-               <i id="phone" className="call large icon"></i>
+               <i id="phone" className="phoneIcone"></i>
                <span className="nom">{this.props.global.enterprise}</span>
              </button>
            </a>
@@ -19,7 +19,7 @@ class Bouton extends Component {
       return (
         <div className="bouton">
           <button className="btnCallNone">
-            <i id="phone" className="call large icon">
+            <i id="phone" className="phoneIcone">
             </i>
           </button>
         </div>
