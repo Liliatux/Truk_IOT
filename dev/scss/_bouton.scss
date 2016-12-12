@@ -3,22 +3,26 @@ $color-green: green;
 $none: none;
 
 .bouton {
-  margin: 1em;
+	margin: 1em;
 }
 
 .btn {
-  padding: 1.5em;
-  border-radius: 5em;
-  outline: $none;
-  
+	padding: 1.5em;
+	border-radius: 5em;
+	outline: $none;
+
 }
 .btnCallNone {
-  cursor: not-allowed;
-  background-color: $color-grey;
-  border: solid $color-grey;
+	height: 6em;
+	width: 10em;
+	cursor: not-allowed;
+	background-color: $color-grey;
+	border: solid $color-grey;
 }
 
 .btnCall {
- background-color: $color-green;
- border: solid $color-green;
+	height: 6em;
+	width: 10em;
+	background-color: $color-green;
+	border: solid $color-green;
 }
