@@ -15,23 +15,22 @@
 .selectTel {
   margin: 0 auto;
   width: 60%;
-  color: #999;
   font-weight: 700;
-  border-color: #6e358b;
+  color: #999;
+  border: solid 1px #6e358b;
+  outline: none;
   background-color: #fff;
   display: block;
   padding: 0.3em;
-  position: relative;
-  cursor: pointer; }
+  position: relative; }
 
 .vertical-align {
   display: block; }
 
 .item {
   background-color: #fff;
-  border-style: none;
-  outline: none;
-  cursor: pointer; }
+  border: solid 1px #6e358b;
+  outline: none; }
 
 .reunion {
   fill: #ffbbd6; }
@@ -116,20 +115,17 @@
   margin: 1em; }
 
 .btn {
-  padding: 1.5em;
+  padding: 1em;
   border-radius: 5em;
-  outline: none; }
+  outline: none;
+  width: 40%; }
 
 .btnCallNone {
-  height: 6em;
-  width: 10em;
   cursor: not-allowed;
   background-color: #999;
   border: solid #999; }
 
 .btnCall {
-  height: 6em;
-  width: 10em;
   background-color: green;
   border: solid green; }
 

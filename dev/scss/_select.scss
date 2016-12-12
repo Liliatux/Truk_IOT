@@ -16,14 +16,14 @@ $none: none;
 .selectTel {
 	margin: 0 auto;
 	width: 60%;
-    color: $color-grey;
     font-weight: 700;
-    border-color: $color-IOT;
+    color: $color-grey;
+    border: solid 1px $color-IOT;
+    outline: $none;
     background-color: $background-white;
     display: $vertical;
     padding: 0.3em;
     position: relative;
-    cursor: pointer;
 }
 
 .vertical-align {
@@ -32,7 +32,6 @@ $none: none;
 
 .item {
 	background-color: $background-white;
-	border-style: $none;
+	border: solid 1px $color-IOT;
 	outline: $none;
-	cursor: pointer;
 }
