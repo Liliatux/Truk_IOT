@@ -22,14 +22,3 @@ $none: none;
  background-color: $color-green;
  border: solid $color-green;
 }
-
-.nom {
-  font-size: 2rem;
-  margin-left: 1em;
-}
-
-@media screen and (max-width: 600px) {
-	.nom {
-		display: $none;
-	}
-}
