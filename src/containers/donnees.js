@@ -28,7 +28,7 @@ var donnees =
     {
       "Entreprise": "Connit",
       "Phone": "NC",
-      "rdc" : "<path className='target' d='M900 450l-3 3 3 3-7 8h-7l5.5 5.5-8.5 11.269v1.231h1.231l11.269-8.5 5.5 5.5v-7l8-7 3 3 3-3-15-15zM14 17l-2-2 7-7 2 2-7 7z'></path><path d='M600,572 L775,572 L775,525 L810,525' fill='none' className='animate' stroke='red' strokeWidth='5'></path>",
+      "rdc" : "<path className='target' d='M900 450l-3 3 3 3-7 8h-7l5.5 5.5-8.5 11.269v1.231h1.231l11.269-8.5 5.5 5.5v-7l8-7 3 3 3-3-15-15zM14'></path><path d='M600,572 L775,572 L775,525 L810,525' fill='none' className='animate' stroke='red' strokeWidth='5'></path>",
       "floor":"none",
       "Web": "http://www.connit.com/"
     },
@@ -130,8 +130,8 @@ var donnees =
     { 
       "Entreprise": "Simplon ",
       "Phone": "06 12 13 70 03",
-      "rdc" : "",
-      "floor":"",
+      "rdc" : " <path d='M600,572 L735,572 L735,675 ' fill='none' className='animate' stroke='red' strokeWidth='5'></path>",
+      "floor":"<path d='M720,720 L680,720 L680,572 L312,572 L340,205 L120,188' fill='none' className='animate' stroke='red' strokeWidth='5'></path><path className='target' d='M100 120l-3 3 3 3-7 8h-7l5.5 5.5-8.5 11.269v1.231h1.231l11.269-8.5 5.5 5.5v-7l8-7 3 3 3-3-15-15zM14 17l-2-2 '></path>",
       "Web": "https://mip.simplon.co/"
     },
     {

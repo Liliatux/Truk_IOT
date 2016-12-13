@@ -26,10 +26,17 @@ class Map extends Component {
 								<h5>{this.props.stage.name}</h5>
 							</div>
 							<div>
-								<button id='colorPurple'className='circular ui icon button'
-								onClick={() => this.props.UpdateStage(this.props.stage, !this.props.stage.depart)}
-								><i className={this.props.stage.icon}></i></button>
+							
 							</div>
+						</div>
+						<div  className="to-top">
+							
+								<a href="#"
+									onClick={() => this.props.UpdateStage(this.props.stage, !this.props.stage.depart)}
+									> 
+									<i className="fa fa-arrow-down" aria-hidden="true"></i>
+								</a>
+						
 						</div>
 						<svg version="1.1"  width="100%" height="100%" viewBox="0 0 1000 1000"  >
 							{this.props.stage.depart ?<Floor>{Parser(this.props.global.floor)}</Floor> : <RDC>{Parser(this.props.global.rdc)}</RDC>}
@@ -257,7 +264,7 @@ class RDC extends Component {
 					<line x1="40%" y1="23.8%" x2="58.2%" y2="23.8%" className="couloir-min-haut"/>
 					<line x1="50%" y1="10.6%" x2="50%" y2="21%" className="couloir-min-haut"/>
 					<line x1="48.6%" y1="10.6%" x2="48.6%" y2="21%" className="couloir-min-haut"/>
-						<line x1="51.7%" y1="10.6%" x2="51.7%" y2="21%" className="couloir-min-haut"/>
+					<line x1="51.7%" y1="10.6%" x2="51.7%" y2="21%" className="couloir-min-haut"/>
 					<rect x="44%" y="95%" width="4.5%" height="4.5%"   className="parking" />
 					<rect x="44%" y="95%" width="4.5%" height="4.5%"   className="parking-border" />
 					<text x="453" y="983" className='parking-text'>P</text>  
