@@ -55,7 +55,7 @@ class RDC extends Component {
 	render(){
 		return (
 				<svg version="1.1"  width="100%" height="100%" viewBox="0 0 1000 1000" >
-				<path className='target' d='M70 250l-3 3 3 3-7 8h-7l5.5 5.5-8.5 11.269v1.231h1.231l11.269-8.5 5.5 5.5v-7l8-7 3 3 3-3-15-15zM14'></path>
+				<path className='target' d='M100 530l-3 3 3 3-7 8h-7l5.5 5.5-8.5 11.269v1.231h1.231l11.269-8.5 5.5 5.5v-7l8-7 3 3 3-3-15-15zM14'></path>
 					<line x1="10%" y1="0.1%" x2="99%" y2="0.1%" className="train"/>
 					<line x1="10%" y1="3%" x2="99%" y2="3%" className="train"/>
 					<line x1="11%" y1="0.1%" x2="11%" y2="3%" className="train"/>
@@ -286,19 +286,10 @@ class RDC extends Component {
 class Floor extends Component {
 	render(){
 		return (
-		
-			<svg>							
-				<line x1="1%" y1="0.1%" x2="99%" y2="0.1%" className="train"/>
-				<line x1="1%" y1="3%" x2="99%" y2="3%" className="train"/>
-				<line x1="2%" y1="0.1%" x2="2%" y2="3%" className="train"/>
-				<line x1="3%" y1="0.1%" x2="3%" y2="3%" className="train"/>
-				<line x1="4%" y1="0.1%" x2="4%" y2="3%" className="train"/>
-				<line x1="5%" y1="0.1%" x2="5%" y2="3%" className="train"/>
-				<line x1="6%" y1="0.1%" x2="6%" y2="3%" className="train"/>
-				<line x1="7%" y1="0.1%" x2="7%" y2="3%" className="train"/>
-				<line x1="8%" y1="0.1%" x2="8%" y2="3%" className="train"/>
-				<line x1="9%" y1="0.1%" x2="9%" y2="3%" className="train"/>
-				<line x1="10%" y1="0.1%" x2="10%" y2="3%" className="train"/>
+			<svg>	
+				<text x="10" y="28" className="sncf">SNCF</text>						
+				<line x1="10%" y1="0.1%" x2="99%" y2="0.1%" className="train"/>
+				<line x1="10%" y1="3%" x2="99%" y2="3%" className="train"/>
 				<line x1="11%" y1="0.1%" x2="11%" y2="3%" className="train"/>
 				<line x1="12%" y1="0.1%" x2="12%" y2="3%" className="train"/>
 				<line x1="13%" y1="0.1%" x2="13%" y2="3%" className="train"/>
