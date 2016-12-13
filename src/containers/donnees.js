@@ -128,7 +128,7 @@ var donnees =
       "Web": "http://www.proxymedia.com.br/"
     },
     { 
-      "Entreprise": "Simplon ",
+      "Entreprise": "Simplon",
       "Phone": "06 12 13 70 03",
       "rdc" : "<path d='M600,572 L735,572 L735,675 ' fill='none' className='animate' stroke='red' strokeWidth='5'></path>",
       "floor":"<path d='M720,720 L680,720 L680,572 L312,572 L340,205 L120,188' fill='none' className='animate' stroke='red' strokeWidth='5'></path><path className='target' d='M100 120l-3 3 3 3-7 8h-7l5.5 5.5-8.5 11.269v1.231h1.231l11.269-8.5 5.5 5.5v-7l8-7 3 3 3-3-15-15zM14 17l-2-2 '></path>",
@@ -152,8 +152,8 @@ var donnees =
     {
       "Entreprise": "Ubigreen",
       "Phone": "05 61 80 70 67",
-      "rdc" : "",
-      "floor":"",
+      "rdc" : "<path d='M600,572 L735,572 L735,675 ' fill='none' className='animate' stroke='red' strokeWidth='5'></path>",
+      "floor":"     <path className='target' d='M650 500l-3 3 3 3-7 8h-7l5.5 5.5-8.5 11.269v1.231h1.231l11.269-8.5 5.5 5.5v-7l8-7 3 3 3-3-15-15zM14 17l-2-2 '></path>",
       "Web": "http://www.ubigreen.com/"
     },
 
