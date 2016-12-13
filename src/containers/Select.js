@@ -29,10 +29,10 @@ class Select extends Component {
     return(
       <div className="Select center">
         <div className="vertical-align">
-          <label className="labelSelect size" htmlFor='select-enterprise'>Choix entreprises</label>
+          <label className="labelSelect" htmlFor='select-enterprise'>Choix entreprises</label>
         </div>
         <div className="vertical-align">
-          <select className="selectTel size" id='select-enterprise'onChange={this.update.bind(this)} >
+          <select className="selectTel" id='select-enterprise'onChange={this.update.bind(this)} >
           <option></option>
           {items}
           </select>
