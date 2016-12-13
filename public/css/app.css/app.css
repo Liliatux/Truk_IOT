@@ -1,0 +1,149 @@
+.header {
+  background-color: #6e358b;
+  width: 100%;
+  margin: 0;
+  padding: 0.1vh;
+  box-shadow: 0 0 1em black; }
+
+.Select {
+  padding-top: 2vh;
+  padding-bottom: 2vh; }
+
+.labelSelect {
+  font-weight: bold; }
+
+.selectTel {
+  margin: 0 auto;
+  width: 60%;
+  font-weight: 700;
+  color: #6e358b;
+  border: solid 1px #6e358b;
+  outline: none;
+  background-color: #fff;
+  display: block;
+  padding: 0.3em;
+  position: relative; }
+
+.vertical-align {
+  display: block; }
+
+.item {
+  background-color: #fff;
+  border: solid 1px #6e358b;
+  outline: none; }
+
+.reunion {
+  fill: #ffbbd6; }
+
+.enterprise {
+  fill: #84B1ED; }
+
+.rdc {
+  fill: grey; }
+
+.join {
+  fill: #228b22; }
+
+.sanitaire {
+  fill: #f8ecc9; }
+
+.animate {
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 2000;
+  stroke-width: 10;
+  animation: dash 15s linear forwards; }
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 1; } }
+.green-line {
+  stroke: green;
+  stroke-width: 0.5; }
+
+.white-border {
+  stroke: #000;
+  stroke-width: "0.5"; }
+
+.black-stroke {
+  stroke: #000; }
+
+.little-stroke {
+  stroke-width: 0.5; }
+
+.titleDivMap {
+  margin-top: 0; }
+
+.map-container {
+  margin: 2vh;
+  padding: 2vh;
+  background-color: #fff; }
+
+.titleMap {
+  height: 3em;
+  display: flex;
+  justify-content: space-between; }
+
+#colorPurple {
+  outline: none;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  background-color: #6e358b;
+  animation-name: stretch;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running; }
+
+@keyframes stretch {
+  0% {
+    transform: scale(0.8);
+    background-color: #6e358b;
+    border-radius: 100%; }
+  50% {
+    background-color: #6e358b; }
+  100% {
+    transform: scale(1);
+    background-color: #6e358b; } }
+#noneButton {
+  display: none; }
+
+.bouton {
+  margin: 1em; }
+
+.btn {
+  padding: 1em;
+  border-radius: 5em;
+  outline: none;
+  width: 40%; }
+
+.btnCallNone {
+  cursor: not-allowed;
+  background-color: #999;
+  border: solid #999; }
+
+.btnCall {
+  background-color: green;
+  border: solid green; }
+
+body {
+  margin: 0 auto; }
+
+.content {
+  width: 95%;
+  margin-right: auto;
+  margin-left: auto; }
+
+.white {
+  color: #fff; }
+
+.size {
+  font-size: 1rem; }
+
+.center {
+  text-align: center; }
+
+/*# sourceMappingURL=app.css.map */
