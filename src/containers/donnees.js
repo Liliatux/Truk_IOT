@@ -40,8 +40,8 @@ var donnees =
 {
   "Entreprise": "Flipr",
   "Phone": "07 68 48 35 95",
-  "rdc" : "",
-  "floor":"",
+  "rdc" : "<path d='M600,572 L735,572 L735,675 ' fill='none' className='animate' stroke='red' strokeWidth='5'></path>",
+  "floor": "<path className='target' d='M620 840l-3 3 3 3-7 8h-7l5.5 5.5-8.5 11.269v1.231h1.231l11.269-8.5 5.5 5.5v-7l8-7 3 3 3-3-15-15zM14 17l-2-2 '></path>",
   "Web": "http://www.goflipr.com/"
 },
 
@@ -156,8 +156,8 @@ var donnees =
 {
   "Entreprise": "Ubixr",
   "Phone": "06 15 56 38 27",
-  "rdc" : "",
-  "floor":"",
+  "rdc" : "<path d='M600,572 L735,572 L735,675 ' fill='none' className='animate' stroke='red' strokeWidth='5'></path>",
+  "floor":"<path className='target' d='M620 630l-3 3 3 3-7 8h-7l5.5 5.5-8.5 11.269v1.231h1.231l11.269-8.5 5.5 5.5v-7l8-7 3 3 3-3-15-15zM14 17l-2-2 '></path>",
   "Web": ""
 },
 
