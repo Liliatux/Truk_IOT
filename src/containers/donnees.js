@@ -49,7 +49,7 @@ var donnees =
   "Entreprise": "Flylight",
   "Phone": "06 09 05 76 96",
   "rdc" : "",
-  "floor":"",
+  "floor":"<path className='target' d='M830 550l-3 3 3 3-7 8h-7l5.5 5.5-8.5 11.269v1.231h1.231l11.269-8.5 5.5 5.5v-7l8-7 3 3 3-3-15-15zM14'></path>",
   "Web": ""
 },
 
