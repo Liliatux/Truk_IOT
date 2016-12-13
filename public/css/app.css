@@ -11,7 +11,9 @@
 .adresse {
   font-size: 1rem;
   color: #fff;
-  margin: 0.5em; }
+  text-align:center; 
+  padding:0.5em;
+}
 
 .logoIot {
   width: 10%;
