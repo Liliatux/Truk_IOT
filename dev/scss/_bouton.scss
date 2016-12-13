@@ -1,5 +1,6 @@
 $color-grey: #999;
 $color-green: green;
+$color-white: #fff;
 $none: none;
 
 .bouton {
@@ -17,9 +18,11 @@ $none: none;
 	cursor: not-allowed;
 	background-color: $color-grey;
 	border: solid $color-grey;
+	color: $color-white;
 }
 
 .btnCall {
 	background-color: $color-green;
 	border: solid $color-green;
+	color: $color-white;
 }

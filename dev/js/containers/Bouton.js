@@ -8,7 +8,7 @@ class Bouton extends Component {
       return (
        <div className="bouton center">
            <a href={"tel:" + this.props.global.phone}>
-             <button className="btn btnCall white">
+             <button className="btn btnCall">
                <i className="fa fa-phone fa-3x"></i>
              </button>
            </a>
@@ -17,7 +17,7 @@ class Bouton extends Component {
     }else {
       return (
         <div className="bouton center">
-          <button className="btn btnCallNone white">
+          <button className="btn btnCallNone">
             <i className="fa fa-phone fa-3x">
             </i>
           </button>

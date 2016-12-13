@@ -4,10 +4,14 @@
   margin: 0 auto;
   padding: 0.1vh;
   box-shadow: 0 0 1em black;
-  display: flex; }
+  display: flex;
+  justify-content: center;
+  vertical-align: middle; }
 
-.size {
-  font-size: 1rem; }
+.adresse {
+  font-size: 1rem;
+  color: #fff;
+  margin: 0.5em; }
 
 .logoIot {
   width: 10%;
@@ -149,11 +153,13 @@
 .btnCallNone {
   cursor: not-allowed;
   background-color: #999;
-  border: solid #999; }
+  border: solid #999;
+  color: #fff; }
 
 .btnCall {
   background-color: green;
-  border: solid green; }
+  border: solid green;
+  color: #fff; }
 
 body {
   margin: 0 auto; }
@@ -162,9 +168,6 @@ body {
   width: 95%;
   margin-right: auto;
   margin-left: auto; }
-
-.white {
-  color: #fff; }
 
 .center {
   text-align: center; }
