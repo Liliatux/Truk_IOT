@@ -5,7 +5,7 @@ var donnees =
   "Entreprise": "Boxmyjob",
   "Phone": "06 75 20 32 80",
   "rdc" : "",
-  "floor":"",
+  "floor":"<path className='target' d='M830 550l-3 3 3 3-7 8h-7l5.5 5.5-8.5 11.269v1.231h1.231l11.269-8.5 5.5 5.5v-7l8-7 3 3 3-3-15-15zM14'></path>",
   "Web": "https://boxmyjob.com/"
 },
 {
@@ -57,7 +57,7 @@ var donnees =
   "Entreprise": "Guidap",
   "Phone": "06 45 61 04 53",
   "rdc" : "",
-  "floor":"",
+  "floor":"<path className='target' d='M830 550l-3 3 3 3-7 8h-7l5.5 5.5-8.5 11.269v1.231h1.231l11.269-8.5 5.5 5.5v-7l8-7 3 3 3-3-15-15zM14'></path>",
   "Web": "http://guidap.co/"
 },
 
@@ -81,7 +81,7 @@ var donnees =
   "Entreprise": "MeliSpot",
   "Phone": "05 76 0481 78",
   "rdc" : "",
-  "floor":"",
+  "floor":"<path className='target' d='M830 550l-3 3 3 3-7 8h-7l5.5 5.5-8.5 11.269v1.231h1.231l11.269-8.5 5.5 5.5v-7l8-7 3 3 3-3-15-15zM14'></path>",
   "Web": "http://www.melispot.com/"
 },
 {
@@ -141,7 +141,7 @@ var donnees =
   "Entreprise": "Thingz",
   "Phone": "06 33 36 78 33",
   "rdc" : "",
-  "floor":"",
+  "floor":"<path className='target' d='M830 550l-3 3 3 3-7 8h-7l5.5 5.5-8.5 11.269v1.231h1.231l11.269-8.5 5.5 5.5v-7l8-7 3 3 3-3-15-15zM14'></path>",
   "Web": "https://www.thingz.co/"
 },
 
@@ -165,7 +165,7 @@ var donnees =
   "Entreprise": "Unooc",
   "Phone": "06 72 13 40 94",
   "rdc" : "",
-  "floor":"",
+  "floor":"<path className='target' d='M830 550l-3 3 3 3-7 8h-7l5.5 5.5-8.5 11.269v1.231h1.231l11.269-8.5 5.5 5.5v-7l8-7 3 3 3-3-15-15zM14'></path>",
   "Web": "http://www.unooc.fr/"
 },
 
