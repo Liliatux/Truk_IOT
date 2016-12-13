@@ -4,14 +4,17 @@ $color-white: #fff;
 $none: none;
 
 .bouton {
-	margin: 1em;
+	position: fixed;
+	padding: 0.5em;
+	bottom: 0;
+	background-color: pink;
 }
 
 .btn {
-	padding: 1em;
-	border-radius: 5em;
-	outline: $none;
-	width: 40%;
+  padding: 0.5em;
+  border-radius: 3em;
+  width: 15%;
+  outline: none; 
 }
 
 .btnCallNone {

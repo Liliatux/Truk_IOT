@@ -142,13 +142,17 @@
     transform: scale(1);
     background-color: #6e358b; } }
 .bouton {
-  margin: 1em; }
+  position: fixed;
+  padding: 0.5em;
+  width: 100%;
+  bottom: 0;
+  background-color: #6e358b; }
 
 .btn {
-  padding: 1em;
-  border-radius: 5em;
-  outline: none;
-  width: 40%; }
+  padding: 0.5em;
+  border-radius: 3em;
+  width: 15%;
+  outline: none; }
 
 .btnCallNone {
   cursor: not-allowed;
