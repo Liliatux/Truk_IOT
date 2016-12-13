@@ -275,6 +275,7 @@ class RDC extends Component {
 					<path className="path1" d="M560 550c-5.523 0-10 4.477-10 10 0 10 10 22 10 22s10-12 
 					10-22c0-5.523-4.477-10-10-10zM560 566c-3.314 0-6-2.686-6-6s2.686-6 6-6 6 2.686 
 					6 6-2.686 6-6 6z" className="marker-start"></path>
+
 					{this.props.children} 
 				</svg>
 		)
@@ -286,6 +287,7 @@ class Floor extends Component {
 	render(){
 		return (
 			<svg>
+
 				<text x="10" y="28" className="sncf">SNCF</text>						
 				<line x1="10%" y1="0.1%" x2="99%" y2="0.1%" className="train"/>
 				<line x1="10%" y1="3%" x2="99%" y2="3%" className="train"/>
@@ -526,7 +528,7 @@ class Floor extends Component {
 				<rect x="44%" y="95%" width="4.5%" height="4.5%"   className="parking" />
 				<rect x="44%" y="95%" width="4.5%" height="4.5%"   className="parking-border" />
 				<text x="453" y="983"  className='parking-text'>P</text>
-			    {this.props.children}
+			    {this.props.children}  
 			</svg>
 		)
 	}
