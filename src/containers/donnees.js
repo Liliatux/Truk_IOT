@@ -11,16 +11,14 @@ var donnees =
 {
   "Entreprise": "CityMeo",
   "Phone": "05 82 95 44 00",
-  "rdc" : "",
-  "floor":"",
+  "rdc" : "<path d='M600,572 L735,572 L735,675 ' fill='none' className='animate' stroke='red' strokeWidth='5'></path>",
+  "floor":"<path className='target' d='M80 520l-3 3 3 3-7 8h-7l5.5 5.5-8.5 11.269v1.231h1.231l11.269-8.5 5.5 5.5v-7l8-7 3 3 3-3-15-15zM14'></path>",
   "Web": "http://citymeo.fr/"
 },
-
-
 {
   "Entreprise": "Connected Camp",
   "Phone": "NC",
-  "rdc" : "       <path className='target' d='M900 650l-3 3 3 3-7 8h-7l5.5 5.5-8.5 11.269v1.231h1.231l11.269-8.5 5.5 5.5v-7l8-7 3 3 3-3-15-15zM14'></path>",
+  "rdc" : "<path d='M600,572 L810,572  ' fill='none' className='animate' stroke='red' strokeWidth='5'></path><path className='target' d='M900 650l-3 3 3 3-7 8h-7l5.5 5.5-8.5 11.269v1.231h1.231l11.269-8.5 5.5 5.5v-7l8-7 3 3 3-3-15-15zM14'></path>",
   "floor":"none",
   "Web": "http://leconnected.camp/"
 },
@@ -28,7 +26,7 @@ var donnees =
 {
   "Entreprise": "Connit",
   "Phone": "NC",
-  "rdc" : "<path className='target' d='M900 450l-3 3 3 3-7 8h-7l5.5 5.5-8.5 11.269v1.231h1.231l11.269-8.5 5.5 5.5v-7l8-7 3 3 3-3-15-15zM14 17l-2-2 7-7 2 2-7 7z'></path><path d='M600,572 L775,572 L775,525 L810,525' fill='none' className='animate' stroke='red' strokeWidth='5'></path>",
+  "rdc" : "<path className='target' d='M900 450l-3 3 3 3-7 8h-7l5.5 5.5-8.5 11.269v1.231h1.231l11.269-8.5 5.5 5.5v-7l8-7 3 3 3-3-15-15zM14'></path><path d='M600,572 L775,572 L775,525 L810,525' fill='none' className='animate' stroke='red' strokeWidth='5'></path>",
   "floor":"none",
   "Web": "http://www.connit.com/"
 },
@@ -91,7 +89,7 @@ var donnees =
 {
   "Entreprise": "Mobirider ",
   "Phone": "05 82 08 07 49",
-  "rdc" : "       <path className='target' d='M150 400l-3 3 3 3-7 8h-7l5.5 5.5-8.5 11.269v1.231h1.231l11.269-8.5 5.5 5.5v-7l8-7 3 3 3-3-15-15zM14'></path>",
+  "rdc" : "<path className='target' d='M150 400l-3 3 3 3-7 8h-7l5.5 5.5-8.5 11.269v1.231h1.231l11.269-8.5 5.5 5.5v-7l8-7 3 3 3-3-15-15zM14'></path>",
   "floor" : "none",
   "Web" : "http://www.mobirider.com/fr/"
 },
@@ -180,7 +178,6 @@ var donnees =
   "floor":"",
   "Web": "http://www.xfield-paintball.com/"
 }, 
-
 ] ;
 
 export default donnees;

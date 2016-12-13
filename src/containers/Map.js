@@ -286,7 +286,7 @@ class RDC extends Component {
 class Floor extends Component {
 	render(){
 		return (
-			<svg>	
+			<svg>
 				<text x="10" y="28" className="sncf">SNCF</text>						
 				<line x1="10%" y1="0.1%" x2="99%" y2="0.1%" className="train"/>
 				<line x1="10%" y1="3%" x2="99%" y2="3%" className="train"/>
