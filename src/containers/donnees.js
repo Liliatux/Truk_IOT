@@ -11,8 +11,8 @@ var donnees =
     {
       "Entreprise": "CityMeo",
       "Phone": "05 82 95 44 00",
-      "rdc" : "",
-      "floor":"",
+      "rdc" : "<path d='M600,572 L735,572 L735,675 ' fill='none' className='animate' stroke='red' strokeWidth='5'></path>",
+      "floor":"<path className='target' d='M80 520l-3 3 3 3-7 8h-7l5.5 5.5-8.5 11.269v1.231h1.231l11.269-8.5 5.5 5.5v-7l8-7 3 3 3-3-15-15zM14'></path>",
       "Web": "http://citymeo.fr/"
     },
 
@@ -20,7 +20,7 @@ var donnees =
     {
       "Entreprise": "Connected Camp",
       "Phone": "NC",
-      "rdc" : "       <path className='target' d='M900 650l-3 3 3 3-7 8h-7l5.5 5.5-8.5 11.269v1.231h1.231l11.269-8.5 5.5 5.5v-7l8-7 3 3 3-3-15-15zM14'></path>",
+      "rdc" : "<path className='target' d='M900 650l-3 3 3 3-7 8h-7l5.5 5.5-8.5 11.269v1.231h1.231l11.269-8.5 5.5 5.5v-7l8-7 3 3 3-3-15-15zM14'></path>",
       "floor":"none",
       "Web": "http://leconnected.camp/"
     },
