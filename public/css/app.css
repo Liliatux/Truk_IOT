@@ -210,3 +210,28 @@ body {
   }
 }
 
+.to-top {
+  position:absolute;
+  margin-top:65%;
+  margin-left: 68%;
+}
+
+.to-top a {
+  border:1px solid black;
+  border-radius:10px;
+  background-color: white;
+  padding:0.2em;
+  padding-left:0.30em;
+  padding-right:0.30em;
+  font-size:15px;
+  color:red;
+  font-weight: 200;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {color: red;}
+    to {color: #6e358b;}
+}
