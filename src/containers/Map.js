@@ -6,6 +6,11 @@ import {UpdateStage} from '../actions';
 
 class Map extends Component {
 
+	changeLevel(e){
+		e.preventDefault();
+		this.props.UpdateStage(this.props.stage, !this.props.stage.depart)
+	}
+
 	render(){
 		if(this.props.global.floor === 'none'){
 			return(
@@ -30,13 +35,11 @@ class Map extends Component {
 							</div>
 						</div>
 						<div  className="to-top">
-							
-								<a href="#"
-									onClick={() => this.props.UpdateStage(this.props.stage, !this.props.stage.depart)}
-									> 
-									<i className="fa fa-arrow-down" aria-hidden="true"></i>
-								</a>
-						
+							<a href="#"
+								onClick={this.changeLevel.bind(this)}
+								> 
+								{this.props.stage.depart ? <i className="fa fa-arrow-up" aria-hidden="true"></i>: <i className="fa fa-arrow-down" aria-hidden="true"></i>}
+							</a>
 						</div>
 						<svg version="1.1"  width="100%" height="100%" viewBox="0 0 1000 1000"  >
 							{this.props.stage.depart ?<Floor>{Parser(this.props.global.floor)}</Floor> : <RDC>{Parser(this.props.global.rdc)}</RDC>}
@@ -142,33 +145,33 @@ class RDC extends Component {
 					<line x1="96%" y1="0.1%" x2="96%" y2="3%" className="train"/>
 					<line x1="97%" y1="0.1%" x2="97%" y2="3%" className="train"/>
 					<line x1="98%" y1="0.1%" x2="98%" y2="3%" className="train"/>
-					<line x1="4%" y1="10%" x2="1%" y2="95%" className="border-map"/>
-					<line x1="4%" y1="10%" x2="14%" y2="10%" className="border-map"/>
-					<line x1="14%" y1="8%" x2="14%" y2="10%" className="border-map"/>
-					<line x1="14%" y1="8%" x2="33%" y2="8.5%" className="border-map"/>
-					<line x1="33%" y1="8.5%" x2="33%" y2="10.5%" className="border-map"/>
-					<line x1="33%" y1="10.5%" x2="65%" y2="10.5%" className="border-map"/>
-					<line x1="65%" y1="8%" x2="65%" y2="10.5%" className="border-map"/>
-					<line x1="65%" y1="8%" x2="85%" y2="8.5%" className="border-map"/>
-					<line x1="85%" y1="8.5%" x2="85%" y2="10.5%" className="border-map"/>
-					<line x1="85%" y1="10.5%" x2="95%" y2="10.5%" className="border-map"/>
-					<line x1="95%" y1="10.5%" x2="95%" y2="90%" className="border-map"/>
-					<line x1="73%" y1="89.8%" x2="95%" y2="90%" className="border-map"/>
-					<line x1="73%" y1="89.8%" x2="73%" y2="83%" className="border-map"/>
-					<line x1="70.5%" y1="83%" x2="73%" y2="83%" className="border-map"/>
-					<line x1="70.5%" y1="88.8%" x2="70.5%" y2="83%" className="border-map"/>
-					<line x1="58%" y1="88.8%" x2="70.5%" y2="88.8%" className="border-map"/>
-					<line x1="58.2%" y1="56%" x2="58.2%" y2="50%" className="border-map"/>
-					<line x1="58%" y1="88.8%" x2="58.2%" y2="58%" className="border-map"/>
-					<line x1="40%" y1="25%" x2="58.2%" y2="25%" className="border-map"/>
-					<line x1="36%" y1="92%" x2="40%" y2="22.5%" className="border-map"/>
-					<line x1="25%" y1="91.8%" x2="36%" y2="92%" className="border-map"/>
-					<line x1="25%" y1="91.8%" x2="25.3%" y2="88%" className="border-map"/>
-					<line x1="22%" y1="88%" x2="25.3%" y2="88%" className="border-map"/>
-					<line x1="22%" y1="88%" x2="21.5%" y2="95.4%" className="border-map"/>
-					<line x1="1%" y1="95%" x2="21.5%" y2="95.4%" className="border-map"/>
-					<line x1="75%" y1="70%" x2="75%" y2="62%" className="border-int"/>
-					<line x1="72%" y1="72%" x2="72%" y2="62%" className="border-int"/>
+					<line x1="4%" y1="10%" x2="1%" y2="95%" className="jardin"/>
+					<line x1="4%" y1="10%" x2="14%" y2="10%" className="jardin"/>
+					<line x1="14%" y1="8%" x2="14%" y2="10%" className="jardin"/>
+					<line x1="14%" y1="8%" x2="33%" y2="8.5%" className="jardin"/>
+					<line x1="33%" y1="8.5%" x2="33%" y2="10.5%" className="jardin"/>
+					<line x1="33%" y1="10.5%" x2="65%" y2="10.5%" className="jardin"/>
+					<line x1="65%" y1="8%" x2="65%" y2="10.5%" className="jardin"/>
+					<line x1="65%" y1="8%" x2="85%" y2="8.5%" className="jardin"/>
+					<line x1="85%" y1="8.5%" x2="85%" y2="10.5%" className="jardin"/>
+					<line x1="85%" y1="10.5%" x2="95%" y2="10.5%" className="jardin"/>
+					<line x1="95%" y1="10.5%" x2="95%" y2="90%" className="jardin"/>
+					<line x1="73%" y1="89.8%" x2="95%" y2="90%" className="jardin"/>
+					<line x1="73%" y1="89.8%" x2="73%" y2="83%" className="jardin"/>
+					<line x1="70.5%" y1="83%" x2="73%" y2="83%" className="jardin"/>
+					<line x1="70.5%" y1="88.8%" x2="70.5%" y2="83%" className="jardin"/>
+					<line x1="58%" y1="88.8%" x2="70.5%" y2="88.8%" className="jardin"/>
+					<line x1="58.2%" y1="56%" x2="58.2%" y2="50%" className="jardin"/>
+					<line x1="58%" y1="88.8%" x2="58.2%" y2="58%" className="jardin"/>
+					<line x1="40%" y1="25%" x2="58.2%" y2="25%" className="jardin"/>
+					<line x1="36%" y1="92%" x2="40%" y2="22.5%" className="jardin"/>
+					<line x1="25%" y1="91.8%" x2="36%" y2="92%" className="jardin"/>
+					<line x1="25%" y1="91.8%" x2="25.3%" y2="88%" className="jardin"/>
+					<line x1="22%" y1="88%" x2="25.3%" y2="88%" className="jardin"/>
+					<line x1="22%" y1="88%" x2="21.5%" y2="95.4%" className="jardin"/>
+					<line x1="1%" y1="95%" x2="21.5%" y2="95.4%" className="jardin"/>
+					<line x1="75%" y1="70%" x2="75%" y2="62%" className="jardin"/>
+					<line x1="72%" y1="72%" x2="72%" y2="62%" className="jardin"/>
 					<line x1="72%" y1="62%" x2="75%" y2="62%" className="escalier"/>
 					<line x1="72%" y1="62.6%" x2="75%" y2="62.6%" className="escalier"/>
 					<line x1="72%" y1="63.2%" x2="75%" y2="63.2%" className="escalier"/>
@@ -383,30 +386,30 @@ class Floor extends Component {
 				<line x1="96%" y1="0.1%" x2="96%" y2="3%" className="train"/>
 				<line x1="97%" y1="0.1%" x2="97%" y2="3%" className="train"/>
 				<line x1="98%" y1="0.1%" x2="98%" y2="3%" className="train"/>
-				<line x1="4%" y1="10%" x2="1%" y2="95%" className="border-map"/>
-				<line x1="4%" y1="10%" x2="14%" y2="10%" className="border-map"/>
-				<line x1="14%" y1="8%" x2="14%" y2="10%" className="border-map"/>
-				<line x1="14%" y1="8%" x2="33%" y2="8.5%" className="border-map"/>
-				<line x1="33%" y1="8.5%" x2="33%" y2="10.5%" className="border-map"/>
-				<line x1="33%" y1="10.5%" x2="65%" y2="10.5%" className="border-map"/>
-				<line x1="65%" y1="8%" x2="65%" y2="10.5%" className="border-map"/>
-				<line x1="65%" y1="8%" x2="85%" y2="8.5%" className="border-map"/>
-				<line x1="85%" y1="8.5%" x2="85%" y2="10.5%" className="border-map"/>
-				<line x1="85%" y1="10.5%" x2="95%" y2="10.5%" className="border-map"/>
-				<line x1="95%" y1="10.5%" x2="95%" y2="90%" className="border-map"/>
-				<line x1="73%" y1="89.8%" x2="95%" y2="90%" className="border-map"/>
-				<line x1="73%" y1="89.8%" x2="73%" y2="83%" className="border-map"/>
-				<line x1="70.5%" y1="83%" x2="73%" y2="83%" className="border-map"/>
-				<line x1="70.5%" y1="88.8%" x2="70.5%" y2="83%" className="border-map"/>
-				<line x1="58%" y1="88.8%" x2="70.5%" y2="88.8%" className="border-map"/>
-				<line x1="58%" y1="88.8%" x2="58.2%" y2="25%" className="border-map"/>
-				<line x1="40%" y1="25%" x2="58.2%" y2="25%" className="border-map"/>
-				<line x1="36%" y1="92%" x2="40%" y2="22.5%" className="border-map"/>
-				<line x1="25%" y1="91.8%" x2="36%" y2="92%" className="border-map"/>
-				<line x1="25%" y1="91.8%" x2="25.3%" y2="88%" className="border-map"/>
-				<line x1="22%" y1="88%" x2="25.3%" y2="88%" className="border-map"/>
-				<line x1="22%" y1="88%" x2="21.5%" y2="95.4%" className="border-map"/>
-				<line x1="1%" y1="95%" x2="21.5%" y2="95.4%" className="border-map"/>
+				<line x1="4%" y1="10%" x2="1%" y2="95%" className="jardin"/>
+				<line x1="4%" y1="10%" x2="14%" y2="10%" className="jardin"/>
+				<line x1="14%" y1="8%" x2="14%" y2="10%" className="jardin"/>
+				<line x1="14%" y1="8%" x2="33%" y2="8.5%" className="jardin"/>
+				<line x1="33%" y1="8.5%" x2="33%" y2="10.5%" className="jardin"/>
+				<line x1="33%" y1="10.5%" x2="65%" y2="10.5%" className="jardin"/>
+				<line x1="65%" y1="8%" x2="65%" y2="10.5%" className="jardin"/>
+				<line x1="65%" y1="8%" x2="85%" y2="8.5%" className="jardin"/>
+				<line x1="85%" y1="8.5%" x2="85%" y2="10.5%" className="jardin"/>
+				<line x1="85%" y1="10.5%" x2="95%" y2="10.5%" className="jardin"/>
+				<line x1="95%" y1="10.5%" x2="95%" y2="90%" className="jardin"/>
+				<line x1="73%" y1="89.8%" x2="95%" y2="90%" className="jardin"/>
+				<line x1="73%" y1="89.8%" x2="73%" y2="83%" className="jardin"/>
+				<line x1="70.5%" y1="83%" x2="73%" y2="83%" className="jardin"/>
+				<line x1="70.5%" y1="88.8%" x2="70.5%" y2="83%" className="jardin"/>
+				<line x1="58%" y1="88.8%" x2="70.5%" y2="88.8%" className="jardin"/>
+				<line x1="58%" y1="88.8%" x2="58.2%" y2="25%" className="jardin"/>
+				<line x1="40%" y1="25%" x2="58.2%" y2="25%" className="jardin"/>
+				<line x1="36%" y1="92%" x2="40%" y2="22.5%" className="jardin"/>
+				<line x1="25%" y1="91.8%" x2="36%" y2="92%" className="jardin"/>
+				<line x1="25%" y1="91.8%" x2="25.3%" y2="88%" className="jardin"/>
+				<line x1="22%" y1="88%" x2="25.3%" y2="88%" className="jardin"/>
+				<line x1="22%" y1="88%" x2="21.5%" y2="95.4%" className="jardin"/>
+				<line x1="1%" y1="95%" x2="21.5%" y2="95.4%" className="jardin"/>
 				<line x1="46%" y1="19.2%" x2="50%" y2="19.2%" className="couloir"/>
 				<line x1="46%" y1="17.5%" x2="50%" y2="17.5%" className="couloir"/>
 				<line x1="46%" y1="16.2%" x2="50%" y2="16.2%" className="couloir"/>
@@ -432,13 +435,13 @@ class Floor extends Component {
 				<rect x="70%" y="74%" width="13%" height="7%"   className="entreprise" />
 				<rect x="83%" y="74%" width="3%" height="7%"   className="entreprise" />
 				<rect x="86%" y="74%" width="2%" height="7%"   className="entreprise" />
-				<line x1="80%" y1="30%" x2="80%" y2="74%" className="border-int"/>
-				<line x1="72%" y1="30%" x2="80%" y2="30%" className="border-int"/>
-				<line x1="80%" y1="30%" x2="80%" y2="74%" className="border-int"/>
-				<line x1="75%" y1="74%" x2="75%" y2="62%" className="border-int"/>
-				<line x1="72%" y1="60%" x2="80%" y2="60%" className="border-int"/>
-				<line x1="72%" y1="70%" x2="72%" y2="60%" className="border-int"/>
-				<line x1="58%" y1="56%" x2="80%" y2="56%" className="border-int"/>
+				<line x1="80%" y1="30%" x2="80%" y2="74%" className="jardin"/>
+				<line x1="72%" y1="30%" x2="80%" y2="30%" className="jardin"/>
+				<line x1="80%" y1="30%" x2="80%" y2="74%" className="jardin"/>
+				<line x1="75%" y1="74%" x2="75%" y2="62%" className="jardin"/>
+				<line x1="72%" y1="60%" x2="80%" y2="60%" className="jardin"/>
+				<line x1="72%" y1="70%" x2="72%" y2="60%" className="jardin"/>
+				<line x1="58%" y1="56%" x2="80%" y2="56%" className="jardin"/>
 				<line x1="72%" y1="62%" x2="75%" y2="62%" className="escalier"/>
 				<line x1="72%" y1="62.6%" x2="75%" y2="62.6%" className="escalier"/>
 				<line x1="72%" y1="63.2%" x2="75%" y2="63.2%" className="escalier"/>
@@ -475,7 +478,7 @@ class Floor extends Component {
 				<line x1="33.6%" y1="40.8%" x2="39%" y2="40.8%" className="jardin"/>
 				<line x1="34.2%" y1="32.8%" x2="39.5%" y2="32.8%" className="jardin"/>
 				<line x1="35%" y1="22.4%" x2="40.2%" y2="22.4%" className="jardin"/>
-				<line x1="40%" y1="22.4%" x2="58.2%" y2="22.4%" className="border-map"/>
+				<line x1="40%" y1="22.4%" x2="58.2%" y2="22.4%" className="jardin"/>
 				<line x1="30.2%" y1="56%" x2="32.6%" y2="20.8%" className="jardin"/>
 				<line x1="23%" y1="55.8%" x2="30.2%" y2="56%" className="jardin"/>
 				<line x1="23.5%" y1="48.8%" x2="30.7%" y2="49%" className="jardin"/>

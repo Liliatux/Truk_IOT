@@ -234,6 +234,6 @@ body {
 }
 
 @keyframes example {
-    from {color: red;}
+    from {color: red; }
     to {color: #6e358b;}
 }
