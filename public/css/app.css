@@ -162,4 +162,9 @@ body {
 .center {
   text-align: center; }
 
+.couloir-min-haut {
+  stroke:#d6ecfa;
+  stroke-width: 22;
+}
+
 /*# sourceMappingURL=app.css.map */
