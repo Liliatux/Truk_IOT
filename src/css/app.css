@@ -5,12 +5,16 @@
   padding: 0.1vh;
   box-shadow: 0 0 1em black; }
 
+.size {
+  font-size: 0.5rem; }
+
 .Select {
   padding-top: 2vh;
   padding-bottom: 2vh; }
 
 .labelSelect {
-  font-weight: bold; }
+  font-weight: bold;
+  font-size: 1rem; }
 
 .selectTel {
   margin: 0 auto;
@@ -22,7 +26,8 @@
   background-color: #fff;
   display: block;
   padding: 0.3em;
-  position: relative; }
+  position: relative;
+  font-size: 1rem; }
 
 .vertical-align {
   display: block; }
@@ -155,9 +160,6 @@ body {
 
 .white {
   color: #fff; }
-
-.size {
-  font-size: 1rem; }
 
 .center {
   text-align: center; }

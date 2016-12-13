@@ -2,6 +2,7 @@ $background-white: #fff;
 $color-IOT: #6e358b;
 $vertical: block;
 $none: none;
+$size: 1rem;
 
 .Select {
 	padding-top: 2vh;
@@ -10,6 +11,7 @@ $none: none;
 
 .labelSelect {
   font-weight: bold;
+  font-size: $size;
 }
 
 .selectTel {
@@ -23,6 +25,7 @@ $none: none;
     display: $vertical;
     padding: 0.3em;
     position: relative;
+    font-size: $size;
 }
 
 .vertical-align {
