@@ -12,11 +12,9 @@ var donnees =
       "Entreprise": "CityMeo",
       "Phone": "05 82 95 44 00",
       "rdc" : "<path d='M600,572 L735,572 L735,675 ' fill='none' className='animate' stroke='red' strokeWidth='5'></path>",
-      "floor":"<path className='target' d='M80 520l-3 3 3 3-7 8h-7l5.5 5.5-8.5 11.269v1.231h1.231l11.269-8.5 5.5 5.5v-7l8-7 3 3 3-3-15-15zM14'></path>",
+      "floor":" <path d='M720,720 L680,720 L680,572 L175,572' fill='none' className='animate' stroke='red' strokeWidth='5'></path><path className='target' d='M80 520l-3 3 3 3-7 8h-7l5.5 5.5-8.5 11.269v1.231h1.231l11.269-8.5 5.5 5.5v-7l8-7 3 3 3-3-15-15zM14'></path>",
       "Web": "http://citymeo.fr/"
     },
-
-
     {
       "Entreprise": "Connected Camp",
       "Phone": "NC",
