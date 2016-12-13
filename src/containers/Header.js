@@ -25,14 +25,10 @@ class Header extends Component {
 	}
 
 	render(){
-		
 		return (
-
 			<div className="header">
-				<img className="logoIot" src="image/logo.png" alt="logoIOT"/>
-				<div className="adresse">231 Rue Pierre et Marie Curie 31670 Labège</div>
+				<div className="adresse">IOT : 231 Rue Pierre et Marie Curie 31670 Labège</div>
 			</div>
-		
 		);
 	
 	}
