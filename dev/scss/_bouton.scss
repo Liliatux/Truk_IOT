@@ -1,25 +1,33 @@
 $color-grey: #999;
 $color-green: green;
+$color-white: #fff;
 $none: none;
 
 .bouton {
-	margin: 1em;
+	position: fixed;
+	box-shadow: 0 0 1em black;
+	padding: 0.5em;
+	bottom: 0;
+	left: 0;
+	background-color: pink;
 }
 
 .btn {
-	padding: 1em;
-	border-radius: 5em;
-	outline: $none;
-	width: 40%;
+  padding: 0.5em;
+  border-radius: 3em;
+  width: 10em;
+  outline: none; 
 }
 
 .btnCallNone {
 	cursor: not-allowed;
 	background-color: $color-grey;
 	border: solid $color-grey;
+	color: $color-white;
 }
 
 .btnCall {
 	background-color: $color-green;
 	border: solid $color-green;
+	color: $color-white;
 }

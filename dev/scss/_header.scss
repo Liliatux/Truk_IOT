@@ -1,9 +1,24 @@
 $color-IOT: #6e358b;
+$color-white: #fff;
+$size: 1rem;
 
 .header {
 	background-color: $color-IOT;
 	width:100%;
-	margin:0;
+	margin:0 auto;
 	padding: 0.1vh;
 	box-shadow: 0 0 1em black;
+	display: flex;
+	justify-content: center;
+}
+
+.adresse {
+	font-size: $size;
+	color: $color-white;
+	margin: 0.5em;
+}
+
+.logoIot {
+	width: 10%;
+	height: 10%;
 }
