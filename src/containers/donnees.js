@@ -176,7 +176,6 @@ var donnees =
   "floor":"",
   "Web": "http://www.xfield-paintball.com/"
 }, 
->>>>>>> 597391419cf43ab948134d32f08080fe30514117
 ] ;
 
 export default donnees;
