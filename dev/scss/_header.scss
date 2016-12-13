@@ -1,4 +1,6 @@
 $color-IOT: #6e358b;
+$color-white: #fff;
+$size: 1rem;
 
 .header {
 	background-color: $color-IOT;
@@ -7,10 +9,14 @@ $color-IOT: #6e358b;
 	padding: 0.1vh;
 	box-shadow: 0 0 1em black;
 	display: flex;
+	justify-content: center;
+	vertical-align: middle;
 }
 
-.size {
-	font-size: 1rem;
+.adresse {
+	font-size: $size;
+	color: $color-white;
+	margin: 0.5em;
 }
 
 .logoIot {

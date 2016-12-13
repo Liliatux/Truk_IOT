@@ -179,9 +179,8 @@ var donnees =
       "rdc" : "",
       "floor":"",
       "Web": "http://www.xfield-paintball.com/"
-    }
-
+    }, 
+    
 ] ;
-
 
 export default donnees;
