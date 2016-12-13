@@ -29,7 +29,7 @@ class Header extends Component {
 		return (
 
 			<div className="header">
-				<img className="logoIot" src="image/logo2.png"/>
+				<img className="logoIot" src="image/logo2.png" alt="logoIOT"/>
 				<div className="adresse">231 Rue Pierre et Marie Curie 31670 Labège</div>
 			</div>
 		
