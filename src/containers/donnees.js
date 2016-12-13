@@ -176,7 +176,6 @@ var donnees =
   "floor":"<path className='target' d='M780 760l-3 3 3 3-7 8h-7l5.5 5.5-8.5 11.269v1.231h1.231l11.269-8.5 5.5 5.5v-7l8-7 3 3 3-3-15-15zM14 17l-2-2 '></path>",
   "Web": "http://www.xfield-paintball.com/"
 }, 
->>>>>>> 597391419cf43ab948134d32f08080fe30514117
 ] ;
 
 export default donnees;
