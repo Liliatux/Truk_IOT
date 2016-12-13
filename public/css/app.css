@@ -141,6 +141,7 @@
   100% {
     transform: scale(1);
     background-color: #6e358b; } }
+
 .bouton {
   position: fixed;
   box-shadow: 0 0 1em black;
@@ -173,8 +174,9 @@ body {
 .content {
   width: 95%;
   margin-right: auto;
-  margin-left: auto; }
-
+  margin-left: auto;
+  margin-bottom: 6em; 
+}
 .center {
   text-align: center; }
 
