@@ -160,7 +160,8 @@ class RDC extends Component {
 				<line x1="70.5%" y1="83%" x2="73%" y2="83%" className="border-map"/>
 				<line x1="70.5%" y1="88.8%" x2="70.5%" y2="83%" className="border-map"/>
 				<line x1="58%" y1="88.8%" x2="70.5%" y2="88.8%" className="border-map"/>
-				<line x1="58%" y1="88.8%" x2="58.2%" y2="25%" className="border-map"/>
+				<line x1="58.2%" y1="56%" x2="58.2%" y2="50%" className="border-map"/>
+				<line x1="58%" y1="88.8%" x2="58.2%" y2="58%" className="border-map"/>
 				<line x1="40%" y1="25%" x2="58.2%" y2="25%" className="border-map"/>
 				<line x1="36%" y1="92%" x2="40%" y2="22.5%" className="border-map"/>
 				<line x1="25%" y1="91.8%" x2="36%" y2="92%" className="border-map"/>
@@ -268,7 +269,11 @@ class RDC extends Component {
 				<line x1="51.7%" y1="10.6%" x2="51.7%" y2="21%" className="couloir-min-haut"/>
 				<rect x="44%" y="95%" width="4.5%" height="4.5%"   className="parking" />
 				<rect x="44%" y="95%" width="4.5%" height="4.5%"   className="parking-border" />
-				<text x="453" y="983" className='parking-text'>P</text>    
+				<text x="453" y="983" className='parking-text'>P</text>  
+				<path className="path1" d="M560 550c-5.523 0-10 4.477-10 10 0 10 10 22 10 22s10-12 
+				10-22c0-5.523-4.477-10-10-10zM560 566c-3.314 0-6-2.686-6-6s2.686-6 6-6 6 2.686 
+				6 6-2.686 6-6 6z" className="marker-start"></path>
+				
 				{this.props.children} 
 			</svg>
 		)
