@@ -143,6 +143,7 @@
     background-color: #6e358b; } }
 .bouton {
   position: fixed;
+  box-shadow: 0 0 1em black;
   padding: 0.5em;
   width: 100%;
   bottom: 0;
@@ -152,7 +153,7 @@
 .btn {
   padding: 0.5em;
   border-radius: 3em;
-  width: 15%;
+  width: 10em;
   outline: none; }
 
 .btnCallNone {

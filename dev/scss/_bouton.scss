@@ -5,6 +5,7 @@ $none: none;
 
 .bouton {
 	position: fixed;
+	box-shadow: 0 0 1em black;
 	padding: 0.5em;
 	bottom: 0;
 	left: 0;
@@ -14,7 +15,7 @@ $none: none;
 .btn {
   padding: 0.5em;
   border-radius: 3em;
-  width: 15%;
+  width: 10em;
   outline: none; 
 }
 
