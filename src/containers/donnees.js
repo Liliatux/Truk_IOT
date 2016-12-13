@@ -95,7 +95,7 @@ var donnees =
     {
       "Entreprise": "Pack Editions",
       "Phone": "04 48 07 03 71",
-      "rdc" : "",
+       "rdc" : "<path d='M600,572 L810,572  ' fill='none' className='animate' stroke='red' strokeWidth='5'></path><path className='target' d='M900 650l-3 3 3 3-7 8h-7l5.5 5.5-8.5 11.269v1.231h1.231l11.269-8.5 5.5 5.5v-7l8-7 3 3 3-3-15-15zM14'></path>",
       "floor":"",
       "Web": "https://www.pack-editions.com/"
     },
@@ -103,16 +103,16 @@ var donnees =
      {
       "Entreprise": "Pangée",
       "Phone": "NC",
-      "rdc" : "",
-      "floor":"",
+      "rdc" : "<path d='M600,572 L810,572  ' fill='none' className='animate' stroke='red' strokeWidth='5'></path><path className='target' d='M900 650l-3 3 3 3-7 8h-7l5.5 5.5-8.5 11.269v1.231h1.231l11.269-8.5 5.5 5.5v-7l8-7 3 3 3-3-15-15zM14'></path>",
+      "floor":"none",
       "Web": ""
     },
 
     {
       "Entreprise": "Parkisseo",
       "Phone": "05 64 88 00 06",
-      "rdc" : "",
-      "floor":"",
+      "rdc" : "<path d='M600,572 L810,572  ' fill='none' className='animate' stroke='red' strokeWidth='5'></path><path className='target' d='M900 650l-3 3 3 3-7 8h-7l5.5 5.5-8.5 11.269v1.231h1.231l11.269-8.5 5.5 5.5v-7l8-7 3 3 3-3-15-15zM14'></path>",
+      "floor":"none",
       "Web": "http://www.parkisseo.com/"
     },
 
