@@ -12,7 +12,7 @@ class Map extends Component {
 				<section>
 					<div className="map-container bck-white">
 						<svg version="1.1"  width="100%" height="100%" viewBox="0 0 1000 1000"  >
-							{this.props.stage.default ? <Floor>{Parser(this.props.global.floor)}</Floor> : <RDC>{Parser(this.props.global.rdc)}</RDC>}		
+							{this.props.stage.depart ? <Floor>{Parser(this.props.global.floor)}</Floor> : <RDC>{Parser(this.props.global.rdc)}</RDC>}		
 						</svg>
 					</div>
 				</section>
@@ -27,12 +27,12 @@ class Map extends Component {
 							</div>
 							<div>
 								<button id='colorPurple'className='circular ui icon button'
-								onClick={() => this.props.UpdateStage(this.props.stage, !this.props.stage.default)}
+								onClick={() => this.props.UpdateStage(this.props.stage, !this.props.stage.depart)}
 								><i className={this.props.stage.icon}></i></button>
 							</div>
 						</div>
 						<svg version="1.1"  width="100%" height="100%" viewBox="0 0 1000 1000"  >
-							{this.props.stage.default ?<Floor>{Parser(this.props.global.floor)}</Floor> : <RDC>{Parser(this.props.global.rdc)}</RDC>}
+							{this.props.stage.depart ?<Floor>{Parser(this.props.global.floor)}</Floor> : <RDC>{Parser(this.props.global.rdc)}</RDC>}
 						</svg>
 					</div>
 				</section>
