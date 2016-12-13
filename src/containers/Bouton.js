@@ -18,7 +18,7 @@ class Bouton extends Component {
       return (
         <div className="bouton center">
           <button className="btn btnCallNone">
-            <i className="fa fa-phone fa-3x">
+            <i className="fa fa-phone fa-2x">
             </i>
           </button>
         </div>

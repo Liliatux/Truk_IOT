@@ -285,19 +285,10 @@ class RDC extends Component {
 class Floor extends Component {
 	render(){
 		return (
-		
-			<svg>							
-				<line x1="1%" y1="0.1%" x2="99%" y2="0.1%" className="train"/>
-				<line x1="1%" y1="3%" x2="99%" y2="3%" className="train"/>
-				<line x1="2%" y1="0.1%" x2="2%" y2="3%" className="train"/>
-				<line x1="3%" y1="0.1%" x2="3%" y2="3%" className="train"/>
-				<line x1="4%" y1="0.1%" x2="4%" y2="3%" className="train"/>
-				<line x1="5%" y1="0.1%" x2="5%" y2="3%" className="train"/>
-				<line x1="6%" y1="0.1%" x2="6%" y2="3%" className="train"/>
-				<line x1="7%" y1="0.1%" x2="7%" y2="3%" className="train"/>
-				<line x1="8%" y1="0.1%" x2="8%" y2="3%" className="train"/>
-				<line x1="9%" y1="0.1%" x2="9%" y2="3%" className="train"/>
-				<line x1="10%" y1="0.1%" x2="10%" y2="3%" className="train"/>
+			<svg>	
+				<text x="10" y="28" className="sncf">SNCF</text>						
+				<line x1="10%" y1="0.1%" x2="99%" y2="0.1%" className="train"/>
+				<line x1="10%" y1="3%" x2="99%" y2="3%" className="train"/>
 				<line x1="11%" y1="0.1%" x2="11%" y2="3%" className="train"/>
 				<line x1="12%" y1="0.1%" x2="12%" y2="3%" className="train"/>
 				<line x1="13%" y1="0.1%" x2="13%" y2="3%" className="train"/>
