@@ -2,42 +2,13 @@ var donnees =
 
  [ 
     {
-      "Entreprise": "Mobirider ",
-      "Phone": "05 82 08 07 49",
-      "rdc" : "",
-      "floor" : "none",
-      "Web" : "http://www.mobirider.com/fr/"
-    },
-    {
-      "Entreprise": "Simplon ",
-      "Phone": "06 12 13 70 03",
+      "Entreprise": "Boxmyjob",
+      "Phone": "06 75 20 32 80",
       "rdc" : "",
       "floor":"",
-      "Web": "https://mip.simplon.co/"
+      "Web": "https://boxmyjob.com/"
     },
     {
-      "Entreprise": "Connit",
-      "Phone": "NC",
-      "rdc" : "<path className='target' d='M900 450l-3 3 3 3-7 8h-7l5.5 5.5-8.5 11.269v1.231h1.231l11.269-8.5 5.5 5.5v-7l8-7 3 3 3-3-15-15zM14 17l-2-2 7-7 2 2-7 7z'></path><path d='M600,572 L775,572 L775,525 L810,525' fill='none' className='animate' stroke='red' strokeWidth='5'></path>",
-      "floor":"none",
-      "Web": "http://www.connit.com/"
-    },
-    {
-      "Entreprise": "Skylights",
-      "Phone": "NC",
-      "rdc" : "",
-      "floor":"none",
-      "Web": "http://www.skylights.aero/"
-    },
-    {
-      "Entreprise": "Donecle",
-      "Phone": "06 10 45 57 49",
-      "rdc" : "",
-      "floor":"none",
-      "Web": "http://www.donecle.com/"
-    },
-
-     {
       "Entreprise": "CityMeo",
       "Phone": "05 82 95 44 00",
       "rdc" : "",
@@ -45,15 +16,8 @@ var donnees =
       "Web": "http://citymeo.fr/"
     },
 
-    {
-      "Entreprise": "Boxmyjob",
-      "Phone": "06 75 20 32 80",
-      "rdc" : "",
-      "floor":"",
-      "Web": "https://boxmyjob.com/"
-    },
 
-     {
+    {
       "Entreprise": "Connected Camp",
       "Phone": "NC",
       "rdc" : "",
@@ -61,7 +25,23 @@ var donnees =
       "Web": "http://leconnected.camp/"
     },
 
-     {
+    {
+      "Entreprise": "Connit",
+      "Phone": "NC",
+      "rdc" : "<path className='target' d='M900 450l-3 3 3 3-7 8h-7l5.5 5.5-8.5 11.269v1.231h1.231l11.269-8.5 5.5 5.5v-7l8-7 3 3 3-3-15-15zM14 17l-2-2 7-7 2 2-7 7z'></path><path d='M600,572 L775,572 L775,525 L810,525' fill='none' className='animate' stroke='red' strokeWidth='5'></path>",
+      "floor":"none",
+      "Web": "http://www.connit.com/"
+    },
+
+    {
+      "Entreprise": "Donecle",
+      "Phone": "06 10 45 57 49",
+      "rdc" : "",
+      "floor":"none",
+      "Web": "http://www.donecle.com/"
+    },
+ 
+    {
       "Entreprise": "Flipr",
       "Phone": "07 68 48 35 95",
       "rdc" : "",
@@ -108,7 +88,14 @@ var donnees =
       "floor":"",
       "Web": "http://www.melispot.com/"
     },
-
+    {
+      "Entreprise": "Mobirider ",
+      "Phone": "05 82 08 07 49",
+      "rdc" : "",
+      "floor" : "none",
+      "Web" : "http://www.mobirider.com/fr/"
+    },
+  
     {
       "Entreprise": "Pack Editions",
       "Phone": "04 48 07 03 71",
@@ -140,7 +127,20 @@ var donnees =
       "floor":"",
       "Web": "http://www.proxymedia.com.br/"
     },
-
+    { 
+      "Entreprise": "Simplon ",
+      "Phone": "06 12 13 70 03",
+      "rdc" : "",
+      "floor":"",
+      "Web": "https://mip.simplon.co/"
+    },
+    {
+      "Entreprise": "Skylights",
+      "Phone": "NC",
+      "rdc" : "",
+      "floor":"none",
+      "Web": "http://www.skylights.aero/"
+    },
     {
       "Entreprise": "Thingz",
       "Phone": "06 33 36 78 33",
